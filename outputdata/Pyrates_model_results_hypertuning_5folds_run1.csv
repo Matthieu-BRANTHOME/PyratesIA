@@ -1,0 +1,1081 @@
+level_key,features_set,K,classifier,grid_F1,grid_params,precision,recall,f1_score
+Level1,all_features_help_received,0,Dummy random,,,0.2537878787878788,0.12121212121212122,0.15815295815295818
+Level1,all_features_help_received,0,Ordered baseline,,,0.6427272727272727,0.3939393939393939,0.35800045913682277
+Level1,all_features_help_received,0,Naive Bayes,0.7913286288366433,{'naive_bayes_clf__alpha': 1.0},0.6755050505050505,0.6666666666666666,0.6569592024137477
+Level1,all_features_help_received,0,Logistic regression,0.8786629812359115,"{'logistic_regression_clf__C': 100.0, 'logistic_regression_clf__max_iter': 200}",0.546831955922865,0.5151515151515151,0.5072734751879137
+Level1,all_features_help_received,0,SVM,0.8998951016497955,"{'svm_gaussian_clf__C': 10.0, 'svm_gaussian_clf__gamma': 1.0, 'svm_gaussian_clf__kernel': 'rbf'}",0.5484389348025711,0.6060606060606061,0.5493857493857494
+Level1,all_features_help_received,0,Random Forest,0.8777692178822208,"{'random_forest_clf__max_depth': 12, 'random_forest_clf__n_estimators': 200}",0.4985236985236986,0.5454545454545454,0.49790108881017975
+Level1,all_features_help_received,1,Dummy random,,,0.48707070707070704,0.4,0.4355799755799757
+Level1,all_features_help_received,1,Ordered baseline,,,0.8660606060606061,0.3,0.3565359477124183
+Level1,all_features_help_received,1,Naive Bayes,0.7896439270334956,{'naive_bayes_clf__alpha': 0.1},0.5801587301587302,0.5,0.5084110885733604
+Level1,all_features_help_received,1,Logistic regression,0.8810117142540242,"{'logistic_regression_clf__C': 10.0, 'logistic_regression_clf__max_iter': 200}",0.7365497076023393,0.7,0.6913725490196079
+Level1,all_features_help_received,1,SVM,0.9042703207118716,"{'svm_gaussian_clf__C': 100.0, 'svm_gaussian_clf__gamma': 1.0, 'svm_gaussian_clf__kernel': 'rbf'}",0.5933333333333334,0.6333333333333333,0.5583333333333333
+Level1,all_features_help_received,1,Random Forest,0.8777786421940521,"{'random_forest_clf__max_depth': None, 'random_forest_clf__n_estimators': 200}",0.7791666666666667,0.8333333333333334,0.8052360916316036
+Level1,all_features_help_received,2,Dummy random,,,0.276984126984127,0.22857142857142856,0.23815384615384616
+Level1,all_features_help_received,2,Ordered baseline,,,0.7841614906832298,0.42857142857142855,0.45835222978080115
+Level1,all_features_help_received,2,Naive Bayes,0.7480121921629609,{'naive_bayes_clf__alpha': 0.1},0.7123809523809523,0.6571428571428571,0.6754004329004328
+Level1,all_features_help_received,2,Logistic regression,0.8514774580602487,"{'logistic_regression_clf__C': 100.0, 'logistic_regression_clf__max_iter': 200}",0.7146428571428571,0.6857142857142857,0.6906617192331478
+Level1,all_features_help_received,2,SVM,0.8823104215670139,"{'svm_gaussian_clf__C': 100.0, 'svm_gaussian_clf__gamma': 0.1, 'svm_gaussian_clf__kernel': 'rbf'}",0.6666666666666666,0.6285714285714286,0.6363687899402185
+Level1,all_features_help_received,2,Random Forest,0.8701448860470158,"{'random_forest_clf__max_depth': 6, 'random_forest_clf__n_estimators': 200}",0.8285714285714286,0.8,0.8022011782380445
+Level1,all_features_help_received,3,Dummy random,,,0.5714285714285714,0.3142857142857143,0.3476657329598506
+Level1,all_features_help_received,3,Ordered baseline,,,0.9478260869565218,0.4,0.3874978354978355
+Level1,all_features_help_received,3,Naive Bayes,0.7297725605700507,{'naive_bayes_clf__alpha': 1.0},0.7612244897959184,0.6571428571428571,0.6838095238095239
+Level1,all_features_help_received,3,Logistic regression,0.8343079080791929,"{'logistic_regression_clf__C': 10.0, 'logistic_regression_clf__max_iter': 200}",0.8388278388278388,0.8,0.7959375524592917
+Level1,all_features_help_received,3,SVM,0.8788965893761771,"{'svm_gaussian_clf__C': 10.0, 'svm_gaussian_clf__gamma': 1.0, 'svm_gaussian_clf__kernel': 'rbf'}",0.8052631578947368,0.7428571428571429,0.7568253968253968
+Level1,all_features_help_received,3,Random Forest,0.8647649522022034,"{'random_forest_clf__max_depth': 12, 'random_forest_clf__n_estimators': 200}",0.8038095238095238,0.8,0.7894962180676467
+Level1,all_features_help_received,4,Dummy random,,,0.4154686398872446,0.32558139534883723,0.3525248721087154
+Level1,all_features_help_received,4,Ordered baseline,,,0.8794142980189491,0.5348837209302325,0.5502965631447363
+Level1,all_features_help_received,4,Naive Bayes,0.7964039356683345,{'naive_bayes_clf__alpha': 0.01},0.8259966777408638,0.813953488372093,0.8169837914023961
+Level1,all_features_help_received,4,Logistic regression,0.8669125862209366,"{'logistic_regression_clf__C': 10.0, 'logistic_regression_clf__max_iter': 200}",0.6815742397137746,0.6976744186046512,0.6833067264960953
+Level1,all_features_help_received,4,SVM,0.8815617580065463,"{'svm_gaussian_clf__C': 100.0, 'svm_gaussian_clf__gamma': 0.01, 'svm_gaussian_clf__kernel': 'rbf'}",0.7224031007751938,0.7209302325581395,0.7134578852222938
+Level1,all_features_help_received,4,Random Forest,0.8737604485375261,"{'random_forest_clf__max_depth': None, 'random_forest_clf__n_estimators': 100}",0.747093023255814,0.7441860465116279,0.7287854341013561
+Level1,all_features_help_requested,0,Dummy random,,,0.3575757575757576,0.30303030303030304,0.3084295641840399
+Level1,all_features_help_requested,0,Ordered baseline,,,0.07939393939393939,0.21212121212121213,0.11363636363636363
+Level1,all_features_help_requested,0,Naive Bayes,0.784084067007891,{'naive_bayes_clf__alpha': 0.1},0.79585326953748,0.7575757575757576,0.7572748107507465
+Level1,all_features_help_requested,0,Logistic regression,0.8717037789010226,"{'logistic_regression_clf__C': 100.0, 'logistic_regression_clf__max_iter': 200}",0.5078709169618261,0.48484848484848486,0.48460832097195733
+Level1,all_features_help_requested,0,SVM,0.891292854670214,"{'svm_gaussian_clf__C': 100.0, 'svm_gaussian_clf__gamma': 0.1, 'svm_gaussian_clf__kernel': 'rbf'}",0.5982683982683983,0.6060606060606061,0.5898073487968378
+Level1,all_features_help_requested,0,Random Forest,0.8851705071258402,"{'random_forest_clf__max_depth': 12, 'random_forest_clf__n_estimators': 50}",0.5570409982174688,0.5454545454545454,0.5125485625485625
+Level1,all_features_help_requested,1,Dummy random,,,0.44957264957264953,0.23333333333333334,0.28143790849673206
+Level1,all_features_help_requested,1,Ordered baseline,,,0.13333333333333333,0.3,0.1822222222222222
+Level1,all_features_help_requested,1,Naive Bayes,0.7341619401983179,{'naive_bayes_clf__alpha': 0.1},0.61,0.5,0.51
+Level1,all_features_help_requested,1,Logistic regression,0.8483110727874534,"{'logistic_regression_clf__C': 100.0, 'logistic_regression_clf__max_iter': 200}",0.5523809523809523,0.5333333333333333,0.49777777777777776
+Level1,all_features_help_requested,1,SVM,0.8914720805445613,"{'svm_gaussian_clf__C': 100.0, 'svm_gaussian_clf__gamma': 0.1, 'svm_gaussian_clf__kernel': 'rbf'}",0.6,0.6,0.538974358974359
+Level1,all_features_help_requested,1,Random Forest,0.896210991568252,"{'random_forest_clf__max_depth': None, 'random_forest_clf__n_estimators': 100}",0.8708333333333333,0.8666666666666667,0.8627240143369175
+Level1,all_features_help_requested,2,Dummy random,,,0.41380952380952385,0.2857142857142857,0.313795918367347
+Level1,all_features_help_requested,2,Ordered baseline,,,0.08405797101449276,0.2,0.11428571428571428
+Level1,all_features_help_requested,2,Naive Bayes,0.7849349428649631,{'naive_bayes_clf__alpha': 1.0},0.6294372294372294,0.5428571428571428,0.5661224489795919
+Level1,all_features_help_requested,2,Logistic regression,0.8697172562510185,"{'logistic_regression_clf__C': 100.0, 'logistic_regression_clf__max_iter': 200}",0.663896103896104,0.6285714285714286,0.6342058562555457
+Level1,all_features_help_requested,2,SVM,0.8994803894737972,"{'svm_gaussian_clf__C': 100.0, 'svm_gaussian_clf__gamma': 0.1, 'svm_gaussian_clf__kernel': 'rbf'}",0.6555102040816326,0.6285714285714286,0.6317314022383147
+Level1,all_features_help_requested,2,Random Forest,0.8881981713913761,"{'random_forest_clf__max_depth': 6, 'random_forest_clf__n_estimators': 100}",0.8095238095238095,0.8,0.7975753278979085
+Level1,all_features_help_requested,3,Dummy random,,,0.475,0.22857142857142856,0.2864883884588318
+Level1,all_features_help_requested,3,Ordered baseline,,,0.0047619047619047615,0.02857142857142857,0.008163265306122448
+Level1,all_features_help_requested,3,Naive Bayes,0.7224378498485641,{'naive_bayes_clf__alpha': 0.1},0.78995670995671,0.7714285714285715,0.7698587127158556
+Level1,all_features_help_requested,3,Logistic regression,0.8324278848761931,"{'logistic_regression_clf__C': 10.0, 'logistic_regression_clf__max_iter': 200}",0.7601731601731602,0.7428571428571429,0.7385661957090529
+Level1,all_features_help_requested,3,SVM,0.8805193832839233,"{'svm_gaussian_clf__C': 100.0, 'svm_gaussian_clf__gamma': 0.1, 'svm_gaussian_clf__kernel': 'rbf'}",0.7644468313641245,0.6857142857142857,0.7045378151260504
+Level1,all_features_help_requested,3,Random Forest,0.8762555682621473,"{'random_forest_clf__max_depth': None, 'random_forest_clf__n_estimators': 100}",0.8038095238095238,0.8,0.7894962180676467
+Level1,all_features_help_requested,4,Dummy random,,,0.3668327796234773,0.23255813953488372,0.2753488372093023
+Level1,all_features_help_requested,4,Ordered baseline,,,0.03423772609819121,0.11627906976744186,0.05072759417924656
+Level1,all_features_help_requested,4,Naive Bayes,0.7598488930325875,{'naive_bayes_clf__alpha': 0.01},0.7164082687338502,0.6976744186046512,0.7005201958384333
+Level1,all_features_help_requested,4,Logistic regression,0.8401360676360676,"{'logistic_regression_clf__C': 10.0, 'logistic_regression_clf__max_iter': 200}",0.6472868217054263,0.6511627906976745,0.6381113460183228
+Level1,all_features_help_requested,4,SVM,0.8923912035676741,"{'svm_gaussian_clf__C': 10.0, 'svm_gaussian_clf__gamma': 1.0, 'svm_gaussian_clf__kernel': 'rbf'}",0.7104423164614683,0.6976744186046512,0.6585835313317493
+Level1,all_features_help_requested,4,Random Forest,0.8851030154356485,"{'random_forest_clf__max_depth': None, 'random_forest_clf__n_estimators': 200}",0.7596899224806203,0.7441860465116279,0.7323366555924695
+Level1,all_features_nohelp,0,Dummy random,,,0.25916305916305915,0.24242424242424243,0.2324710658513079
+Level1,all_features_nohelp,0,Ordered baseline,,,0.0,0.0,0.0
+Level1,all_features_nohelp,0,Naive Bayes,0.759376078395603,{'naive_bayes_clf__alpha': 1.0},0.6232782369146005,0.6060606060606061,0.6029526029526029
+Level1,all_features_nohelp,0,Logistic regression,0.8620350177857918,"{'logistic_regression_clf__C': 100.0, 'logistic_regression_clf__max_iter': 200}",0.5670995670995671,0.5454545454545454,0.5373881416662165
+Level1,all_features_nohelp,0,SVM,0.888261639271027,"{'svm_gaussian_clf__C': 100.0, 'svm_gaussian_clf__gamma': 0.1, 'svm_gaussian_clf__kernel': 'rbf'}",0.6091756728120364,0.6060606060606061,0.5915650006559098
+Level1,all_features_nohelp,0,Random Forest,0.8746982665897652,"{'random_forest_clf__max_depth': 12, 'random_forest_clf__n_estimators': 50}",0.6356290174471992,0.5757575757575758,0.566221657130748
+Level1,all_features_nohelp,1,Dummy random,,,0.3346153846153846,0.2,0.23452380952380955
+Level1,all_features_nohelp,1,Ordered baseline,,,0.0,0.0,0.0
+Level1,all_features_nohelp,1,Naive Bayes,0.7116496577038374,{'naive_bayes_clf__alpha': 1.0},0.7533068783068783,0.6666666666666666,0.6896296296296296
+Level1,all_features_nohelp,1,Logistic regression,0.8467494750663631,"{'logistic_regression_clf__C': 100.0, 'logistic_regression_clf__max_iter': 200}",0.5633333333333332,0.5333333333333333,0.5041269841269842
+Level1,all_features_nohelp,1,SVM,0.887922207193105,"{'svm_gaussian_clf__C': 100.0, 'svm_gaussian_clf__gamma': 0.1, 'svm_gaussian_clf__kernel': 'rbf'}",0.5871212121212122,0.5666666666666667,0.5202402402402402
+Level1,all_features_nohelp,1,Random Forest,0.8631834803732836,"{'random_forest_clf__max_depth': 12, 'random_forest_clf__n_estimators': 200}",0.8153846153846154,0.8666666666666667,0.8388888888888888
+Level1,all_features_nohelp,2,Dummy random,,,0.32582417582417583,0.2571428571428571,0.2761904761904762
+Level1,all_features_nohelp,2,Ordered baseline,,,0.0,0.0,0.0
+Level1,all_features_nohelp,2,Naive Bayes,0.7213297899418589,{'naive_bayes_clf__alpha': 0.1},0.6481318681318681,0.6,0.6151111111111112
+Level1,all_features_nohelp,2,Logistic regression,0.8529375532033534,"{'logistic_regression_clf__C': 100.0, 'logistic_regression_clf__max_iter': 200}",0.6562770562770562,0.6571428571428571,0.6544099378881988
+Level1,all_features_nohelp,2,SVM,0.8733626543804028,"{'svm_gaussian_clf__C': 100.0, 'svm_gaussian_clf__gamma': 0.1, 'svm_gaussian_clf__kernel': 'rbf'}",0.649795918367347,0.6,0.612763580505516
+Level1,all_features_nohelp,2,Random Forest,0.8690564792095165,"{'random_forest_clf__max_depth': 6, 'random_forest_clf__n_estimators': 100}",0.8201360544217685,0.8,0.7990754151122814
+Level1,all_features_nohelp,3,Dummy random,,,0.5555555555555555,0.34285714285714286,0.3933209647495362
+Level1,all_features_nohelp,3,Ordered baseline,,,0.0,0.0,0.0
+Level1,all_features_nohelp,3,Naive Bayes,0.7090592991275765,{'naive_bayes_clf__alpha': 1.0},0.6744588744588744,0.6285714285714286,0.6484563055991628
+Level1,all_features_nohelp,3,Logistic regression,0.8162589924940654,"{'logistic_regression_clf__C': 100.0, 'logistic_regression_clf__max_iter': 200}",0.8036281179138322,0.7428571428571429,0.7583060214639162
+Level1,all_features_nohelp,3,SVM,0.8541197737836393,"{'svm_gaussian_clf__C': 100.0, 'svm_gaussian_clf__gamma': 1.0, 'svm_gaussian_clf__kernel': 'rbf'}",0.7956709956709958,0.7714285714285715,0.7661911276138362
+Level1,all_features_nohelp,3,Random Forest,0.854062051976968,"{'random_forest_clf__max_depth': 6, 'random_forest_clf__n_estimators': 100}",0.8250444292549556,0.8285714285714286,0.8175510204081634
+Level1,all_features_nohelp,4,Dummy random,,,0.3757928118393234,0.20930232558139536,0.24615364367407644
+Level1,all_features_nohelp,4,Ordered baseline,,,0.0,0.0,0.0
+Level1,all_features_nohelp,4,Naive Bayes,0.7583631552126933,{'naive_bayes_clf__alpha': 0.01},0.6616020671834625,0.6511627906976745,0.6418946648426812
+Level1,all_features_nohelp,4,Logistic regression,0.851330312497323,"{'logistic_regression_clf__C': 10.0, 'logistic_regression_clf__max_iter': 200}",0.6699335548172758,0.6744186046511628,0.6592878166065581
+Level1,all_features_nohelp,4,SVM,0.8768427676156862,"{'svm_gaussian_clf__C': 100.0, 'svm_gaussian_clf__gamma': 1.0, 'svm_gaussian_clf__kernel': 'poly'}",0.7028622540250448,0.6976744186046512,0.6940235843890328
+Level1,all_features_nohelp,4,Random Forest,0.8586616998999057,"{'random_forest_clf__max_depth': 12, 'random_forest_clf__n_estimators': 100}",0.7390632623190763,0.7441860465116279,0.7312896405919662
+Level1,sum_features_help_received,0,Dummy random,,,0.44646464646464645,0.3333333333333333,0.3430205415499533
+Level1,sum_features_help_received,0,Ordered baseline,,,0.6427272727272727,0.3939393939393939,0.35800045913682277
+Level1,sum_features_help_received,0,Naive Bayes,0.7658538815629632,{'naive_bayes_clf__alpha': 0.1},0.6287136066547832,0.6363636363636364,0.6248543123543123
+Level1,sum_features_help_received,0,Logistic regression,0.8597599492602489,"{'logistic_regression_clf__C': 10.0, 'logistic_regression_clf__max_iter': 200}",0.5044677544677545,0.48484848484848486,0.47882101949087597
+Level1,sum_features_help_received,0,SVM,0.8996871090217489,"{'svm_gaussian_clf__C': 10.0, 'svm_gaussian_clf__gamma': 1.0, 'svm_gaussian_clf__kernel': 'rbf'}",0.6321991848307638,0.6060606060606061,0.5790512072597636
+Level1,sum_features_help_received,0,Random Forest,0.892320731327847,"{'random_forest_clf__max_depth': None, 'random_forest_clf__n_estimators': 50}",0.6428571428571429,0.5757575757575758,0.5603115797473164
+Level1,sum_features_help_received,1,Dummy random,,,0.29398148148148145,0.2,0.20356609574000878
+Level1,sum_features_help_received,1,Ordered baseline,,,0.8660606060606061,0.3,0.3565359477124183
+Level1,sum_features_help_received,1,Naive Bayes,0.74603025827127,{'naive_bayes_clf__alpha': 0.01},0.5388888888888889,0.4,0.42492997198879556
+Level1,sum_features_help_received,1,Logistic regression,0.8439906673429842,"{'logistic_regression_clf__C': 100.0, 'logistic_regression_clf__max_iter': 200}",0.7142857142857143,0.6333333333333333,0.6444444444444444
+Level1,sum_features_help_received,1,SVM,0.8730778540492912,"{'svm_gaussian_clf__C': 10.0, 'svm_gaussian_clf__gamma': 1.0, 'svm_gaussian_clf__kernel': 'rbf'}",0.790718954248366,0.7,0.6955952380952383
+Level1,sum_features_help_received,1,Random Forest,0.8991660863161162,"{'random_forest_clf__max_depth': None, 'random_forest_clf__n_estimators': 200}",0.6795321637426901,0.7333333333333333,0.6984313725490197
+Level1,sum_features_help_received,2,Dummy random,,,0.33619047619047615,0.22857142857142856,0.23385994397759105
+Level1,sum_features_help_received,2,Ordered baseline,,,0.7841614906832298,0.42857142857142855,0.45835222978080115
+Level1,sum_features_help_received,2,Naive Bayes,0.663203822435033,{'naive_bayes_clf__alpha': 0.01},0.676399790685505,0.5714285714285714,0.6020037105751391
+Level1,sum_features_help_received,2,Logistic regression,0.8144471458549873,"{'logistic_regression_clf__C': 100.0, 'logistic_regression_clf__max_iter': 200}",0.7490909090909093,0.7142857142857143,0.7224046140195208
+Level1,sum_features_help_received,2,SVM,0.8795230368009271,"{'svm_gaussian_clf__C': 100.0, 'svm_gaussian_clf__gamma': 1.0, 'svm_gaussian_clf__kernel': 'rbf'}",0.7338095238095238,0.6857142857142857,0.6964749536178108
+Level1,sum_features_help_received,2,Random Forest,0.8821824720084569,"{'random_forest_clf__max_depth': 12, 'random_forest_clf__n_estimators': 100}",0.8012362637362638,0.7714285714285715,0.7712554112554113
+Level1,sum_features_help_received,3,Dummy random,,,0.4047619047619048,0.2857142857142857,0.28909090909090907
+Level1,sum_features_help_received,3,Ordered baseline,,,0.9478260869565218,0.4,0.3874978354978355
+Level1,sum_features_help_received,3,Naive Bayes,0.6751565651410854,{'naive_bayes_clf__alpha': 0.01},0.897102897102897,0.6285714285714286,0.6759183673469388
+Level1,sum_features_help_received,3,Logistic regression,0.8350490897940203,"{'logistic_regression_clf__C': 100.0, 'logistic_regression_clf__max_iter': 200}",0.8068027210884354,0.7142857142857143,0.7127917833800187
+Level1,sum_features_help_received,3,SVM,0.862959687371452,"{'svm_gaussian_clf__C': 100.0, 'svm_gaussian_clf__gamma': 1.0, 'svm_gaussian_clf__kernel': 'rbf'}",0.7595238095238095,0.6857142857142857,0.7128744939271255
+Level1,sum_features_help_received,3,Random Forest,0.8749316446612998,"{'random_forest_clf__max_depth': None, 'random_forest_clf__n_estimators': 100}",0.81479864673142,0.7714285714285715,0.7755579424752357
+Level1,sum_features_help_received,4,Dummy random,,,0.4470532697276883,0.3023255813953488,0.35400516795865633
+Level1,sum_features_help_received,4,Ordered baseline,,,0.8794142980189491,0.5348837209302325,0.5502965631447363
+Level1,sum_features_help_received,4,Naive Bayes,0.6836647039675752,{'naive_bayes_clf__alpha': 1.0},0.7954428000939627,0.7209302325581395,0.7391387335800269
+Level1,sum_features_help_received,4,Logistic regression,0.82941050932021,"{'logistic_regression_clf__C': 10.0, 'logistic_regression_clf__max_iter': 200}",0.7845699520118126,0.7674418604651163,0.7714914930031209
+Level1,sum_features_help_received,4,SVM,0.8578511637755335,"{'svm_gaussian_clf__C': 10.0, 'svm_gaussian_clf__gamma': 1.0, 'svm_gaussian_clf__kernel': 'rbf'}",0.6795865633074936,0.6744186046511628,0.6745340590466767
+Level1,sum_features_help_received,4,Random Forest,0.8686064443475742,"{'random_forest_clf__max_depth': None, 'random_forest_clf__n_estimators': 200}",0.7960535588442567,0.7906976744186046,0.7865296034153466
+Level1,sum_features_help_requested,0,Dummy random,,,0.27762923351158647,0.2727272727272727,0.27152203856749313
+Level1,sum_features_help_requested,0,Ordered baseline,,,0.07939393939393939,0.21212121212121213,0.11363636363636363
+Level1,sum_features_help_requested,0,Naive Bayes,0.7250393713521147,{'naive_bayes_clf__alpha': 0.01},0.687878787878788,0.6363636363636364,0.6464646464646464
+Level1,sum_features_help_requested,0,Logistic regression,0.8140527540314068,"{'logistic_regression_clf__C': 10.0, 'logistic_regression_clf__max_iter': 200}",0.5555555555555555,0.5454545454545454,0.54178145087236
+Level1,sum_features_help_requested,0,SVM,0.8919866673278488,"{'svm_gaussian_clf__C': 10.0, 'svm_gaussian_clf__gamma': 1.0, 'svm_gaussian_clf__kernel': 'rbf'}",0.622895622895623,0.6060606060606061,0.5935491276400368
+Level1,sum_features_help_requested,0,Random Forest,0.8662974009851145,"{'random_forest_clf__max_depth': 6, 'random_forest_clf__n_estimators': 200}",0.5722610722610724,0.5454545454545454,0.5309589400498491
+Level1,sum_features_help_requested,1,Dummy random,,,0.373931623931624,0.26666666666666666,0.28174603174603174
+Level1,sum_features_help_requested,1,Ordered baseline,,,0.13333333333333333,0.3,0.1822222222222222
+Level1,sum_features_help_requested,1,Naive Bayes,0.709143219648438,{'naive_bayes_clf__alpha': 0.01},0.4794444444444445,0.3333333333333333,0.3312169312169313
+Level1,sum_features_help_requested,1,Logistic regression,0.8231998302667183,"{'logistic_regression_clf__C': 100.0, 'logistic_regression_clf__max_iter': 200}",0.6158333333333333,0.5333333333333333,0.5311917562724014
+Level1,sum_features_help_requested,1,SVM,0.8607489518824034,"{'svm_gaussian_clf__C': 100.0, 'svm_gaussian_clf__gamma': 1.0, 'svm_gaussian_clf__kernel': 'rbf'}",0.7805555555555554,0.6333333333333333,0.5842490842490842
+Level1,sum_features_help_requested,1,Random Forest,0.8952415052231041,"{'random_forest_clf__max_depth': None, 'random_forest_clf__n_estimators': 200}",0.8074074074074074,0.8,0.7920202020202021
+Level1,sum_features_help_requested,2,Dummy random,,,0.263003663003663,0.2,0.2272108843537415
+Level1,sum_features_help_requested,2,Ordered baseline,,,0.08405797101449276,0.2,0.11428571428571428
+Level1,sum_features_help_requested,2,Naive Bayes,0.6376516178140764,{'naive_bayes_clf__alpha': 0.01},0.6053968253968253,0.45714285714285713,0.5032804232804233
+Level1,sum_features_help_requested,2,Logistic regression,0.8079361659251431,"{'logistic_regression_clf__C': 100.0, 'logistic_regression_clf__max_iter': 200}",0.7047095761381476,0.6857142857142857,0.6867956989247311
+Level1,sum_features_help_requested,2,SVM,0.8914392587926804,"{'svm_gaussian_clf__C': 100.0, 'svm_gaussian_clf__gamma': 1.0, 'svm_gaussian_clf__kernel': 'rbf'}",0.7126984126984126,0.7142857142857143,0.7118367346938774
+Level1,sum_features_help_requested,2,Random Forest,0.8956080093905439,"{'random_forest_clf__max_depth': 12, 'random_forest_clf__n_estimators': 100}",0.7943485086342229,0.7714285714285715,0.774132104454685
+Level1,sum_features_help_requested,3,Dummy random,,,0.525578231292517,0.2857142857142857,0.3514541300391124
+Level1,sum_features_help_requested,3,Ordered baseline,,,0.0047619047619047615,0.02857142857142857,0.008163265306122448
+Level1,sum_features_help_requested,3,Naive Bayes,0.6587058711657894,{'naive_bayes_clf__alpha': 0.01},0.8389610389610389,0.5714285714285714,0.6332506203473947
+Level1,sum_features_help_requested,3,Logistic regression,0.8207186496066583,"{'logistic_regression_clf__C': 100.0, 'logistic_regression_clf__max_iter': 200}",0.7095779220779221,0.6571428571428571,0.6621658393086964
+Level1,sum_features_help_requested,3,SVM,0.8678874537485219,"{'svm_gaussian_clf__C': 100.0, 'svm_gaussian_clf__gamma': 1.0, 'svm_gaussian_clf__kernel': 'rbf'}",0.723015873015873,0.6285714285714286,0.6633810633810634
+Level1,sum_features_help_requested,3,Random Forest,0.8597201002533266,"{'random_forest_clf__max_depth': 6, 'random_forest_clf__n_estimators': 100}",0.8096038415366147,0.7428571428571429,0.7592314118629909
+Level1,sum_features_help_requested,4,Dummy random,,,0.23772609819121446,0.13953488372093023,0.16952424380604952
+Level1,sum_features_help_requested,4,Ordered baseline,,,0.03423772609819121,0.11627906976744186,0.05072759417924656
+Level1,sum_features_help_requested,4,Naive Bayes,0.6520854000540042,{'naive_bayes_clf__alpha': 0.1},0.6495527386430258,0.5581395348837209,0.5830885352917177
+Level1,sum_features_help_requested,4,Logistic regression,0.8201516630180201,"{'logistic_regression_clf__C': 10.0, 'logistic_regression_clf__max_iter': 200}",0.7164082687338502,0.6976744186046512,0.7005201958384333
+Level1,sum_features_help_requested,4,SVM,0.8459042911820689,"{'svm_gaussian_clf__C': 10.0, 'svm_gaussian_clf__gamma': 1.0, 'svm_gaussian_clf__kernel': 'rbf'}",0.6913174035267058,0.6744186046511628,0.6720455624110109
+Level1,sum_features_help_requested,4,Random Forest,0.8686129347707313,"{'random_forest_clf__max_depth': None, 'random_forest_clf__n_estimators': 200}",0.7875264270613107,0.7674418604651163,0.7689553340716131
+Level1,sum_features_nohelp,0,Dummy random,,,0.12396694214876033,0.09090909090909091,0.10489510489510488
+Level1,sum_features_nohelp,0,Ordered baseline,,,0.0,0.0,0.0
+Level1,sum_features_nohelp,0,Naive Bayes,0.7203047844532414,{'naive_bayes_clf__alpha': 0.1},0.6056277056277057,0.5757575757575758,0.5837845540039897
+Level1,sum_features_nohelp,0,Logistic regression,0.8138752605545525,"{'logistic_regression_clf__C': 100.0, 'logistic_regression_clf__max_iter': 200}",0.7462121212121212,0.696969696969697,0.6933202997719128
+Level1,sum_features_nohelp,0,SVM,0.8739202845066721,"{'svm_gaussian_clf__C': 100.0, 'svm_gaussian_clf__gamma': 0.1, 'svm_gaussian_clf__kernel': 'rbf'}",0.555293191656828,0.5454545454545454,0.5377178261190799
+Level1,sum_features_nohelp,0,Random Forest,0.8704460051948393,"{'random_forest_clf__max_depth': None, 'random_forest_clf__n_estimators': 50}",0.5665889665889666,0.5454545454545454,0.5366041366041365
+Level1,sum_features_nohelp,1,Dummy random,,,0.40213675213675215,0.3333333333333333,0.3433574879227053
+Level1,sum_features_nohelp,1,Ordered baseline,,,0.0,0.0,0.0
+Level1,sum_features_nohelp,1,Naive Bayes,0.6909758504217208,{'naive_bayes_clf__alpha': 0.1},0.5188888888888888,0.3333333333333333,0.34285714285714286
+Level1,sum_features_nohelp,1,Logistic regression,0.8047174705396767,"{'logistic_regression_clf__C': 100.0, 'logistic_regression_clf__max_iter': 200}",0.6014814814814815,0.5,0.5061868686868687
+Level1,sum_features_nohelp,1,SVM,0.8456325367762088,"{'svm_gaussian_clf__C': 100.0, 'svm_gaussian_clf__gamma': 0.1, 'svm_gaussian_clf__kernel': 'rbf'}",0.6348148148148148,0.5333333333333333,0.539520202020202
+Level1,sum_features_nohelp,1,Random Forest,0.8646204772697332,"{'random_forest_clf__max_depth': 12, 'random_forest_clf__n_estimators': 200}",0.8384313725490196,0.8333333333333334,0.8279761904761904
+Level1,sum_features_nohelp,2,Dummy random,,,0.2897619047619048,0.2,0.191921568627451
+Level1,sum_features_nohelp,2,Ordered baseline,,,0.0,0.0,0.0
+Level1,sum_features_nohelp,2,Naive Bayes,0.6263795319411579,{'naive_bayes_clf__alpha': 0.01},0.6103896103896104,0.45714285714285713,0.508390022675737
+Level1,sum_features_nohelp,2,Logistic regression,0.8129626789204295,"{'logistic_regression_clf__C': 100.0, 'logistic_regression_clf__max_iter': 200}",0.6783359497645212,0.6571428571428571,0.6593671274961597
+Level1,sum_features_nohelp,2,SVM,0.8803794719805182,"{'svm_gaussian_clf__C': 100.0, 'svm_gaussian_clf__gamma': 0.1, 'svm_gaussian_clf__kernel': 'rbf'}",0.6190476190476191,0.6,0.6061183261183262
+Level1,sum_features_nohelp,2,Random Forest,0.8638163133884016,"{'random_forest_clf__max_depth': 12, 'random_forest_clf__n_estimators': 50}",0.8152380952380953,0.7714285714285715,0.7823979591836734
+Level1,sum_features_nohelp,3,Dummy random,,,0.4687179487179487,0.3142857142857143,0.36288515406162464
+Level1,sum_features_nohelp,3,Ordered baseline,,,0.0,0.0,0.0
+Level1,sum_features_nohelp,3,Naive Bayes,0.6366681503603773,{'naive_bayes_clf__alpha': 0.01},0.7394383394383395,0.5714285714285714,0.6150881405193657
+Level1,sum_features_nohelp,3,Logistic regression,0.8129294790985583,"{'logistic_regression_clf__C': 100.0, 'logistic_regression_clf__max_iter': 200}",0.7287698412698412,0.6571428571428571,0.670972270972271
+Level1,sum_features_nohelp,3,SVM,0.8466861232899492,"{'svm_gaussian_clf__C': 100.0, 'svm_gaussian_clf__gamma': 1.0, 'svm_gaussian_clf__kernel': 'rbf'}",0.7308270676691729,0.6571428571428571,0.6836507936507936
+Level1,sum_features_nohelp,3,Random Forest,0.8582562194304787,"{'random_forest_clf__max_depth': None, 'random_forest_clf__n_estimators': 200}",0.8096038415366147,0.7428571428571429,0.7592314118629909
+Level1,sum_features_nohelp,4,Dummy random,,,0.39029749320447,0.20930232558139536,0.23931316162373928
+Level1,sum_features_nohelp,4,Ordered baseline,,,0.0,0.0,0.0
+Level1,sum_features_nohelp,4,Naive Bayes,0.6539204145786779,{'naive_bayes_clf__alpha': 0.01},0.6402488780089759,0.5581395348837209,0.5742794057647539
+Level1,sum_features_nohelp,4,Logistic regression,0.827464992390173,"{'logistic_regression_clf__C': 10.0, 'logistic_regression_clf__max_iter': 200}",0.7164082687338502,0.6976744186046512,0.7005201958384333
+Level1,sum_features_nohelp,4,SVM,0.8404697283930908,"{'svm_gaussian_clf__C': 100.0, 'svm_gaussian_clf__gamma': 1.0, 'svm_gaussian_clf__kernel': 'rbf'}",0.6013289036544851,0.6046511627906976,0.5868314562917458
+Level1,sum_features_nohelp,4,Random Forest,0.8660187645376721,"{'random_forest_clf__max_depth': 12, 'random_forest_clf__n_estimators': 200}",0.7960535588442567,0.7906976744186046,0.7865296034153466
+Level1,meansd_features_help_received,0,Dummy random,,,0.31599326599326605,0.24242424242424243,0.2642168437622983
+Level1,meansd_features_help_received,0,Ordered baseline,,,0.6427272727272727,0.3939393939393939,0.35800045913682277
+Level1,meansd_features_help_received,0,Naive Bayes,0.7628788244705053,{'naive_bayes_clf__alpha': 0.01},0.6659090909090909,0.6666666666666666,0.6616161616161614
+Level1,meansd_features_help_received,0,Logistic regression,0.8623062802267587,"{'logistic_regression_clf__C': 100.0, 'logistic_regression_clf__max_iter': 200}",0.5473970473970474,0.5151515151515151,0.5140314231223322
+Level1,meansd_features_help_received,0,SVM,0.9087794078450224,"{'svm_gaussian_clf__C': 100.0, 'svm_gaussian_clf__gamma': 0.1, 'svm_gaussian_clf__kernel': 'rbf'}",0.44696969696969696,0.45454545454545453,0.43949989404534856
+Level1,meansd_features_help_received,0,Random Forest,0.8787049142262614,"{'random_forest_clf__max_depth': 12, 'random_forest_clf__n_estimators': 200}",0.6091756728120364,0.6060606060606061,0.5915650006559098
+Level1,meansd_features_help_received,1,Dummy random,,,0.6531440781440782,0.3333333333333333,0.3871539961013646
+Level1,meansd_features_help_received,1,Ordered baseline,,,0.8660606060606061,0.3,0.3565359477124183
+Level1,meansd_features_help_received,1,Naive Bayes,0.7942953672232609,{'naive_bayes_clf__alpha': 0.1},0.5869281045751634,0.5,0.5149101307189542
+Level1,meansd_features_help_received,1,Logistic regression,0.855283861375742,"{'logistic_regression_clf__C': 100.0, 'logistic_regression_clf__max_iter': 200}",0.7057189542483661,0.7,0.6932456140350879
+Level1,meansd_features_help_received,1,SVM,0.8910229836401562,"{'svm_gaussian_clf__C': 10.0, 'svm_gaussian_clf__gamma': 1.0, 'svm_gaussian_clf__kernel': 'rbf'}",0.5549999999999999,0.5666666666666667,0.49666666666666676
+Level1,meansd_features_help_received,1,Random Forest,0.866549248869133,"{'random_forest_clf__max_depth': 12, 'random_forest_clf__n_estimators': 50}",0.8291666666666667,0.8,0.7876357560568086
+Level1,meansd_features_help_received,2,Dummy random,,,0.2635281385281385,0.17142857142857143,0.19066875981161696
+Level1,meansd_features_help_received,2,Ordered baseline,,,0.7841614906832298,0.42857142857142855,0.45835222978080115
+Level1,meansd_features_help_received,2,Naive Bayes,0.7690786380061228,{'naive_bayes_clf__alpha': 1.0},0.6627210884353741,0.6,0.6180573343706985
+Level1,meansd_features_help_received,2,Logistic regression,0.8569798021066036,"{'logistic_regression_clf__C': 100.0, 'logistic_regression_clf__max_iter': 200}",0.6742857142857143,0.6571428571428571,0.6563775510204082
+Level1,meansd_features_help_received,2,SVM,0.8801279528607914,"{'svm_gaussian_clf__C': 100.0, 'svm_gaussian_clf__gamma': 0.1, 'svm_gaussian_clf__kernel': 'rbf'}",0.6895238095238095,0.6571428571428571,0.6595918367346939
+Level1,meansd_features_help_received,2,Random Forest,0.8781070634346495,"{'random_forest_clf__max_depth': 6, 'random_forest_clf__n_estimators': 100}",0.7408963585434174,0.7142857142857143,0.7093596059113301
+Level1,meansd_features_help_received,3,Dummy random,,,0.525139146567718,0.3142857142857143,0.37865546218487395
+Level1,meansd_features_help_received,3,Ordered baseline,,,0.9478260869565218,0.4,0.3874978354978355
+Level1,meansd_features_help_received,3,Naive Bayes,0.7721551108788504,{'naive_bayes_clf__alpha': 0.01},0.861904761904762,0.7714285714285715,0.7909090909090909
+Level1,meansd_features_help_received,3,Logistic regression,0.8436408386198302,"{'logistic_regression_clf__C': 10.0, 'logistic_regression_clf__max_iter': 200}",0.8231292517006803,0.7714285714285715,0.7666666666666666
+Level1,meansd_features_help_received,3,SVM,0.9073736862552652,"{'svm_gaussian_clf__C': 10.0, 'svm_gaussian_clf__gamma': 1.0, 'svm_gaussian_clf__kernel': 'rbf'}",0.7448979591836735,0.7142857142857143,0.7155067155067156
+Level1,meansd_features_help_received,3,Random Forest,0.8621435670329964,"{'random_forest_clf__max_depth': 6, 'random_forest_clf__n_estimators': 200}",0.793040293040293,0.8,0.7847746456442107
+Level1,meansd_features_help_received,4,Dummy random,,,0.38708010335917314,0.27906976744186046,0.2967291378552088
+Level1,meansd_features_help_received,4,Ordered baseline,,,0.8794142980189491,0.5348837209302325,0.5502965631447363
+Level1,meansd_features_help_received,4,Naive Bayes,0.795411251903125,{'naive_bayes_clf__alpha': 0.1},0.8195031712473572,0.813953488372093,0.8160206718346253
+Level1,meansd_features_help_received,4,Logistic regression,0.8415086392840827,"{'logistic_regression_clf__C': 100.0, 'logistic_regression_clf__max_iter': 200}",0.7380100519635403,0.7209302325581395,0.7230091613812544
+Level1,meansd_features_help_received,4,SVM,0.9028082876939086,"{'svm_gaussian_clf__C': 10.0, 'svm_gaussian_clf__gamma': 1.0, 'svm_gaussian_clf__kernel': 'rbf'}",0.6833817829457364,0.6976744186046512,0.6620674307332813
+Level1,meansd_features_help_received,4,Random Forest,0.8644390098696821,"{'random_forest_clf__max_depth': None, 'random_forest_clf__n_estimators': 50}",0.7596899224806203,0.7441860465116279,0.7323366555924695
+Level1,meansd_features_help_requested,0,Dummy random,,,0.16161616161616157,0.15151515151515152,0.13476874003189793
+Level1,meansd_features_help_requested,0,Ordered baseline,,,0.0,0.0,0.0
+Level1,meansd_features_help_requested,0,Naive Bayes,0.7343051593266564,{'naive_bayes_clf__alpha': 0.1},0.6254208754208754,0.6060606060606061,0.6062354312354312
+Level1,meansd_features_help_requested,0,Logistic regression,0.8596411147249059,"{'logistic_regression_clf__C': 10.0, 'logistic_regression_clf__max_iter': 200}",0.5025252525252525,0.48484848484848486,0.4827764827764828
+Level1,meansd_features_help_requested,0,SVM,0.8896270815278357,"{'svm_gaussian_clf__C': 100.0, 'svm_gaussian_clf__gamma': 0.1, 'svm_gaussian_clf__kernel': 'rbf'}",0.5252525252525252,0.5151515151515151,0.4971677559912855
+Level1,meansd_features_help_requested,0,Random Forest,0.8625940384624344,"{'random_forest_clf__max_depth': 6, 'random_forest_clf__n_estimators': 200}",0.6425619834710743,0.6363636363636364,0.617875726966636
+Level1,meansd_features_help_requested,1,Dummy random,,,0.273015873015873,0.23333333333333334,0.23222222222222222
+Level1,meansd_features_help_requested,1,Ordered baseline,,,0.0,0.0,0.0
+Level1,meansd_features_help_requested,1,Naive Bayes,0.7221526633037169,{'naive_bayes_clf__alpha': 0.1},0.7279761904761906,0.6333333333333333,0.6545943402567721
+Level1,meansd_features_help_requested,1,Logistic regression,0.8165258781198309,"{'logistic_regression_clf__C': 10.0, 'logistic_regression_clf__max_iter': 200}",0.6540849673202616,0.6333333333333333,0.635328947368421
+Level1,meansd_features_help_requested,1,SVM,0.8795987007331509,"{'svm_gaussian_clf__C': 10.0, 'svm_gaussian_clf__gamma': 1.0, 'svm_gaussian_clf__kernel': 'rbf'}",0.6466666666666666,0.6,0.5455555555555556
+Level1,meansd_features_help_requested,1,Random Forest,0.8604678910682108,"{'random_forest_clf__max_depth': None, 'random_forest_clf__n_estimators': 50}",0.7715956558061822,0.7333333333333333,0.7273202614379084
+Level1,meansd_features_help_requested,2,Dummy random,,,0.42790764790764785,0.34285714285714286,0.36474893866198216
+Level1,meansd_features_help_requested,2,Ordered baseline,,,0.0,0.0,0.0
+Level1,meansd_features_help_requested,2,Naive Bayes,0.7715893493578451,{'naive_bayes_clf__alpha': 0.01},0.6486703772418058,0.6,0.6166352768316302
+Level1,meansd_features_help_requested,2,Logistic regression,0.8415284320981715,"{'logistic_regression_clf__C': 100.0, 'logistic_regression_clf__max_iter': 200}",0.6414442700156986,0.6285714285714286,0.6268878648233486
+Level1,meansd_features_help_requested,2,SVM,0.883919026815365,"{'svm_gaussian_clf__C': 100.0, 'svm_gaussian_clf__gamma': 1.0, 'svm_gaussian_clf__kernel': 'poly'}",0.7745454545454545,0.7428571428571429,0.7513112491373362
+Level1,meansd_features_help_requested,2,Random Forest,0.8800434107249524,"{'random_forest_clf__max_depth': 12, 'random_forest_clf__n_estimators': 200}",0.7452380952380953,0.7142857142857143,0.7129345531315976
+Level1,meansd_features_help_requested,3,Dummy random,,,0.5307692307692308,0.3142857142857143,0.33652173913043476
+Level1,meansd_features_help_requested,3,Ordered baseline,,,0.0,0.0,0.0
+Level1,meansd_features_help_requested,3,Naive Bayes,0.740514633530998,{'naive_bayes_clf__alpha': 1.0},0.7562515915457092,0.7142857142857143,0.7199427139276763
+Level1,meansd_features_help_requested,3,Logistic regression,0.8126055235307226,"{'logistic_regression_clf__C': 100.0, 'logistic_regression_clf__max_iter': 200}",0.7416566626650659,0.7428571428571429,0.7260651629072681
+Level1,meansd_features_help_requested,3,SVM,0.8704067200736263,"{'svm_gaussian_clf__C': 10.0, 'svm_gaussian_clf__gamma': 1.0, 'svm_gaussian_clf__kernel': 'poly'}",0.6943027210884355,0.6571428571428571,0.6548106548106548
+Level1,meansd_features_help_requested,3,Random Forest,0.8663286713286713,"{'random_forest_clf__max_depth': 6, 'random_forest_clf__n_estimators': 100}",0.793040293040293,0.8,0.7847746456442107
+Level1,meansd_features_help_requested,4,Dummy random,,,0.39689922480620154,0.3023255813953488,0.3341130954350049
+Level1,meansd_features_help_requested,4,Ordered baseline,,,0.0,0.0,0.0
+Level1,meansd_features_help_requested,4,Naive Bayes,0.7620415365603705,{'naive_bayes_clf__alpha': 0.01},0.5801033591731266,0.5813953488372093,0.576538451522175
+Level1,meansd_features_help_requested,4,Logistic regression,0.8304429019775597,"{'logistic_regression_clf__C': 100.0, 'logistic_regression_clf__max_iter': 200}",0.5969696969696969,0.5813953488372093,0.5876614987080103
+Level1,meansd_features_help_requested,4,SVM,0.8764769879766318,"{'svm_gaussian_clf__C': 100.0, 'svm_gaussian_clf__gamma': 1.0, 'svm_gaussian_clf__kernel': 'rbf'}",0.6492248062015503,0.6744186046511628,0.651868737935472
+Level1,meansd_features_help_requested,4,Random Forest,0.8580966400632601,"{'random_forest_clf__max_depth': None, 'random_forest_clf__n_estimators': 50}",0.747093023255814,0.7441860465116279,0.7287854341013561
+Level1,meansd_features_nohelp,0,Dummy random,,,0.27878787878787875,0.24242424242424243,0.23631270690094217
+Level1,meansd_features_nohelp,0,Ordered baseline,,,0.0,0.0,0.0
+Level1,meansd_features_nohelp,0,Naive Bayes,0.7241319699429406,{'naive_bayes_clf__alpha': 0.1},0.6254208754208754,0.6060606060606061,0.6062354312354312
+Level1,meansd_features_nohelp,0,Logistic regression,0.8596411147249059,"{'logistic_regression_clf__C': 10.0, 'logistic_regression_clf__max_iter': 200}",0.5025252525252525,0.48484848484848486,0.4827764827764828
+Level1,meansd_features_nohelp,0,SVM,0.885977508878263,"{'svm_gaussian_clf__C': 100.0, 'svm_gaussian_clf__gamma': 0.1, 'svm_gaussian_clf__kernel': 'rbf'}",0.5252525252525252,0.5151515151515151,0.4971677559912855
+Level1,meansd_features_nohelp,0,Random Forest,0.8592607051291011,"{'random_forest_clf__max_depth': 6, 'random_forest_clf__n_estimators': 200}",0.6425619834710743,0.6363636363636364,0.617875726966636
+Level1,meansd_features_nohelp,1,Dummy random,,,0.325,0.2,0.2462242562929062
+Level1,meansd_features_nohelp,1,Ordered baseline,,,0.0,0.0,0.0
+Level1,meansd_features_nohelp,1,Naive Bayes,0.7141313309643481,{'naive_bayes_clf__alpha': 0.1},0.7133333333333333,0.6333333333333333,0.656248147249845
+Level1,meansd_features_nohelp,1,Logistic regression,0.81479015899322,"{'logistic_regression_clf__C': 100.0, 'logistic_regression_clf__max_iter': 200}",0.623015873015873,0.6,0.597037037037037
+Level1,meansd_features_nohelp,1,SVM,0.8762784392952424,"{'svm_gaussian_clf__C': 10.0, 'svm_gaussian_clf__gamma': 1.0, 'svm_gaussian_clf__kernel': 'rbf'}",0.6466666666666666,0.6,0.5455555555555556
+Level1,meansd_features_nohelp,1,Random Forest,0.8525571993153636,"{'random_forest_clf__max_depth': None, 'random_forest_clf__n_estimators': 50}",0.8208333333333333,0.8,0.7921956406166932
+Level1,meansd_features_nohelp,2,Dummy random,,,0.42,0.17142857142857143,0.23532467532467527
+Level1,meansd_features_nohelp,2,Ordered baseline,,,0.0,0.0,0.0
+Level1,meansd_features_nohelp,2,Naive Bayes,0.7600444927005191,{'naive_bayes_clf__alpha': 0.01},0.6103030303030302,0.5714285714285714,0.5865251897860594
+Level1,meansd_features_nohelp,2,Logistic regression,0.8372074256903712,"{'logistic_regression_clf__C': 100.0, 'logistic_regression_clf__max_iter': 200}",0.7063212977498693,0.6857142857142857,0.684292297564187
+Level1,meansd_features_nohelp,2,SVM,0.8643726825616171,"{'svm_gaussian_clf__C': 100.0, 'svm_gaussian_clf__gamma': 0.1, 'svm_gaussian_clf__kernel': 'rbf'}",0.6895238095238095,0.6571428571428571,0.6595918367346939
+Level1,meansd_features_nohelp,2,Random Forest,0.8642728921553517,"{'random_forest_clf__max_depth': 6, 'random_forest_clf__n_estimators': 200}",0.7163941940412529,0.6857142857142857,0.677105324888576
+Level1,meansd_features_nohelp,3,Dummy random,,,0.44998556998556993,0.22857142857142856,0.2400076114361828
+Level1,meansd_features_nohelp,3,Ordered baseline,,,0.0,0.0,0.0
+Level1,meansd_features_nohelp,3,Naive Bayes,0.7195228250789949,{'naive_bayes_clf__alpha': 0.1},0.6547619047619047,0.6285714285714286,0.6385231371110703
+Level1,meansd_features_nohelp,3,Logistic regression,0.8130232607837264,"{'logistic_regression_clf__C': 100.0, 'logistic_regression_clf__max_iter': 200}",0.7416566626650659,0.7428571428571429,0.7260651629072681
+Level1,meansd_features_nohelp,3,SVM,0.866517797678512,"{'svm_gaussian_clf__C': 100.0, 'svm_gaussian_clf__gamma': 0.1, 'svm_gaussian_clf__kernel': 'sigmoid'}",0.81479864673142,0.7714285714285715,0.7755579424752357
+Level1,meansd_features_nohelp,3,Random Forest,0.8515128382355274,"{'random_forest_clf__max_depth': 6, 'random_forest_clf__n_estimators': 100}",0.8043184885290149,0.8285714285714286,0.8093167701863355
+Level1,meansd_features_nohelp,4,Dummy random,,,0.4328545371637027,0.3488372093023256,0.37120743034055725
+Level1,meansd_features_nohelp,4,Ordered baseline,,,0.0,0.0,0.0
+Level1,meansd_features_nohelp,4,Naive Bayes,0.7475264020942556,{'naive_bayes_clf__alpha': 1.0},0.6204780361757106,0.627906976744186,0.6196482981327639
+Level1,meansd_features_nohelp,4,Logistic regression,0.8304429019775597,"{'logistic_regression_clf__C': 100.0, 'logistic_regression_clf__max_iter': 200}",0.5969696969696969,0.5813953488372093,0.5876614987080103
+Level1,meansd_features_nohelp,4,SVM,0.8720178668508438,"{'svm_gaussian_clf__C': 100.0, 'svm_gaussian_clf__gamma': 1.0, 'svm_gaussian_clf__kernel': 'rbf'}",0.6492248062015503,0.6744186046511628,0.651868737935472
+Level1,meansd_features_nohelp,4,Random Forest,0.8617694795694331,"{'random_forest_clf__max_depth': None, 'random_forest_clf__n_estimators': 50}",0.747093023255814,0.7441860465116279,0.7287854341013561
+Level3,all_features_help_received,0,Dummy random,,,0.270979020979021,0.24358974358974358,0.2514957264957265
+Level3,all_features_help_received,0,Ordered baseline,,,0.8229907347554407,0.7051282051282052,0.7169433403475957
+Level3,all_features_help_received,0,Naive Bayes,0.704383852632586,{'naive_bayes_clf__alpha': 1.0},0.6831267624106498,0.6794871794871795,0.6797657028071774
+Level3,all_features_help_received,0,Logistic regression,0.7523625354602023,"{'logistic_regression_clf__C': 10.0, 'logistic_regression_clf__max_iter': 200}",0.6328402366863904,0.6282051282051282,0.6299009632342967
+Level3,all_features_help_received,0,SVM,0.7500946912153725,"{'svm_gaussian_clf__C': 1.0, 'svm_gaussian_clf__gamma': 0.1, 'svm_gaussian_clf__kernel': 'rbf'}",0.7825261158594492,0.7051282051282052,0.723800906468265
+Level3,all_features_help_received,0,Random Forest,0.7598565280008002,"{'random_forest_clf__max_depth': 6, 'random_forest_clf__n_estimators': 200}",0.6759829059829061,0.6794871794871795,0.6774323999387938
+Level3,all_features_help_received,1,Dummy random,,,0.3192318594104308,0.2976190476190476,0.2950113378684807
+Level3,all_features_help_received,1,Ordered baseline,,,0.8402473716759431,0.6666666666666666,0.6826232945798164
+Level3,all_features_help_received,1,Naive Bayes,0.6954370932983203,{'naive_bayes_clf__alpha': 1.0},0.7367186081144892,0.6904761904761905,0.6928542250233427
+Level3,all_features_help_received,1,Logistic regression,0.7515517757690666,"{'logistic_regression_clf__C': 10.0, 'logistic_regression_clf__max_iter': 200}",0.7107426303854875,0.6785714285714286,0.6772658192870958
+Level3,all_features_help_received,1,SVM,0.7696502668270925,"{'svm_gaussian_clf__C': 100.0, 'svm_gaussian_clf__gamma': 1.0, 'svm_gaussian_clf__kernel': 'poly'}",0.6222974822112752,0.5952380952380952,0.5953762265274773
+Level3,all_features_help_received,1,Random Forest,0.7550784953823056,"{'random_forest_clf__max_depth': None, 'random_forest_clf__n_estimators': 200}",0.7231344052772624,0.7023809523809523,0.7026592109134803
+Level3,all_features_help_received,2,Dummy random,,,0.2367632367632367,0.21794871794871795,0.2120422878826042
+Level3,all_features_help_received,2,Ordered baseline,,,0.822287001585644,0.6410256410256411,0.6564463597427969
+Level3,all_features_help_received,2,Naive Bayes,0.7385329353809598,{'naive_bayes_clf__alpha': 1.0},0.6971210076473233,0.6666666666666666,0.6647297473428455
+Level3,all_features_help_received,2,Logistic regression,0.7733151781645996,"{'logistic_regression_clf__C': 10.0, 'logistic_regression_clf__max_iter': 200}",0.6610691426744939,0.6410256410256411,0.6423543791178817
+Level3,all_features_help_received,2,SVM,0.7815220301791888,"{'svm_gaussian_clf__C': 100.0, 'svm_gaussian_clf__gamma': 0.1, 'svm_gaussian_clf__kernel': 'rbf'}",0.6861235840183207,0.6666666666666666,0.6674753864405646
+Level3,all_features_help_received,2,Random Forest,0.7687404180210676,"{'random_forest_clf__max_depth': None, 'random_forest_clf__n_estimators': 200}",0.6906320732407689,0.6794871794871795,0.6824531790049032
+Level3,all_features_help_received,3,Dummy random,,,0.24316315263683688,0.23076923076923078,0.23286951144094
+Level3,all_features_help_received,3,Ordered baseline,,,0.7683678086619263,0.6703296703296703,0.6764851556484894
+Level3,all_features_help_received,3,Naive Bayes,0.7226316508313064,{'naive_bayes_clf__alpha': 0.1},0.629059829059829,0.6263736263736264,0.6268481316907467
+Level3,all_features_help_received,3,Logistic regression,0.8025549076818473,"{'logistic_regression_clf__C': 10.0, 'logistic_regression_clf__max_iter': 200}",0.6406771404213859,0.6153846153846154,0.6186531061531061
+Level3,all_features_help_received,3,SVM,0.8027441117929499,"{'svm_gaussian_clf__C': 10.0, 'svm_gaussian_clf__gamma': 0.1, 'svm_gaussian_clf__kernel': 'rbf'}",0.6630526372284614,0.6373626373626373,0.6423389156900579
+Level3,all_features_help_received,3,Random Forest,0.7805226372235226,"{'random_forest_clf__max_depth': 6, 'random_forest_clf__n_estimators': 200}",0.6923894557823129,0.6813186813186813,0.6818481674108805
+Level3,all_features_help_received,4,Dummy random,,,0.2726573633405932,0.22077922077922077,0.24086882910412322
+Level3,all_features_help_received,4,Ordered baseline,,,0.8018265518265518,0.6363636363636364,0.6589913982121774
+Level3,all_features_help_received,4,Naive Bayes,0.7085510952684132,{'naive_bayes_clf__alpha': 0.01},0.7072186482248403,0.6493506493506493,0.6570994903441711
+Level3,all_features_help_received,4,Logistic regression,0.7737244871319229,"{'logistic_regression_clf__C': 100.0, 'logistic_regression_clf__max_iter': 200}",0.707924166476798,0.6493506493506493,0.6487367479700842
+Level3,all_features_help_received,4,SVM,0.7997889678620544,"{'svm_gaussian_clf__C': 100.0, 'svm_gaussian_clf__gamma': 0.1, 'svm_gaussian_clf__kernel': 'rbf'}",0.6688895255071726,0.6233766233766234,0.6264181221077773
+Level3,all_features_help_received,4,Random Forest,0.7653782819555882,"{'random_forest_clf__max_depth': None, 'random_forest_clf__n_estimators': 200}",0.7732962275819419,0.7662337662337663,0.7683077108835927
+Level3,all_features_help_requested,0,Dummy random,,,0.22898656898656897,0.19230769230769232,0.1981689438565569
+Level3,all_features_help_requested,0,Ordered baseline,,,0.07277526395173453,0.1794871794871795,0.09667927700714585
+Level3,all_features_help_requested,0,Naive Bayes,0.5955396801465097,{'naive_bayes_clf__alpha': 0.01},0.4943093262946204,0.5,0.4881034846014684
+Level3,all_features_help_requested,0,Logistic regression,0.6790319345923566,"{'logistic_regression_clf__C': 1.0, 'logistic_regression_clf__max_iter': 200}",0.5532262571736256,0.5512820512820513,0.542914979757085
+Level3,all_features_help_requested,0,SVM,0.7017999588824637,"{'svm_gaussian_clf__C': 100.0, 'svm_gaussian_clf__gamma': 0.1, 'svm_gaussian_clf__kernel': 'rbf'}",0.5319923917208985,0.5384615384615384,0.5302624819018261
+Level3,all_features_help_requested,0,Random Forest,0.71433534438787,"{'random_forest_clf__max_depth': 6, 'random_forest_clf__n_estimators': 200}",0.5709289248762932,0.5769230769230769,0.5631878103747432
+Level3,all_features_help_requested,1,Dummy random,,,0.22059634038800705,0.19047619047619047,0.20382505032960957
+Level3,all_features_help_requested,1,Ordered baseline,,,0.10281827016520892,0.23809523809523808,0.1395987525019783
+Level3,all_features_help_requested,1,Naive Bayes,0.5622690334188529,{'naive_bayes_clf__alpha': 0.01},0.5832586064728922,0.5595238095238095,0.5570775877918737
+Level3,all_features_help_requested,1,Logistic regression,0.6717770716187512,"{'logistic_regression_clf__C': 10.0, 'logistic_regression_clf__max_iter': 200}",0.5768289772049171,0.5595238095238095,0.5545634920634921
+Level3,all_features_help_requested,1,SVM,0.712507380896204,"{'svm_gaussian_clf__C': 10.0, 'svm_gaussian_clf__gamma': 0.1, 'svm_gaussian_clf__kernel': 'rbf'}",0.5998343302838377,0.5714285714285714,0.5567770131308338
+Level3,all_features_help_requested,1,Random Forest,0.7015650739205499,"{'random_forest_clf__max_depth': None, 'random_forest_clf__n_estimators': 100}",0.6886385344046635,0.6666666666666666,0.669162481253134
+Level3,all_features_help_requested,2,Dummy random,,,0.39341890873311397,0.358974358974359,0.37111317431830254
+Level3,all_features_help_requested,2,Ordered baseline,,,0.08974358974358974,0.21794871794871795,0.12614900822447994
+Level3,all_features_help_requested,2,Naive Bayes,0.5840483141747838,{'naive_bayes_clf__alpha': 1.0},0.6303450441961681,0.6153846153846154,0.615957050944644
+Level3,all_features_help_requested,2,Logistic regression,0.6587108099954873,"{'logistic_regression_clf__C': 100.0, 'logistic_regression_clf__max_iter': 200}",0.6672289698605488,0.6410256410256411,0.6378669407515561
+Level3,all_features_help_requested,2,SVM,0.6968700594525556,"{'svm_gaussian_clf__C': 10.0, 'svm_gaussian_clf__gamma': 0.1, 'svm_gaussian_clf__kernel': 'rbf'}",0.7075774467078815,0.6794871794871795,0.6830733369194909
+Level3,all_features_help_requested,2,Random Forest,0.6992202648624486,"{'random_forest_clf__max_depth': 6, 'random_forest_clf__n_estimators': 200}",0.6743589743589744,0.6538461538461539,0.6570045793450049
+Level3,all_features_help_requested,3,Dummy random,,,0.2414113664113664,0.1978021978021978,0.20818854781118934
+Level3,all_features_help_requested,3,Ordered baseline,,,0.06767937944408532,0.17582417582417584,0.09195557963163598
+Level3,all_features_help_requested,3,Naive Bayes,0.6502791960651265,{'naive_bayes_clf__alpha': 0.01},0.5093232559295908,0.5054945054945055,0.5018041381369055
+Level3,all_features_help_requested,3,Logistic regression,0.7129193091599867,"{'logistic_regression_clf__C': 100.0, 'logistic_regression_clf__max_iter': 200}",0.5355121889604647,0.5274725274725275,0.5307762666806846
+Level3,all_features_help_requested,3,SVM,0.7375377503188674,"{'svm_gaussian_clf__C': 10.0, 'svm_gaussian_clf__gamma': 0.1, 'svm_gaussian_clf__kernel': 'rbf'}",0.547887457370216,0.5494505494505495,0.5485695364629989
+Level3,all_features_help_requested,3,Random Forest,0.7228274565149275,"{'random_forest_clf__max_depth': 6, 'random_forest_clf__n_estimators': 100}",0.625488957740479,0.6153846153846154,0.6097412593380336
+Level3,all_features_help_requested,4,Dummy random,,,0.2624092976764938,0.22077922077922077,0.23157813103465277
+Level3,all_features_help_requested,4,Ordered baseline,,,0.1671990171990172,0.3116883116883117,0.21061901061901064
+Level3,all_features_help_requested,4,Naive Bayes,0.596293780607843,{'naive_bayes_clf__alpha': 0.01},0.6457274609448522,0.5844155844155844,0.5803672400374049
+Level3,all_features_help_requested,4,Logistic regression,0.6992597024196654,"{'logistic_regression_clf__C': 10.0, 'logistic_regression_clf__max_iter': 200}",0.6047026657552974,0.5454545454545454,0.5059984341899236
+Level3,all_features_help_requested,4,SVM,0.7311746422592134,"{'svm_gaussian_clf__C': 100.0, 'svm_gaussian_clf__gamma': 0.1, 'svm_gaussian_clf__kernel': 'rbf'}",0.5536783308364668,0.5064935064935064,0.48104199893673577
+Level3,all_features_help_requested,4,Random Forest,0.7196669546678026,"{'random_forest_clf__max_depth': 12, 'random_forest_clf__n_estimators': 200}",0.6508513397731328,0.6493506493506493,0.6377767032022351
+Level3,all_features_nohelp,0,Dummy random,,,0.3572191697191697,0.32051282051282054,0.3313553113553114
+Level3,all_features_nohelp,0,Ordered baseline,,,0.0,0.0,0.0
+Level3,all_features_nohelp,0,Naive Bayes,0.5404286892289722,{'naive_bayes_clf__alpha': 0.01},0.49064883742303095,0.5,0.48886906197251034
+Level3,all_features_nohelp,0,Logistic regression,0.6478457282495417,"{'logistic_regression_clf__C': 1.0, 'logistic_regression_clf__max_iter': 200}",0.554664633612002,0.5384615384615384,0.5343679712100765
+Level3,all_features_nohelp,0,SVM,0.6743884216144139,"{'svm_gaussian_clf__C': 10.0, 'svm_gaussian_clf__gamma': 0.1, 'svm_gaussian_clf__kernel': 'rbf'}",0.6021158328850635,0.5769230769230769,0.5788756041895993
+Level3,all_features_nohelp,0,Random Forest,0.6654673060741361,"{'random_forest_clf__max_depth': 6, 'random_forest_clf__n_estimators': 200}",0.573397435897436,0.5769230769230769,0.5609279609279609
+Level3,all_features_nohelp,1,Dummy random,,,0.2838624338624338,0.25,0.26006402561024405
+Level3,all_features_nohelp,1,Ordered baseline,,,0.0,0.0,0.0
+Level3,all_features_nohelp,1,Naive Bayes,0.49387429970784524,{'naive_bayes_clf__alpha': 0.01},0.569459706959707,0.5238095238095238,0.522549905528629
+Level3,all_features_nohelp,1,Logistic regression,0.6257581608289184,"{'logistic_regression_clf__C': 100.0, 'logistic_regression_clf__max_iter': 200}",0.5752863300492611,0.5714285714285714,0.5709397833207357
+Level3,all_features_nohelp,1,SVM,0.6276151595240755,"{'svm_gaussian_clf__C': 100.0, 'svm_gaussian_clf__gamma': 0.1, 'svm_gaussian_clf__kernel': 'rbf'}",0.6175152889438603,0.5952380952380952,0.597133031929865
+Level3,all_features_nohelp,1,Random Forest,0.6061950789182752,"{'random_forest_clf__max_depth': 6, 'random_forest_clf__n_estimators': 100}",0.7098208322599727,0.7023809523809523,0.7007395286705631
+Level3,all_features_nohelp,2,Dummy random,,,0.29041394335511983,0.2692307692307692,0.269076940542189
+Level3,all_features_nohelp,2,Ordered baseline,,,0.0,0.0,0.0
+Level3,all_features_nohelp,2,Naive Bayes,0.528526606407848,{'naive_bayes_clf__alpha': 0.1},0.5912587412587412,0.5769230769230769,0.5690691741241848
+Level3,all_features_nohelp,2,Logistic regression,0.6304000616466805,"{'logistic_regression_clf__C': 100.0, 'logistic_regression_clf__max_iter': 200}",0.652991452991453,0.6153846153846154,0.6053113553113553
+Level3,all_features_nohelp,2,SVM,0.6329516736176031,"{'svm_gaussian_clf__C': 10.0, 'svm_gaussian_clf__gamma': 0.1, 'svm_gaussian_clf__kernel': 'rbf'}",0.6619100706057227,0.6410256410256411,0.6466459542146276
+Level3,all_features_nohelp,2,Random Forest,0.6338621864376492,"{'random_forest_clf__max_depth': 6, 'random_forest_clf__n_estimators': 200}",0.6766835728374191,0.6538461538461539,0.6557759108214005
+Level3,all_features_nohelp,3,Dummy random,,,0.20450086312155277,0.1978021978021978,0.20063888560129162
+Level3,all_features_nohelp,3,Ordered baseline,,,0.0,0.0,0.0
+Level3,all_features_nohelp,3,Naive Bayes,0.6026847193908421,{'naive_bayes_clf__alpha': 0.01},0.4608843537414966,0.45054945054945056,0.4511576840489307
+Level3,all_features_nohelp,3,Logistic regression,0.6970734315352985,"{'logistic_regression_clf__C': 10.0, 'logistic_regression_clf__max_iter': 200}",0.5119060833346548,0.5054945054945055,0.5072728767310049
+Level3,all_features_nohelp,3,SVM,0.6993089539555769,"{'svm_gaussian_clf__C': 10.0, 'svm_gaussian_clf__gamma': 0.1, 'svm_gaussian_clf__kernel': 'rbf'}",0.5399208318563157,0.5274725274725275,0.5321748363014615
+Level3,all_features_nohelp,3,Random Forest,0.68144884537031,"{'random_forest_clf__max_depth': 6, 'random_forest_clf__n_estimators': 100}",0.5795977011494253,0.5824175824175825,0.5795242162863437
+Level3,all_features_nohelp,4,Dummy random,,,0.19408210836782266,0.19480519480519481,0.1859723941256089
+Level3,all_features_nohelp,4,Ordered baseline,,,0.0,0.0,0.0
+Level3,all_features_nohelp,4,Naive Bayes,0.5224358815957492,{'naive_bayes_clf__alpha': 0.1},0.6313191983999438,0.5454545454545454,0.5425233795801534
+Level3,all_features_nohelp,4,Logistic regression,0.6637391488181615,"{'logistic_regression_clf__C': 100.0, 'logistic_regression_clf__max_iter': 200}",0.5865222243547367,0.5064935064935064,0.48131541451680004
+Level3,all_features_nohelp,4,SVM,0.6590769949658803,"{'svm_gaussian_clf__C': 100.0, 'svm_gaussian_clf__gamma': 0.1, 'svm_gaussian_clf__kernel': 'rbf'}",0.504084734492258,0.4805194805194805,0.45927623574682397
+Level3,all_features_nohelp,4,Random Forest,0.6713269370505632,"{'random_forest_clf__max_depth': 6, 'random_forest_clf__n_estimators': 200}",0.6511489763369464,0.6363636363636364,0.6255048343826438
+Level3,sum_features_help_received,0,Dummy random,,,0.2125457875457875,0.19230769230769232,0.19367196423648037
+Level3,sum_features_help_received,0,Ordered baseline,,,0.8229907347554407,0.7051282051282052,0.7169433403475957
+Level3,sum_features_help_received,0,Naive Bayes,0.6977395316281338,{'naive_bayes_clf__alpha': 0.01},0.6944077724970174,0.6666666666666666,0.677017781877117
+Level3,sum_features_help_received,0,Logistic regression,0.7625949272022392,"{'logistic_regression_clf__C': 1.0, 'logistic_regression_clf__max_iter': 200}",0.7701631701631703,0.7307692307692307,0.7439847733965381
+Level3,sum_features_help_received,0,SVM,0.7701233465678967,"{'svm_gaussian_clf__C': 100.0, 'svm_gaussian_clf__gamma': 0.1, 'svm_gaussian_clf__kernel': 'rbf'}",0.5990467328370555,0.5769230769230769,0.5835928578843559
+Level3,sum_features_help_received,0,Random Forest,0.7857302935056959,"{'random_forest_clf__max_depth': None, 'random_forest_clf__n_estimators': 50}",0.728021978021978,0.717948717948718,0.721415004748338
+Level3,sum_features_help_received,1,Dummy random,,,0.3439164715805807,0.2976190476190476,0.312831950962203
+Level3,sum_features_help_received,1,Ordered baseline,,,0.8402473716759431,0.6666666666666666,0.6826232945798164
+Level3,sum_features_help_received,1,Naive Bayes,0.6958075830599852,{'naive_bayes_clf__alpha': 0.1},0.7589540089540089,0.6785714285714286,0.6919909270973101
+Level3,sum_features_help_received,1,Logistic regression,0.7747635964097086,"{'logistic_regression_clf__C': 10.0, 'logistic_regression_clf__max_iter': 200}",0.7394497863247864,0.6904761904761905,0.6885751365535733
+Level3,sum_features_help_received,1,SVM,0.7642316478724703,"{'svm_gaussian_clf__C': 10.0, 'svm_gaussian_clf__gamma': 0.1, 'svm_gaussian_clf__kernel': 'rbf'}",0.7283272283272284,0.6785714285714286,0.6822022649917356
+Level3,sum_features_help_received,1,Random Forest,0.772559838012357,"{'random_forest_clf__max_depth': None, 'random_forest_clf__n_estimators': 100}",0.7854229104229105,0.7261904761904762,0.7418834849825506
+Level3,sum_features_help_received,2,Dummy random,,,0.3246176338281601,0.2948717948717949,0.3009615384615385
+Level3,sum_features_help_received,2,Ordered baseline,,,0.822287001585644,0.6410256410256411,0.6564463597427969
+Level3,sum_features_help_received,2,Naive Bayes,0.7251392301954589,{'naive_bayes_clf__alpha': 1.0},0.7457264957264957,0.6538461538461539,0.662363277747893
+Level3,sum_features_help_received,2,Logistic regression,0.7596120166217639,"{'logistic_regression_clf__C': 1.0, 'logistic_regression_clf__max_iter': 200}",0.7682426269382792,0.717948717948718,0.7247534516765286
+Level3,sum_features_help_received,2,SVM,0.7978792797174272,"{'svm_gaussian_clf__C': 100.0, 'svm_gaussian_clf__gamma': 1.0, 'svm_gaussian_clf__kernel': 'rbf'}",0.6431235431235431,0.6282051282051282,0.6240252422808203
+Level3,sum_features_help_received,2,Random Forest,0.8096253051471324,"{'random_forest_clf__max_depth': 12, 'random_forest_clf__n_estimators': 50}",0.722761055369751,0.7051282051282052,0.7090717906030588
+Level3,sum_features_help_received,3,Dummy random,,,0.26489874056131335,0.23076923076923078,0.2395649666936048
+Level3,sum_features_help_received,3,Ordered baseline,,,0.7683678086619263,0.6703296703296703,0.6764851556484894
+Level3,sum_features_help_received,3,Naive Bayes,0.7025348970855997,{'naive_bayes_clf__alpha': 0.01},0.67829164568295,0.6153846153846154,0.6084201053145152
+Level3,sum_features_help_received,3,Logistic regression,0.7803016458757408,"{'logistic_regression_clf__C': 10.0, 'logistic_regression_clf__max_iter': 200}",0.6838773354791662,0.6593406593406593,0.6621461722268174
+Level3,sum_features_help_received,3,SVM,0.7946528872360633,"{'svm_gaussian_clf__C': 100.0, 'svm_gaussian_clf__gamma': 0.1, 'svm_gaussian_clf__kernel': 'rbf'}",0.6588753351911247,0.6263736263736264,0.6316311799108693
+Level3,sum_features_help_received,3,Random Forest,0.7837643147100325,"{'random_forest_clf__max_depth': 6, 'random_forest_clf__n_estimators': 200}",0.7349152678823008,0.7142857142857143,0.7174561714459848
+Level3,sum_features_help_received,4,Dummy random,,,0.3405612244897959,0.2987012987012987,0.304312478825089
+Level3,sum_features_help_received,4,Ordered baseline,,,0.8018265518265518,0.6363636363636364,0.6589913982121774
+Level3,sum_features_help_received,4,Naive Bayes,0.6970043866218619,{'naive_bayes_clf__alpha': 0.01},0.698833051006964,0.6363636363636364,0.6409088647333161
+Level3,sum_features_help_received,4,Logistic regression,0.7686564666289551,"{'logistic_regression_clf__C': 100.0, 'logistic_regression_clf__max_iter': 200}",0.6876633833155572,0.6363636363636364,0.6260413607352383
+Level3,sum_features_help_received,4,SVM,0.7669882940184555,"{'svm_gaussian_clf__C': 10.0, 'svm_gaussian_clf__gamma': 1.0, 'svm_gaussian_clf__kernel': 'rbf'}",0.6937465564738292,0.6753246753246753,0.677485493230174
+Level3,sum_features_help_received,4,Random Forest,0.7993290088967628,"{'random_forest_clf__max_depth': 12, 'random_forest_clf__n_estimators': 200}",0.7449609214315096,0.7142857142857143,0.7092026253316577
+Level3,sum_features_help_requested,0,Dummy random,,,0.3478929113940556,0.3076923076923077,0.3113122171945702
+Level3,sum_features_help_requested,0,Ordered baseline,,,0.07277526395173453,0.1794871794871795,0.09667927700714585
+Level3,sum_features_help_requested,0,Naive Bayes,0.528075246944588,{'naive_bayes_clf__alpha': 0.01},0.4427811610474149,0.44871794871794873,0.4397176897176897
+Level3,sum_features_help_requested,0,Logistic regression,0.6781137834648425,"{'logistic_regression_clf__C': 10.0, 'logistic_regression_clf__max_iter': 200}",0.5395927601809956,0.5256410256410257,0.5214727660391929
+Level3,sum_features_help_requested,0,SVM,0.7190996713864619,"{'svm_gaussian_clf__C': 100.0, 'svm_gaussian_clf__gamma': 0.1, 'svm_gaussian_clf__kernel': 'rbf'}",0.5528985014396156,0.5384615384615384,0.536603846407768
+Level3,sum_features_help_requested,0,Random Forest,0.7180271857662792,"{'random_forest_clf__max_depth': 6, 'random_forest_clf__n_estimators': 200}",0.636089833495163,0.6282051282051282,0.6272034766719755
+Level3,sum_features_help_requested,1,Dummy random,,,0.28708852169950566,0.25,0.25834205947501265
+Level3,sum_features_help_requested,1,Ordered baseline,,,0.10281827016520892,0.23809523809523808,0.1395987525019783
+Level3,sum_features_help_requested,1,Naive Bayes,0.535000068616453,{'naive_bayes_clf__alpha': 0.01},0.5566723972197575,0.5238095238095238,0.5110969387755103
+Level3,sum_features_help_requested,1,Logistic regression,0.7137988082031147,"{'logistic_regression_clf__C': 10.0, 'logistic_regression_clf__max_iter': 200}",0.6505262249827466,0.6071428571428571,0.6064045951905778
+Level3,sum_features_help_requested,1,SVM,0.7081216189619569,"{'svm_gaussian_clf__C': 100.0, 'svm_gaussian_clf__gamma': 0.1, 'svm_gaussian_clf__kernel': 'rbf'}",0.6379856290342223,0.5952380952380952,0.5957861405431738
+Level3,sum_features_help_requested,1,Random Forest,0.7023360987459547,"{'random_forest_clf__max_depth': 6, 'random_forest_clf__n_estimators': 200}",0.6640582683815767,0.6309523809523809,0.6296336122209265
+Level3,sum_features_help_requested,2,Dummy random,,,0.3406346240354337,0.2564102564102564,0.27411690873229333
+Level3,sum_features_help_requested,2,Ordered baseline,,,0.08974358974358974,0.21794871794871795,0.12614900822447994
+Level3,sum_features_help_requested,2,Naive Bayes,0.5590395153318168,{'naive_bayes_clf__alpha': 0.01},0.642190781354868,0.6282051282051282,0.6239253786140508
+Level3,sum_features_help_requested,2,Logistic regression,0.6457645016368596,"{'logistic_regression_clf__C': 100.0, 'logistic_regression_clf__max_iter': 200}",0.6382478632478632,0.6153846153846154,0.6134953595536491
+Level3,sum_features_help_requested,2,SVM,0.717396911720002,"{'svm_gaussian_clf__C': 100.0, 'svm_gaussian_clf__gamma': 0.1, 'svm_gaussian_clf__kernel': 'rbf'}",0.6780670611439842,0.6410256410256411,0.6417683358628593
+Level3,sum_features_help_requested,2,Random Forest,0.7110795795009868,"{'random_forest_clf__max_depth': 6, 'random_forest_clf__n_estimators': 100}",0.7143656872969636,0.6923076923076923,0.6955562428575921
+Level3,sum_features_help_requested,3,Dummy random,,,0.18776875298614432,0.16483516483516483,0.17460317460317462
+Level3,sum_features_help_requested,3,Ordered baseline,,,0.06767937944408532,0.17582417582417584,0.09195557963163598
+Level3,sum_features_help_requested,3,Naive Bayes,0.5647178480482262,{'naive_bayes_clf__alpha': 0.01},0.5120595346682303,0.4835164835164835,0.4798923655651832
+Level3,sum_features_help_requested,3,Logistic regression,0.7128447038870823,"{'logistic_regression_clf__C': 10.0, 'logistic_regression_clf__max_iter': 200}",0.6105680591842116,0.6043956043956044,0.6033681231049653
+Level3,sum_features_help_requested,3,SVM,0.7351873128031381,"{'svm_gaussian_clf__C': 100.0, 'svm_gaussian_clf__gamma': 0.1, 'svm_gaussian_clf__kernel': 'rbf'}",0.6027811474240046,0.5934065934065934,0.596055874486711
+Level3,sum_features_help_requested,3,Random Forest,0.7107266322577737,"{'random_forest_clf__max_depth': 6, 'random_forest_clf__n_estimators': 200}",0.6901154796078894,0.6813186813186813,0.682641835270439
+Level3,sum_features_help_requested,4,Dummy random,,,0.1583083583083583,0.18181818181818182,0.1659238325351282
+Level3,sum_features_help_requested,4,Ordered baseline,,,0.1671990171990172,0.3116883116883117,0.21061901061901064
+Level3,sum_features_help_requested,4,Naive Bayes,0.5556970806944536,{'naive_bayes_clf__alpha': 0.01},0.6130434782608696,0.5454545454545454,0.5238390718017203
+Level3,sum_features_help_requested,4,Logistic regression,0.6991311590886294,"{'logistic_regression_clf__C': 100.0, 'logistic_regression_clf__max_iter': 200}",0.5522949272949274,0.5454545454545454,0.4995638719776651
+Level3,sum_features_help_requested,4,SVM,0.6985019290279089,"{'svm_gaussian_clf__C': 100.0, 'svm_gaussian_clf__gamma': 0.1, 'svm_gaussian_clf__kernel': 'rbf'}",0.7131822722731814,0.6623376623376623,0.6457957218932828
+Level3,sum_features_help_requested,4,Random Forest,0.7452694586094991,"{'random_forest_clf__max_depth': None, 'random_forest_clf__n_estimators': 200}",0.6918357856976782,0.6753246753246753,0.6634241575418046
+Level3,sum_features_nohelp,0,Dummy random,,,0.3253807595912859,0.2948717948717949,0.30096274188889954
+Level3,sum_features_nohelp,0,Ordered baseline,,,0.0,0.0,0.0
+Level3,sum_features_nohelp,0,Naive Bayes,0.47462213961597816,{'naive_bayes_clf__alpha': 0.01},0.4209014616623312,0.3974358974358974,0.40002072002072003
+Level3,sum_features_nohelp,0,Logistic regression,0.6754690894797907,"{'logistic_regression_clf__C': 10.0, 'logistic_regression_clf__max_iter': 200}",0.5345919800280854,0.5128205128205128,0.5071733821733821
+Level3,sum_features_nohelp,0,SVM,0.6736014725247845,"{'svm_gaussian_clf__C': 100.0, 'svm_gaussian_clf__gamma': 0.1, 'svm_gaussian_clf__kernel': 'rbf'}",0.522008547008547,0.5,0.49389820705610177
+Level3,sum_features_nohelp,0,Random Forest,0.6567784616901725,"{'random_forest_clf__max_depth': 6, 'random_forest_clf__n_estimators': 50}",0.5605717686309791,0.5641025641025641,0.5533687593009627
+Level3,sum_features_nohelp,1,Dummy random,,,0.3480218855218855,0.30952380952380953,0.3246294465964805
+Level3,sum_features_nohelp,1,Ordered baseline,,,0.0,0.0,0.0
+Level3,sum_features_nohelp,1,Naive Bayes,0.46147250559788305,{'naive_bayes_clf__alpha': 0.1},0.49995300398526205,0.44047619047619047,0.43021105878248733
+Level3,sum_features_nohelp,1,Logistic regression,0.6462551439748031,"{'logistic_regression_clf__C': 10.0, 'logistic_regression_clf__max_iter': 200}",0.6570634920634921,0.6428571428571429,0.6427484086072245
+Level3,sum_features_nohelp,1,SVM,0.6429079751000701,"{'svm_gaussian_clf__C': 10.0, 'svm_gaussian_clf__gamma': 0.1, 'svm_gaussian_clf__kernel': 'sigmoid'}",0.615703320802005,0.5952380952380952,0.5982415188297543
+Level3,sum_features_nohelp,1,Random Forest,0.6367360591421701,"{'random_forest_clf__max_depth': 6, 'random_forest_clf__n_estimators': 200}",0.6509589947089948,0.6309523809523809,0.6289914441275604
+Level3,sum_features_nohelp,2,Dummy random,,,0.28945868945868947,0.2692307692307692,0.2674346984671165
+Level3,sum_features_nohelp,2,Ordered baseline,,,0.0,0.0,0.0
+Level3,sum_features_nohelp,2,Naive Bayes,0.48080409454668616,{'naive_bayes_clf__alpha': 1.0},0.5452953966111861,0.5256410256410257,0.5203952825125633
+Level3,sum_features_nohelp,2,Logistic regression,0.6137350025958944,"{'logistic_regression_clf__C': 10.0, 'logistic_regression_clf__max_iter': 200}",0.6318984220907299,0.6153846153846154,0.6177979834717423
+Level3,sum_features_nohelp,2,SVM,0.6394236335066377,"{'svm_gaussian_clf__C': 100.0, 'svm_gaussian_clf__gamma': 0.1, 'svm_gaussian_clf__kernel': 'rbf'}",0.6245069033530573,0.6025641025641025,0.6092934472362791
+Level3,sum_features_nohelp,2,Random Forest,0.6650808759485894,"{'random_forest_clf__max_depth': 6, 'random_forest_clf__n_estimators': 200}",0.7154832347140039,0.7051282051282052,0.7063639034179132
+Level3,sum_features_nohelp,3,Dummy random,,,0.3062116591047614,0.27472527472527475,0.28467331739878154
+Level3,sum_features_nohelp,3,Ordered baseline,,,0.0,0.0,0.0
+Level3,sum_features_nohelp,3,Naive Bayes,0.5233250518556136,{'naive_bayes_clf__alpha': 0.01},0.4407967032967033,0.37362637362637363,0.3822897023344951
+Level3,sum_features_nohelp,3,Logistic regression,0.7013132241461925,"{'logistic_regression_clf__C': 10.0, 'logistic_regression_clf__max_iter': 200}",0.5655309602678024,0.5274725274725275,0.5337858266248904
+Level3,sum_features_nohelp,3,SVM,0.6970584610997589,"{'svm_gaussian_clf__C': 100.0, 'svm_gaussian_clf__gamma': 0.1, 'svm_gaussian_clf__kernel': 'sigmoid'}",0.5042875592074677,0.46153846153846156,0.46861628937100636
+Level3,sum_features_nohelp,3,Random Forest,0.6615431681061802,"{'random_forest_clf__max_depth': 6, 'random_forest_clf__n_estimators': 200}",0.6072300715157858,0.6043956043956044,0.6019436324455296
+Level3,sum_features_nohelp,4,Dummy random,,,0.23129794182425764,0.22077922077922077,0.20773809523809522
+Level3,sum_features_nohelp,4,Ordered baseline,,,0.0,0.0,0.0
+Level3,sum_features_nohelp,4,Naive Bayes,0.4765128889478391,{'naive_bayes_clf__alpha': 0.1},0.6023353839143313,0.4935064935064935,0.4811570485511435
+Level3,sum_features_nohelp,4,Logistic regression,0.667048713873514,"{'logistic_regression_clf__C': 10.0, 'logistic_regression_clf__max_iter': 200}",0.6031442241968558,0.5584415584415584,0.5265037593984963
+Level3,sum_features_nohelp,4,SVM,0.6725648389175022,"{'svm_gaussian_clf__C': 100.0, 'svm_gaussian_clf__gamma': 0.1, 'svm_gaussian_clf__kernel': 'rbf'}",0.6309523809523809,0.5844155844155844,0.5649213943950786
+Level3,sum_features_nohelp,4,Random Forest,0.6528936174384445,"{'random_forest_clf__max_depth': None, 'random_forest_clf__n_estimators': 200}",0.6319524106709462,0.6103896103896104,0.6073032436701308
+Level3,meansd_features_help_received,0,Dummy random,,,0.2824863673279963,0.24358974358974358,0.25059518517883106
+Level3,meansd_features_help_received,0,Ordered baseline,,,0.8229907347554407,0.7051282051282052,0.7169433403475957
+Level3,meansd_features_help_received,0,Naive Bayes,0.6903385803030748,{'naive_bayes_clf__alpha': 0.1},0.7151216305062459,0.7051282051282052,0.7023116888580383
+Level3,meansd_features_help_received,0,Logistic regression,0.7604035352605927,"{'logistic_regression_clf__C': 100.0, 'logistic_regression_clf__max_iter': 200}",0.6515919977458439,0.6538461538461539,0.6525079858413191
+Level3,meansd_features_help_received,0,SVM,0.7619388301020306,"{'svm_gaussian_clf__C': 10.0, 'svm_gaussian_clf__gamma': 1.0, 'svm_gaussian_clf__kernel': 'rbf'}",0.6539517345399698,0.6410256410256411,0.6459634244994047
+Level3,meansd_features_help_received,0,Random Forest,0.7850662815819665,"{'random_forest_clf__max_depth': None, 'random_forest_clf__n_estimators': 100}",0.7055720981527434,0.7051282051282052,0.703082566087715
+Level3,meansd_features_help_received,1,Dummy random,,,0.2095133614086367,0.17857142857142858,0.18409560794014576
+Level3,meansd_features_help_received,1,Ordered baseline,,,0.8402473716759431,0.6666666666666666,0.6826232945798164
+Level3,meansd_features_help_received,1,Naive Bayes,0.7044358529756095,{'naive_bayes_clf__alpha': 0.1},0.7386621315192744,0.6904761904761905,0.6973015873015873
+Level3,meansd_features_help_received,1,Logistic regression,0.7453249739480958,"{'logistic_regression_clf__C': 1.0, 'logistic_regression_clf__max_iter': 200}",0.7633333333333334,0.6904761904761905,0.7084316861665301
+Level3,meansd_features_help_received,1,SVM,0.7659929598751503,"{'svm_gaussian_clf__C': 1.0, 'svm_gaussian_clf__gamma': 1.0, 'svm_gaussian_clf__kernel': 'poly'}",0.7395984753550543,0.6785714285714286,0.6904659824302681
+Level3,meansd_features_help_received,1,Random Forest,0.7573753562233335,"{'random_forest_clf__max_depth': 12, 'random_forest_clf__n_estimators': 200}",0.7149281934996221,0.6904761904761905,0.6841467830300477
+Level3,meansd_features_help_received,2,Dummy random,,,0.3673690144278379,0.32051282051282054,0.32761805734213756
+Level3,meansd_features_help_received,2,Ordered baseline,,,0.822287001585644,0.6410256410256411,0.6564463597427969
+Level3,meansd_features_help_received,2,Naive Bayes,0.7279122384697642,{'naive_bayes_clf__alpha': 0.01},0.6997863247863247,0.6794871794871795,0.6780276134122288
+Level3,meansd_features_help_received,2,Logistic regression,0.771470213190015,"{'logistic_regression_clf__C': 10.0, 'logistic_regression_clf__max_iter': 200}",0.6898589841381604,0.6794871794871795,0.6788678459765993
+Level3,meansd_features_help_received,2,SVM,0.7754015165236607,"{'svm_gaussian_clf__C': 100.0, 'svm_gaussian_clf__gamma': 0.1, 'svm_gaussian_clf__kernel': 'sigmoid'}",0.6998251748251748,0.6794871794871795,0.6747422921638949
+Level3,meansd_features_help_received,2,Random Forest,0.7636652533785703,"{'random_forest_clf__max_depth': 12, 'random_forest_clf__n_estimators': 100}",0.7226681866340945,0.717948717948718,0.717348700682034
+Level3,meansd_features_help_received,3,Dummy random,,,0.27231768231768233,0.23076923076923078,0.2450303900154943
+Level3,meansd_features_help_received,3,Ordered baseline,,,0.7683678086619263,0.6703296703296703,0.6764851556484894
+Level3,meansd_features_help_received,3,Naive Bayes,0.7544205879035812,{'naive_bayes_clf__alpha': 0.01},0.6467262895834325,0.6483516483516484,0.6466225660304608
+Level3,meansd_features_help_received,3,Logistic regression,0.7825984002413678,"{'logistic_regression_clf__C': 1.0, 'logistic_regression_clf__max_iter': 200}",0.6855585239043887,0.6703296703296703,0.6727565570593773
+Level3,meansd_features_help_received,3,SVM,0.7969783016699237,"{'svm_gaussian_clf__C': 10.0, 'svm_gaussian_clf__gamma': 1.0, 'svm_gaussian_clf__kernel': 'rbf'}",0.6072228537745779,0.6043956043956044,0.6026447366321319
+Level3,meansd_features_help_received,3,Random Forest,0.7844397910950358,"{'random_forest_clf__max_depth': 12, 'random_forest_clf__n_estimators': 200}",0.6751398784365817,0.6703296703296703,0.6695407156945619
+Level3,meansd_features_help_received,4,Dummy random,,,0.31231798504525776,0.2597402597402597,0.2775749416571862
+Level3,meansd_features_help_received,4,Ordered baseline,,,0.8018265518265518,0.6363636363636364,0.6589913982121774
+Level3,meansd_features_help_received,4,Naive Bayes,0.7280091612216308,{'naive_bayes_clf__alpha': 0.01},0.7103396603396603,0.6233766233766234,0.6301812665449029
+Level3,meansd_features_help_received,4,Logistic regression,0.7741882421001229,"{'logistic_regression_clf__C': 100.0, 'logistic_regression_clf__max_iter': 200}",0.716897546897547,0.6883116883116883,0.6794792918443633
+Level3,meansd_features_help_received,4,SVM,0.7881332525642484,"{'svm_gaussian_clf__C': 100.0, 'svm_gaussian_clf__gamma': 0.1, 'svm_gaussian_clf__kernel': 'rbf'}",0.7477895198483434,0.7142857142857143,0.7108048414170864
+Level3,meansd_features_help_received,4,Random Forest,0.7605899884560898,"{'random_forest_clf__max_depth': 12, 'random_forest_clf__n_estimators': 200}",0.7634680590345615,0.7402597402597403,0.7420503554957336
+Level3,meansd_features_help_requested,0,Dummy random,,,0.24327470962086345,0.23076923076923078,0.21785256959675564
+Level3,meansd_features_help_requested,0,Ordered baseline,,,0.0,0.0,0.0
+Level3,meansd_features_help_requested,0,Naive Bayes,0.5951360846795045,{'naive_bayes_clf__alpha': 0.01},0.4304830413427699,0.4230769230769231,0.41814251639833033
+Level3,meansd_features_help_requested,0,Logistic regression,0.6241192027574979,"{'logistic_regression_clf__C': 100.0, 'logistic_regression_clf__max_iter': 200}",0.4431100795755968,0.44871794871794873,0.44414117873870196
+Level3,meansd_features_help_requested,0,SVM,0.63866979214506,"{'svm_gaussian_clf__C': 100.0, 'svm_gaussian_clf__gamma': 0.1, 'svm_gaussian_clf__kernel': 'sigmoid'}",0.4660409035409035,0.44871794871794873,0.44916072553579967
+Level3,meansd_features_help_requested,0,Random Forest,0.6458535018712817,"{'random_forest_clf__max_depth': 12, 'random_forest_clf__n_estimators': 50}",0.5469533475783476,0.5512820512820513,0.5462342427025302
+Level3,meansd_features_help_requested,1,Dummy random,,,0.3911108529433278,0.38095238095238093,0.38068642974431155
+Level3,meansd_features_help_requested,1,Ordered baseline,,,0.0,0.0,0.0
+Level3,meansd_features_help_requested,1,Naive Bayes,0.5139753447274924,{'naive_bayes_clf__alpha': 0.1},0.5758659232923938,0.5595238095238095,0.5638127978464114
+Level3,meansd_features_help_requested,1,Logistic regression,0.5853771322164194,"{'logistic_regression_clf__C': 10.0, 'logistic_regression_clf__max_iter': 200}",0.6346410414298346,0.6309523809523809,0.6313517831374975
+Level3,meansd_features_help_requested,1,SVM,0.6004538329960796,"{'svm_gaussian_clf__C': 10.0, 'svm_gaussian_clf__gamma': 0.1, 'svm_gaussian_clf__kernel': 'rbf'}",0.6015321227759651,0.5595238095238095,0.5676168455888101
+Level3,meansd_features_help_requested,1,Random Forest,0.5890318542538721,"{'random_forest_clf__max_depth': 6, 'random_forest_clf__n_estimators': 50}",0.6048058262343977,0.5833333333333334,0.57660306298883
+Level3,meansd_features_help_requested,2,Dummy random,,,0.3267045819677398,0.3076923076923077,0.3115673147990221
+Level3,meansd_features_help_requested,2,Ordered baseline,,,0.0,0.0,0.0
+Level3,meansd_features_help_requested,2,Naive Bayes,0.5414620043719144,{'naive_bayes_clf__alpha': 0.01},0.5557971014492755,0.5512820512820513,0.5471052326255946
+Level3,meansd_features_help_requested,2,Logistic regression,0.5961871749696966,"{'logistic_regression_clf__C': 10.0, 'logistic_regression_clf__max_iter': 200}",0.5589806435394671,0.5384615384615384,0.532590115198811
+Level3,meansd_features_help_requested,2,SVM,0.6245020425248727,"{'svm_gaussian_clf__C': 100.0, 'svm_gaussian_clf__gamma': 0.1, 'svm_gaussian_clf__kernel': 'rbf'}",0.5254273504273504,0.5,0.4994093959997347
+Level3,meansd_features_help_requested,2,Random Forest,0.6187598942702432,"{'random_forest_clf__max_depth': None, 'random_forest_clf__n_estimators': 200}",0.697932437932438,0.6794871794871795,0.680492479805981
+Level3,meansd_features_help_requested,3,Dummy random,,,0.3564941338854382,0.31868131868131866,0.3334824162013102
+Level3,meansd_features_help_requested,3,Ordered baseline,,,0.0,0.0,0.0
+Level3,meansd_features_help_requested,3,Naive Bayes,0.6033781809709533,{'naive_bayes_clf__alpha': 0.01},0.4634222919937205,0.45054945054945056,0.45393403909887425
+Level3,meansd_features_help_requested,3,Logistic regression,0.6479166869499517,"{'logistic_regression_clf__C': 10.0, 'logistic_regression_clf__max_iter': 200}",0.49877483627483626,0.4945054945054945,0.49435098973276315
+Level3,meansd_features_help_requested,3,SVM,0.652516202445548,"{'svm_gaussian_clf__C': 10.0, 'svm_gaussian_clf__gamma': 0.1, 'svm_gaussian_clf__kernel': 'rbf'}",0.4997694711980426,0.4945054945054945,0.492826672064412
+Level3,meansd_features_help_requested,3,Random Forest,0.6536493510061107,"{'random_forest_clf__max_depth': None, 'random_forest_clf__n_estimators': 200}",0.5345987345987346,0.5384615384615384,0.5360576923076923
+Level3,meansd_features_help_requested,4,Dummy random,,,0.32484316040465777,0.2727272727272727,0.2873275792530451
+Level3,meansd_features_help_requested,4,Ordered baseline,,,0.0,0.0,0.0
+Level3,meansd_features_help_requested,4,Naive Bayes,0.5349268914522245,{'naive_bayes_clf__alpha': 0.01},0.5532658683308035,0.4675324675324675,0.46219362614856985
+Level3,meansd_features_help_requested,4,Logistic regression,0.6092299377388866,"{'logistic_regression_clf__C': 100.0, 'logistic_regression_clf__max_iter': 200}",0.6649659863945577,0.5324675324675324,0.5116833780180126
+Level3,meansd_features_help_requested,4,SVM,0.6128778329304099,"{'svm_gaussian_clf__C': 10.0, 'svm_gaussian_clf__gamma': 0.1, 'svm_gaussian_clf__kernel': 'rbf'}",0.5798616967448137,0.5324675324675324,0.5061507479968131
+Level3,meansd_features_help_requested,4,Random Forest,0.6256244227906474,"{'random_forest_clf__max_depth': 6, 'random_forest_clf__n_estimators': 100}",0.6608588099271328,0.6363636363636364,0.6325404854816619
+Level3,meansd_features_nohelp,0,Dummy random,,,0.24908000949667616,0.20512820512820512,0.22157358132200897
+Level3,meansd_features_nohelp,0,Ordered baseline,,,0.0,0.0,0.0
+Level3,meansd_features_nohelp,0,Naive Bayes,0.5898044119041099,{'naive_bayes_clf__alpha': 0.01},0.44411197776582395,0.4358974358974359,0.4284188034188035
+Level3,meansd_features_nohelp,0,Logistic regression,0.6293312641520787,"{'logistic_regression_clf__C': 100.0, 'logistic_regression_clf__max_iter': 200}",0.4572638179940411,0.46153846153846156,0.45587916721692817
+Level3,meansd_features_nohelp,0,SVM,0.6324346973961473,"{'svm_gaussian_clf__C': 100.0, 'svm_gaussian_clf__gamma': 0.1, 'svm_gaussian_clf__kernel': 'sigmoid'}",0.483665127143388,0.47435897435897434,0.4711738932688196
+Level3,meansd_features_nohelp,0,Random Forest,0.6573539577864226,"{'random_forest_clf__max_depth': 6, 'random_forest_clf__n_estimators': 200}",0.5137020504667564,0.5256410256410257,0.5043746281543395
+Level3,meansd_features_nohelp,1,Dummy random,,,0.26840414724046435,0.25,0.24900563007532778
+Level3,meansd_features_nohelp,1,Ordered baseline,,,0.0,0.0,0.0
+Level3,meansd_features_nohelp,1,Naive Bayes,0.5140391168281531,{'naive_bayes_clf__alpha': 0.1},0.5758659232923938,0.5595238095238095,0.5638127978464114
+Level3,meansd_features_nohelp,1,Logistic regression,0.5883252138830366,"{'logistic_regression_clf__C': 10.0, 'logistic_regression_clf__max_iter': 200}",0.6346410414298346,0.6309523809523809,0.6313517831374975
+Level3,meansd_features_nohelp,1,SVM,0.6010619813144625,"{'svm_gaussian_clf__C': 100.0, 'svm_gaussian_clf__gamma': 0.1, 'svm_gaussian_clf__kernel': 'rbf'}",0.6674559119835617,0.6428571428571429,0.6461050820812292
+Level3,meansd_features_nohelp,1,Random Forest,0.5911491164726811,"{'random_forest_clf__max_depth': 6, 'random_forest_clf__n_estimators': 50}",0.6048058262343977,0.5833333333333334,0.57660306298883
+Level3,meansd_features_nohelp,2,Dummy random,,,0.2915466886055121,0.28205128205128205,0.28004178613386643
+Level3,meansd_features_nohelp,2,Ordered baseline,,,0.0,0.0,0.0
+Level3,meansd_features_nohelp,2,Naive Bayes,0.5386536228214371,{'naive_bayes_clf__alpha': 0.01},0.544910644910645,0.5384615384615384,0.5342400443820322
+Level3,meansd_features_nohelp,2,Logistic regression,0.5962147061448924,"{'logistic_regression_clf__C': 10.0, 'logistic_regression_clf__max_iter': 200}",0.5491398343060747,0.5256410256410257,0.5212296119028238
+Level3,meansd_features_nohelp,2,SVM,0.6288728104972017,"{'svm_gaussian_clf__C': 100.0, 'svm_gaussian_clf__gamma': 0.1, 'svm_gaussian_clf__kernel': 'rbf'}",0.5524379806988502,0.5256410256410257,0.5253659075938931
+Level3,meansd_features_nohelp,2,Random Forest,0.59912538526106,"{'random_forest_clf__max_depth': 6, 'random_forest_clf__n_estimators': 100}",0.6548565185443014,0.6282051282051282,0.629051513574506
+Level3,meansd_features_nohelp,3,Dummy random,,,0.25980210265924547,0.24175824175824176,0.24025375469098997
+Level3,meansd_features_nohelp,3,Ordered baseline,,,0.0,0.0,0.0
+Level3,meansd_features_nohelp,3,Naive Bayes,0.6009972285900009,{'naive_bayes_clf__alpha': 0.01},0.4634222919937205,0.45054945054945056,0.45393403909887425
+Level3,meansd_features_nohelp,3,Logistic regression,0.6539307644794121,"{'logistic_regression_clf__C': 100.0, 'logistic_regression_clf__max_iter': 200}",0.5360621521335807,0.5274725274725275,0.5251606538239251
+Level3,meansd_features_nohelp,3,SVM,0.652516202445548,"{'svm_gaussian_clf__C': 10.0, 'svm_gaussian_clf__gamma': 0.1, 'svm_gaussian_clf__kernel': 'rbf'}",0.4997694711980426,0.4945054945054945,0.492826672064412
+Level3,meansd_features_nohelp,3,Random Forest,0.6543485877310575,"{'random_forest_clf__max_depth': None, 'random_forest_clf__n_estimators': 200}",0.5345987345987346,0.5384615384615384,0.5360576923076923
+Level3,meansd_features_nohelp,4,Dummy random,,,0.2519261041988315,0.24675324675324675,0.24815603742140477
+Level3,meansd_features_nohelp,4,Ordered baseline,,,0.0,0.0,0.0
+Level3,meansd_features_nohelp,4,Naive Bayes,0.5297864696528984,{'naive_bayes_clf__alpha': 0.01},0.5532658683308035,0.4675324675324675,0.46219362614856985
+Level3,meansd_features_nohelp,4,Logistic regression,0.6092624954270096,"{'logistic_regression_clf__C': 100.0, 'logistic_regression_clf__max_iter': 200}",0.6572753333622898,0.5194805194805194,0.5001967729240456
+Level3,meansd_features_nohelp,4,SVM,0.6106898323954955,"{'svm_gaussian_clf__C': 100.0, 'svm_gaussian_clf__gamma': 0.1, 'svm_gaussian_clf__kernel': 'sigmoid'}",0.6581592320722756,0.5064935064935064,0.47194901064870104
+Level3,meansd_features_nohelp,4,Random Forest,0.6204103001418743,"{'random_forest_clf__max_depth': 6, 'random_forest_clf__n_estimators': 200}",0.7049733088735646,0.6623376623376623,0.6585683175544926
+Level4,all_features_help_received,0,Dummy random,,,0.39192079577826555,0.3,0.3305792938446
+Level4,all_features_help_received,0,Ordered baseline,,,0.9319897959183674,0.5,0.5843746268995439
+Level4,all_features_help_received,0,Naive Bayes,0.726866319061803,{'naive_bayes_clf__alpha': 0.01},0.7206483992198277,0.6714285714285714,0.6880490291354637
+Level4,all_features_help_received,0,Logistic regression,0.7826000928514659,"{'logistic_regression_clf__C': 10.0, 'logistic_regression_clf__max_iter': 200}",0.6812454212454212,0.6142857142857143,0.6379599567099566
+Level4,all_features_help_received,0,SVM,0.8154264854906034,"{'svm_gaussian_clf__C': 10.0, 'svm_gaussian_clf__gamma': 0.1, 'svm_gaussian_clf__kernel': 'rbf'}",0.7062162475205954,0.6142857142857143,0.6492512957563978
+Level4,all_features_help_received,0,Random Forest,0.793481118916476,"{'random_forest_clf__max_depth': 12, 'random_forest_clf__n_estimators': 100}",0.7104421768707484,0.6857142857142857,0.6895327264098029
+Level4,all_features_help_received,1,Dummy random,,,0.351271186440678,0.288135593220339,0.3083739471451336
+Level4,all_features_help_received,1,Ordered baseline,,,0.8595103578154425,0.3559322033898305,0.43301707562871444
+Level4,all_features_help_received,1,Naive Bayes,0.7405511720099147,{'naive_bayes_clf__alpha': 0.1},0.6451977401129944,0.559322033898305,0.5965008201202844
+Level4,all_features_help_received,1,Logistic regression,0.7904551669998007,"{'logistic_regression_clf__C': 10.0, 'logistic_regression_clf__max_iter': 200}",0.6714006332650401,0.6101694915254238,0.632768361581921
+Level4,all_features_help_received,1,SVM,0.7894448327726327,"{'svm_gaussian_clf__C': 100.0, 'svm_gaussian_clf__gamma': 1.0, 'svm_gaussian_clf__kernel': 'rbf'}",0.543219116100472,0.5084745762711864,0.500746911806952
+Level4,all_features_help_received,1,Random Forest,0.786447044914677,"{'random_forest_clf__max_depth': None, 'random_forest_clf__n_estimators': 200}",0.7825665859564165,0.7796610169491526,0.7780119102152999
+Level4,all_features_help_received,2,Dummy random,,,0.3623524623524623,0.34285714285714286,0.3434360857099959
+Level4,all_features_help_received,2,Ordered baseline,,,0.803625450180072,0.5714285714285714,0.6126906194850447
+Level4,all_features_help_received,2,Naive Bayes,0.7338059312324677,{'naive_bayes_clf__alpha': 1.0},0.6588509316770187,0.6428571428571429,0.6271159626641355
+Level4,all_features_help_received,2,Logistic regression,0.7864040209975027,"{'logistic_regression_clf__C': 10.0, 'logistic_regression_clf__max_iter': 200}",0.6391156462585035,0.6285714285714286,0.6261811211251496
+Level4,all_features_help_received,2,SVM,0.7794963517922141,"{'svm_gaussian_clf__C': 100.0, 'svm_gaussian_clf__gamma': 0.1, 'svm_gaussian_clf__kernel': 'rbf'}",0.5247233201581029,0.5285714285714286,0.5228676085818943
+Level4,all_features_help_received,2,Random Forest,0.798019826116557,"{'random_forest_clf__max_depth': None, 'random_forest_clf__n_estimators': 200}",0.6220779220779221,0.6714285714285714,0.6316746620882357
+Level4,all_features_help_received,3,Dummy random,,,0.31397180762852406,0.2537313432835821,0.2775756843313796
+Level4,all_features_help_received,3,Ordered baseline,,,0.9100549882168106,0.5522388059701493,0.6075198412150381
+Level4,all_features_help_received,3,Naive Bayes,0.6765736005120163,{'naive_bayes_clf__alpha': 0.01},0.7558785022257136,0.7164179104477612,0.7327670693322834
+Level4,all_features_help_received,3,Logistic regression,0.767478096082055,"{'logistic_regression_clf__C': 100.0, 'logistic_regression_clf__max_iter': 200}",0.6415421638673799,0.6119402985074627,0.6143523616871166
+Level4,all_features_help_received,3,SVM,0.7772282889026579,"{'svm_gaussian_clf__C': 100.0, 'svm_gaussian_clf__gamma': 0.1, 'svm_gaussian_clf__kernel': 'rbf'}",0.6881119852298442,0.6417910447761194,0.6505061732939386
+Level4,all_features_help_received,3,Random Forest,0.7789376125138677,"{'random_forest_clf__max_depth': None, 'random_forest_clf__n_estimators': 50}",0.7359791949344189,0.7313432835820896,0.7326411421155095
+Level4,all_features_help_received,4,Dummy random,,,0.42221787106655523,0.3888888888888889,0.4003160860303717
+Level4,all_features_help_received,4,Ordered baseline,,,0.8160403050108932,0.5277777777777778,0.5751216813508248
+Level4,all_features_help_received,4,Naive Bayes,0.6747588887916409,{'naive_bayes_clf__alpha': 0.01},0.640752242926156,0.6111111111111112,0.6244739057239057
+Level4,all_features_help_received,4,Logistic regression,0.7512230091973416,"{'logistic_regression_clf__C': 100.0, 'logistic_regression_clf__max_iter': 200}",0.6478535353535353,0.5972222222222222,0.6176749767175299
+Level4,all_features_help_received,4,SVM,0.7775124562208144,"{'svm_gaussian_clf__C': 100.0, 'svm_gaussian_clf__gamma': 0.1, 'svm_gaussian_clf__kernel': 'rbf'}",0.6054268554268555,0.5555555555555556,0.5589810887189919
+Level4,all_features_help_received,4,Random Forest,0.8011609023954817,"{'random_forest_clf__max_depth': 12, 'random_forest_clf__n_estimators': 100}",0.6392917267917269,0.6527777777777778,0.6444255039493135
+Level4,all_features_help_requested,0,Dummy random,,,0.21023440955329498,0.17142857142857143,0.1875824175824176
+Level4,all_features_help_requested,0,Ordered baseline,,,0.2861224489795918,0.4,0.3333521763708309
+Level4,all_features_help_requested,0,Naive Bayes,0.6603980613226978,{'naive_bayes_clf__alpha': 0.01},0.6002142857142857,0.5857142857142857,0.5902210884353741
+Level4,all_features_help_requested,0,Logistic regression,0.7415562482134919,"{'logistic_regression_clf__C': 10.0, 'logistic_regression_clf__max_iter': 200}",0.6577533577533577,0.6,0.6192553908355795
+Level4,all_features_help_requested,0,SVM,0.7624588799704058,"{'svm_gaussian_clf__C': 100.0, 'svm_gaussian_clf__gamma': 0.1, 'svm_gaussian_clf__kernel': 'rbf'}",0.6201918451918452,0.5857142857142857,0.5952160077867625
+Level4,all_features_help_requested,0,Random Forest,0.7734847442001105,"{'random_forest_clf__max_depth': 12, 'random_forest_clf__n_estimators': 200}",0.6562337662337663,0.6428571428571429,0.6451940776310524
+Level4,all_features_help_requested,1,Dummy random,,,0.24708097928436915,0.1694915254237288,0.1962376606444403
+Level4,all_features_help_requested,1,Ordered baseline,,,0.28469663473348067,0.4067796610169492,0.3347457627118644
+Level4,all_features_help_requested,1,Naive Bayes,0.6421737016367388,{'naive_bayes_clf__alpha': 0.01},0.6023689166418873,0.5423728813559322,0.5684648765096844
+Level4,all_features_help_requested,1,Logistic regression,0.6998294970895642,"{'logistic_regression_clf__C': 100.0, 'logistic_regression_clf__max_iter': 200}",0.678860932729761,0.6271186440677966,0.6509312145923245
+Level4,all_features_help_requested,1,SVM,0.715737343085676,"{'svm_gaussian_clf__C': 100.0, 'svm_gaussian_clf__gamma': 0.1, 'svm_gaussian_clf__kernel': 'rbf'}",0.6957533991432298,0.6271186440677966,0.6554276341482465
+Level4,all_features_help_requested,1,Random Forest,0.7694580616185138,"{'random_forest_clf__max_depth': None, 'random_forest_clf__n_estimators': 200}",0.7796610169491526,0.7796610169491526,0.7796610169491526
+Level4,all_features_help_requested,2,Dummy random,,,0.40146719222806176,0.37142857142857144,0.38429543245869774
+Level4,all_features_help_requested,2,Ordered baseline,,,0.27019140989729223,0.42857142857142855,0.32874458874458873
+Level4,all_features_help_requested,2,Naive Bayes,0.6471934308114101,{'naive_bayes_clf__alpha': 0.01},0.488474025974026,0.5285714285714286,0.5026471590425079
+Level4,all_features_help_requested,2,Logistic regression,0.7174053886959199,"{'logistic_regression_clf__C': 10.0, 'logistic_regression_clf__max_iter': 200}",0.592512077294686,0.5857142857142857,0.5843633283429203
+Level4,all_features_help_requested,2,SVM,0.7349362865705117,"{'svm_gaussian_clf__C': 10.0, 'svm_gaussian_clf__gamma': 0.1, 'svm_gaussian_clf__kernel': 'rbf'}",0.5927724449463581,0.5857142857142857,0.5837414965986395
+Level4,all_features_help_requested,2,Random Forest,0.774064934244751,"{'random_forest_clf__max_depth': None, 'random_forest_clf__n_estimators': 200}",0.5468571428571428,0.6,0.5684089020223475
+Level4,all_features_help_requested,3,Dummy random,,,0.27026104296332104,0.2537313432835821,0.25249689733018643
+Level4,all_features_help_requested,3,Ordered baseline,,,0.1798507462686567,0.31343283582089554,0.2261768082663605
+Level4,all_features_help_requested,3,Naive Bayes,0.6004544911530634,{'naive_bayes_clf__alpha': 0.01},0.6417239619761493,0.5970149253731343,0.6079882460738855
+Level4,all_features_help_requested,3,Logistic regression,0.6839832247559228,"{'logistic_regression_clf__C': 100.0, 'logistic_regression_clf__max_iter': 200}",0.6145768108352213,0.582089552238806,0.590134791343195
+Level4,all_features_help_requested,3,SVM,0.737774306691382,"{'svm_gaussian_clf__C': 100.0, 'svm_gaussian_clf__gamma': 0.1, 'svm_gaussian_clf__kernel': 'rbf'}",0.7162919891855858,0.6567164179104478,0.6598048717451702
+Level4,all_features_help_requested,3,Random Forest,0.7514761339804208,"{'random_forest_clf__max_depth': 12, 'random_forest_clf__n_estimators': 200}",0.6925421804023362,0.7014925373134329,0.6966097157994813
+Level4,all_features_help_requested,4,Dummy random,,,0.2636104149262044,0.20833333333333334,0.2261951874354975
+Level4,all_features_help_requested,4,Ordered baseline,,,0.20756172839506173,0.3611111111111111,0.2619914996964178
+Level4,all_features_help_requested,4,Naive Bayes,0.581918634864153,{'naive_bayes_clf__alpha': 0.01},0.4830715623049719,0.4583333333333333,0.46822439561410145
+Level4,all_features_help_requested,4,Logistic regression,0.6837510975033124,"{'logistic_regression_clf__C': 1.0, 'logistic_regression_clf__max_iter': 200}",0.6575339314469749,0.6388888888888888,0.6453598484848485
+Level4,all_features_help_requested,4,SVM,0.7252850490769457,"{'svm_gaussian_clf__C': 100.0, 'svm_gaussian_clf__gamma': 0.1, 'svm_gaussian_clf__kernel': 'rbf'}",0.5369427028909788,0.5555555555555556,0.545164609053498
+Level4,all_features_help_requested,4,Random Forest,0.7764731856145918,"{'random_forest_clf__max_depth': 6, 'random_forest_clf__n_estimators': 200}",0.5920917262291531,0.5972222222222222,0.5922605659447764
+Level4,all_features_nohelp,0,Dummy random,,,0.3499778858911986,0.2714285714285714,0.30351210251542476
+Level4,all_features_nohelp,0,Ordered baseline,,,0.0,0.0,0.0
+Level4,all_features_nohelp,0,Naive Bayes,0.6268247382162715,{'naive_bayes_clf__alpha': 0.01},0.6211904761904762,0.6,0.6064289545605476
+Level4,all_features_nohelp,0,Logistic regression,0.6860251135468164,"{'logistic_regression_clf__C': 100.0, 'logistic_regression_clf__max_iter': 200}",0.5380378724916539,0.5142857142857142,0.5121815308044122
+Level4,all_features_nohelp,0,SVM,0.7039337400604982,"{'svm_gaussian_clf__C': 10.0, 'svm_gaussian_clf__gamma': 0.1, 'svm_gaussian_clf__kernel': 'rbf'}",0.6282060003488575,0.5857142857142857,0.5977481766725953
+Level4,all_features_nohelp,0,Random Forest,0.7567405365696657,"{'random_forest_clf__max_depth': 6, 'random_forest_clf__n_estimators': 100}",0.6978787878787879,0.6285714285714286,0.6475036075036076
+Level4,all_features_nohelp,1,Dummy random,,,0.3601861083416417,0.2711864406779661,0.29906098918054913
+Level4,all_features_nohelp,1,Ordered baseline,,,0.0,0.0,0.0
+Level4,all_features_nohelp,1,Naive Bayes,0.6106114804228199,{'naive_bayes_clf__alpha': 0.1},0.5954009317078005,0.5423728813559322,0.5651219100174559
+Level4,all_features_nohelp,1,Logistic regression,0.6864237963106352,"{'logistic_regression_clf__C': 100.0, 'logistic_regression_clf__max_iter': 200}",0.6229596923515168,0.576271186440678,0.5976181304571134
+Level4,all_features_nohelp,1,SVM,0.6919429687624993,"{'svm_gaussian_clf__C': 100.0, 'svm_gaussian_clf__gamma': 0.1, 'svm_gaussian_clf__kernel': 'rbf'}",0.661451542807475,0.6271186440677966,0.6412887200467563
+Level4,all_features_nohelp,1,Random Forest,0.7389512917781728,"{'random_forest_clf__max_depth': 12, 'random_forest_clf__n_estimators': 100}",0.7686317858020143,0.7627118644067796,0.7645634916018685
+Level4,all_features_nohelp,2,Dummy random,,,0.35952380952380947,0.32857142857142857,0.33948183528730635
+Level4,all_features_nohelp,2,Ordered baseline,,,0.0,0.0,0.0
+Level4,all_features_nohelp,2,Naive Bayes,0.6398891824568287,{'naive_bayes_clf__alpha': 0.01},0.5163961038961039,0.5571428571428572,0.5305775619729108
+Level4,all_features_nohelp,2,Logistic regression,0.6860107279941672,"{'logistic_regression_clf__C': 10.0, 'logistic_regression_clf__max_iter': 200}",0.5699981178242048,0.5714285714285714,0.5652721088435375
+Level4,all_features_nohelp,2,SVM,0.7059734852600178,"{'svm_gaussian_clf__C': 100.0, 'svm_gaussian_clf__gamma': 0.1, 'svm_gaussian_clf__kernel': 'rbf'}",0.4951880752300921,0.4857142857142857,0.4850542005420055
+Level4,all_features_nohelp,2,Random Forest,0.7651382951809074,"{'random_forest_clf__max_depth': 12, 'random_forest_clf__n_estimators': 200}",0.5468571428571428,0.6,0.5684089020223475
+Level4,all_features_nohelp,3,Dummy random,,,0.36846421449720745,0.26865671641791045,0.30924362220619117
+Level4,all_features_nohelp,3,Ordered baseline,,,0.0,0.0,0.0
+Level4,all_features_nohelp,3,Naive Bayes,0.5946951251418569,{'naive_bayes_clf__alpha': 0.01},0.6656881504993885,0.6119402985074627,0.6298115112864894
+Level4,all_features_nohelp,3,Logistic regression,0.6511636876108778,"{'logistic_regression_clf__C': 10.0, 'logistic_regression_clf__max_iter': 200}",0.6298612340143813,0.582089552238806,0.5989864507250979
+Level4,all_features_nohelp,3,SVM,0.6889215236690269,"{'svm_gaussian_clf__C': 100.0, 'svm_gaussian_clf__gamma': 0.1, 'svm_gaussian_clf__kernel': 'rbf'}",0.6389530181604294,0.5970149253731343,0.6017633768380946
+Level4,all_features_nohelp,3,Random Forest,0.7350098827887276,"{'random_forest_clf__max_depth': 6, 'random_forest_clf__n_estimators': 200}",0.7181965174129354,0.7014925373134329,0.708550014306944
+Level4,all_features_nohelp,4,Dummy random,,,0.33769063180827885,0.2777777777777778,0.29742494824016563
+Level4,all_features_nohelp,4,Ordered baseline,,,0.0,0.0,0.0
+Level4,all_features_nohelp,4,Naive Bayes,0.5754085640340534,{'naive_bayes_clf__alpha': 0.01},0.46124600037643515,0.4583333333333333,0.4589462438146648
+Level4,all_features_nohelp,4,Logistic regression,0.6713689516873678,"{'logistic_regression_clf__C': 1.0, 'logistic_regression_clf__max_iter': 200}",0.6182513693736603,0.5972222222222222,0.6037523342670402
+Level4,all_features_nohelp,4,SVM,0.6946517531889049,"{'svm_gaussian_clf__C': 100.0, 'svm_gaussian_clf__gamma': 0.1, 'svm_gaussian_clf__kernel': 'rbf'}",0.5422932630906768,0.5416666666666666,0.5380670916385202
+Level4,all_features_nohelp,4,Random Forest,0.7628221746230132,"{'random_forest_clf__max_depth': 6, 'random_forest_clf__n_estimators': 200}",0.5922619047619047,0.5972222222222222,0.593833067517278
+Level4,sum_features_help_received,0,Dummy random,,,0.2907738095238095,0.22857142857142856,0.2555885856797711
+Level4,sum_features_help_received,0,Ordered baseline,,,0.9319897959183674,0.5,0.5843746268995439
+Level4,sum_features_help_received,0,Naive Bayes,0.6687876232135722,{'naive_bayes_clf__alpha': 0.01},0.7324188311688311,0.6428571428571429,0.6775278138011056
+Level4,sum_features_help_received,0,Logistic regression,0.7629930217852537,"{'logistic_regression_clf__C': 10.0, 'logistic_regression_clf__max_iter': 200}",0.694332298136646,0.6428571428571429,0.6631486880466473
+Level4,sum_features_help_received,0,SVM,0.7719973974811591,"{'svm_gaussian_clf__C': 10.0, 'svm_gaussian_clf__gamma': 0.1, 'svm_gaussian_clf__kernel': 'rbf'}",0.7020015278838808,0.6142857142857143,0.6487710357275575
+Level4,sum_features_help_received,0,Random Forest,0.8007298896821646,"{'random_forest_clf__max_depth': 12, 'random_forest_clf__n_estimators': 200}",0.7232993197278912,0.6857142857142857,0.6978944549395987
+Level4,sum_features_help_received,1,Dummy random,,,0.3181059994619317,0.2542372881355932,0.2687176565541471
+Level4,sum_features_help_received,1,Ordered baseline,,,0.8595103578154425,0.3559322033898305,0.43301707562871444
+Level4,sum_features_help_received,1,Naive Bayes,0.683949967515325,{'naive_bayes_clf__alpha': 0.01},0.615613764766307,0.559322033898305,0.5860457722205054
+Level4,sum_features_help_received,1,Logistic regression,0.7351677354398235,"{'logistic_regression_clf__C': 1.0, 'logistic_regression_clf__max_iter': 200}",0.6630311962662736,0.5423728813559322,0.5831332749471949
+Level4,sum_features_help_received,1,SVM,0.7536794410696485,"{'svm_gaussian_clf__C': 100.0, 'svm_gaussian_clf__gamma': 1.0, 'svm_gaussian_clf__kernel': 'rbf'}",0.6076505660882963,0.559322033898305,0.5723563316783656
+Level4,sum_features_help_received,1,Random Forest,0.7999568019342728,"{'random_forest_clf__max_depth': None, 'random_forest_clf__n_estimators': 50}",0.6988529361410717,0.6949152542372882,0.6957388703454853
+Level4,sum_features_help_received,2,Dummy random,,,0.23094629156010232,0.2,0.20619655667144907
+Level4,sum_features_help_received,2,Ordered baseline,,,0.803625450180072,0.5714285714285714,0.6126906194850447
+Level4,sum_features_help_received,2,Naive Bayes,0.6878980525678127,{'naive_bayes_clf__alpha': 0.01},0.6880906593406593,0.6571428571428571,0.6597366954870927
+Level4,sum_features_help_received,2,Logistic regression,0.7085828664363578,"{'logistic_regression_clf__C': 10.0, 'logistic_regression_clf__max_iter': 200}",0.7186314525810324,0.6857142857142857,0.6928044749555047
+Level4,sum_features_help_received,2,SVM,0.7240940351657439,"{'svm_gaussian_clf__C': 100.0, 'svm_gaussian_clf__gamma': 1.0, 'svm_gaussian_clf__kernel': 'rbf'}",0.6455086580086581,0.6428571428571429,0.633036272670419
+Level4,sum_features_help_received,2,Random Forest,0.8030508794201164,"{'random_forest_clf__max_depth': 12, 'random_forest_clf__n_estimators': 50}",0.7246031746031745,0.6714285714285714,0.6650214599982042
+Level4,sum_features_help_received,3,Dummy random,,,0.3014739964772411,0.26865671641791045,0.2768064439706231
+Level4,sum_features_help_received,3,Ordered baseline,,,0.9100549882168106,0.5522388059701493,0.6075198412150381
+Level4,sum_features_help_received,3,Naive Bayes,0.6772075643439056,{'naive_bayes_clf__alpha': 0.1},0.7489054404769946,0.6865671641791045,0.7099694720301365
+Level4,sum_features_help_received,3,Logistic regression,0.7322028796229589,"{'logistic_regression_clf__C': 100.0, 'logistic_regression_clf__max_iter': 200}",0.6545936981757877,0.6567164179104478,0.6549294344603513
+Level4,sum_features_help_received,3,SVM,0.7350348624660042,"{'svm_gaussian_clf__C': 100.0, 'svm_gaussian_clf__gamma': 1.0, 'svm_gaussian_clf__kernel': 'rbf'}",0.6357605909844716,0.6417910447761194,0.6335520201191843
+Level4,sum_features_help_received,3,Random Forest,0.7820716492939642,"{'random_forest_clf__max_depth': None, 'random_forest_clf__n_estimators': 100}",0.7502024041284263,0.746268656716418,0.7474779445061631
+Level4,sum_features_help_received,4,Dummy random,,,0.29560185185185184,0.25,0.26981484124341265
+Level4,sum_features_help_received,4,Ordered baseline,,,0.8160403050108932,0.5277777777777778,0.5751216813508248
+Level4,sum_features_help_received,4,Naive Bayes,0.646057803546539,{'naive_bayes_clf__alpha': 0.1},0.7195165945165946,0.6388888888888888,0.6649095117845119
+Level4,sum_features_help_received,4,Logistic regression,0.7193968068284209,"{'logistic_regression_clf__C': 10.0, 'logistic_regression_clf__max_iter': 200}",0.7835480491730491,0.7222222222222222,0.7458036490297449
+Level4,sum_features_help_received,4,SVM,0.7254123941679727,"{'svm_gaussian_clf__C': 100.0, 'svm_gaussian_clf__gamma': 1.0, 'svm_gaussian_clf__kernel': 'rbf'}",0.6318112845286759,0.6111111111111112,0.6095427972929294
+Level4,sum_features_help_received,4,Random Forest,0.8078731554551801,"{'random_forest_clf__max_depth': 12, 'random_forest_clf__n_estimators': 50}",0.6488451363451363,0.6527777777777778,0.6476504408017976
+Level4,sum_features_help_requested,0,Dummy random,,,0.37584415584415587,0.2714285714285714,0.30966318234610923
+Level4,sum_features_help_requested,0,Ordered baseline,,,0.2861224489795918,0.4,0.3333521763708309
+Level4,sum_features_help_requested,0,Naive Bayes,0.5722028504189259,{'naive_bayes_clf__alpha': 0.01},0.6288888888888888,0.5714285714285714,0.5883583996648513
+Level4,sum_features_help_requested,0,Logistic regression,0.6974868423331204,"{'logistic_regression_clf__C': 10.0, 'logistic_regression_clf__max_iter': 200}",0.5639659863945578,0.5285714285714286,0.5417006802721088
+Level4,sum_features_help_requested,0,SVM,0.7282504873811072,"{'svm_gaussian_clf__C': 10.0, 'svm_gaussian_clf__gamma': 0.1, 'svm_gaussian_clf__kernel': 'rbf'}",0.6226050420168067,0.5571428571428572,0.5814761904761905
+Level4,sum_features_help_requested,0,Random Forest,0.7790724499094133,"{'random_forest_clf__max_depth': None, 'random_forest_clf__n_estimators': 100}",0.7229846421327151,0.7,0.7038126159554731
+Level4,sum_features_help_requested,1,Dummy random,,,0.23595274781715458,0.2033898305084746,0.21097059351047387
+Level4,sum_features_help_requested,1,Ordered baseline,,,0.28469663473348067,0.4067796610169492,0.3347457627118644
+Level4,sum_features_help_requested,1,Naive Bayes,0.5603317143371191,{'naive_bayes_clf__alpha': 0.01},0.5503768415034617,0.4915254237288136,0.5175766508117282
+Level4,sum_features_help_requested,1,Logistic regression,0.653317813538925,"{'logistic_regression_clf__C': 100.0, 'logistic_regression_clf__max_iter': 200}",0.645220183605029,0.5932203389830508,0.6167909633333838
+Level4,sum_features_help_requested,1,SVM,0.6896525574582946,"{'svm_gaussian_clf__C': 10.0, 'svm_gaussian_clf__gamma': 0.1, 'svm_gaussian_clf__kernel': 'rbf'}",0.6600094820433804,0.559322033898305,0.5978173141032389
+Level4,sum_features_help_requested,1,Random Forest,0.7519417058888724,"{'random_forest_clf__max_depth': 12, 'random_forest_clf__n_estimators': 200}",0.6627617148554337,0.6610169491525424,0.6615305598356446
+Level4,sum_features_help_requested,2,Dummy random,,,0.33322929171668664,0.2714285714285714,0.2874606842309025
+Level4,sum_features_help_requested,2,Ordered baseline,,,0.27019140989729223,0.42857142857142855,0.32874458874458873
+Level4,sum_features_help_requested,2,Naive Bayes,0.5726672466168395,{'naive_bayes_clf__alpha': 0.1},0.5119642857142856,0.5142857142857142,0.5129204129204129
+Level4,sum_features_help_requested,2,Logistic regression,0.6584256781948048,"{'logistic_regression_clf__C': 10.0, 'logistic_regression_clf__max_iter': 200}",0.5639560439560439,0.5428571428571428,0.5464004732327714
+Level4,sum_features_help_requested,2,SVM,0.6847129241224698,"{'svm_gaussian_clf__C': 100.0, 'svm_gaussian_clf__gamma': 0.01, 'svm_gaussian_clf__kernel': 'rbf'}",0.6021978021978022,0.5857142857142857,0.5825487012987013
+Level4,sum_features_help_requested,2,Random Forest,0.7759194346282178,"{'random_forest_clf__max_depth': 12, 'random_forest_clf__n_estimators': 50}",0.6383193277310925,0.6142857142857143,0.608344671201814
+Level4,sum_features_help_requested,3,Dummy random,,,0.2878464818763326,0.22388059701492538,0.24942761594531812
+Level4,sum_features_help_requested,3,Ordered baseline,,,0.1798507462686567,0.31343283582089554,0.2261768082663605
+Level4,sum_features_help_requested,3,Naive Bayes,0.57588510677951,{'naive_bayes_clf__alpha': 0.01},0.5558551778920524,0.5223880597014925,0.5328212244862391
+Level4,sum_features_help_requested,3,Logistic regression,0.6395975251061736,"{'logistic_regression_clf__C': 100.0, 'logistic_regression_clf__max_iter': 200}",0.5983300886869997,0.5970149253731343,0.5968533184418047
+Level4,sum_features_help_requested,3,SVM,0.6755353549504344,"{'svm_gaussian_clf__C': 100.0, 'svm_gaussian_clf__gamma': 1.0, 'svm_gaussian_clf__kernel': 'rbf'}",0.5788725545206299,0.582089552238806,0.5778651635950507
+Level4,sum_features_help_requested,3,Random Forest,0.7552375216303454,"{'random_forest_clf__max_depth': 12, 'random_forest_clf__n_estimators': 200}",0.6508461039285179,0.6567164179104478,0.6525207296849088
+Level4,sum_features_help_requested,4,Dummy random,,,0.18325281803542673,0.125,0.1413668899635219
+Level4,sum_features_help_requested,4,Ordered baseline,,,0.20756172839506173,0.3611111111111111,0.2619914996964178
+Level4,sum_features_help_requested,4,Naive Bayes,0.5468713798404183,{'naive_bayes_clf__alpha': 0.01},0.5734903381642512,0.5416666666666666,0.5419931209404893
+Level4,sum_features_help_requested,4,Logistic regression,0.6316697105316595,"{'logistic_regression_clf__C': 100.0, 'logistic_regression_clf__max_iter': 200}",0.7025132275132275,0.6388888888888888,0.660680620781363
+Level4,sum_features_help_requested,4,SVM,0.6820453958050379,"{'svm_gaussian_clf__C': 100.0, 'svm_gaussian_clf__gamma': 0.1, 'svm_gaussian_clf__kernel': 'rbf'}",0.6618545751633986,0.625,0.6386574074074074
+Level4,sum_features_help_requested,4,Random Forest,0.7814271923176637,"{'random_forest_clf__max_depth': None, 'random_forest_clf__n_estimators': 50}",0.6283360566448802,0.625,0.626418439716312
+Level4,sum_features_nohelp,0,Dummy random,,,0.37013071895424837,0.2571428571428571,0.30044966569356807
+Level4,sum_features_nohelp,0,Ordered baseline,,,0.0,0.0,0.0
+Level4,sum_features_nohelp,0,Naive Bayes,0.5559508296509978,{'naive_bayes_clf__alpha': 0.1},0.633471784254393,0.5714285714285714,0.5921056409576817
+Level4,sum_features_nohelp,0,Logistic regression,0.6787935753048708,"{'logistic_regression_clf__C': 10.0, 'logistic_regression_clf__max_iter': 200}",0.5556122448979591,0.5285714285714286,0.5364790764790764
+Level4,sum_features_nohelp,0,SVM,0.710214317312865,"{'svm_gaussian_clf__C': 10.0, 'svm_gaussian_clf__gamma': 0.1, 'svm_gaussian_clf__kernel': 'rbf'}",0.6313180008845644,0.5714285714285714,0.595092970521542
+Level4,sum_features_nohelp,0,Random Forest,0.7543380512327543,"{'random_forest_clf__max_depth': 12, 'random_forest_clf__n_estimators': 200}",0.6343290043290044,0.6285714285714286,0.6217584668275913
+Level4,sum_features_nohelp,1,Dummy random,,,0.238135593220339,0.2033898305084746,0.2113803819654011
+Level4,sum_features_nohelp,1,Ordered baseline,,,0.0,0.0,0.0
+Level4,sum_features_nohelp,1,Naive Bayes,0.5386560112030979,{'naive_bayes_clf__alpha': 0.01},0.5544794188861986,0.4915254237288136,0.519175193314067
+Level4,sum_features_nohelp,1,Logistic regression,0.6257563789092918,"{'logistic_regression_clf__C': 1.0, 'logistic_regression_clf__max_iter': 200}",0.6292317851639885,0.5423728813559322,0.576522511568985
+Level4,sum_features_nohelp,1,SVM,0.6421748419207105,"{'svm_gaussian_clf__C': 100.0, 'svm_gaussian_clf__gamma': 0.1, 'svm_gaussian_clf__kernel': 'rbf'}",0.5788655788655789,0.5254237288135594,0.5481035155403355
+Level4,sum_features_nohelp,1,Random Forest,0.7208045419392219,"{'random_forest_clf__max_depth': None, 'random_forest_clf__n_estimators': 100}",0.6779661016949152,0.6779661016949152,0.6779661016949152
+Level4,sum_features_nohelp,2,Dummy random,,,0.171676139952002,0.14285714285714285,0.14021349080172613
+Level4,sum_features_nohelp,2,Ordered baseline,,,0.0,0.0,0.0
+Level4,sum_features_nohelp,2,Naive Bayes,0.5452030385564048,{'naive_bayes_clf__alpha': 0.1},0.5236507936507936,0.5,0.5072686044114616
+Level4,sum_features_nohelp,2,Logistic regression,0.6520491979061983,"{'logistic_regression_clf__C': 10.0, 'logistic_regression_clf__max_iter': 200}",0.637613814756672,0.6,0.6111434752164235
+Level4,sum_features_nohelp,2,SVM,0.642454027191221,"{'svm_gaussian_clf__C': 100.0, 'svm_gaussian_clf__gamma': 0.1, 'svm_gaussian_clf__kernel': 'sigmoid'}",0.6315631469979296,0.5857142857142857,0.5913889789265466
+Level4,sum_features_nohelp,2,Random Forest,0.7395400259395645,"{'random_forest_clf__max_depth': 12, 'random_forest_clf__n_estimators': 50}",0.6305426716141002,0.6142857142857143,0.6136426536426537
+Level4,sum_features_nohelp,3,Dummy random,,,0.3398179840147632,0.26865671641791045,0.2915391533405443
+Level4,sum_features_nohelp,3,Ordered baseline,,,0.0,0.0,0.0
+Level4,sum_features_nohelp,3,Naive Bayes,0.5796193553129043,{'naive_bayes_clf__alpha': 0.1},0.586318407960199,0.5223880597014925,0.5468872741555382
+Level4,sum_features_nohelp,3,Logistic regression,0.6337182483525825,"{'logistic_regression_clf__C': 10.0, 'logistic_regression_clf__max_iter': 200}",0.6227557862859615,0.6119402985074627,0.6166252072968491
+Level4,sum_features_nohelp,3,SVM,0.6503790765191215,"{'svm_gaussian_clf__C': 100.0, 'svm_gaussian_clf__gamma': 0.1, 'svm_gaussian_clf__kernel': 'rbf'}",0.6462278941427316,0.6268656716417911,0.6304061756212765
+Level4,sum_features_nohelp,3,Random Forest,0.7351863563217715,"{'random_forest_clf__max_depth': None, 'random_forest_clf__n_estimators': 200}",0.6804311774461028,0.6716417910447762,0.6737356634195968
+Level4,sum_features_nohelp,4,Dummy random,,,0.30229952604823607,0.2638888888888889,0.2736046511627907
+Level4,sum_features_nohelp,4,Ordered baseline,,,0.0,0.0,0.0
+Level4,sum_features_nohelp,4,Naive Bayes,0.5172698826502165,{'naive_bayes_clf__alpha': 0.01},0.5837444486341545,0.5277777777777778,0.5396730914588058
+Level4,sum_features_nohelp,4,Logistic regression,0.6298427177038793,"{'logistic_regression_clf__C': 10.0, 'logistic_regression_clf__max_iter': 200}",0.6208764665286405,0.5694444444444444,0.587659051757889
+Level4,sum_features_nohelp,4,SVM,0.6324622597912951,"{'svm_gaussian_clf__C': 100.0, 'svm_gaussian_clf__gamma': 1.0, 'svm_gaussian_clf__kernel': 'rbf'}",0.5159508247743543,0.5,0.502457264957265
+Level4,sum_features_nohelp,4,Random Forest,0.7494434714627539,"{'random_forest_clf__max_depth': 6, 'random_forest_clf__n_estimators': 100}",0.6689814814814814,0.6527777777777778,0.656582513193553
+Level4,meansd_features_help_received,0,Dummy random,,,0.2020408163265306,0.15714285714285714,0.17474148061104583
+Level4,meansd_features_help_received,0,Ordered baseline,,,0.9319897959183674,0.5,0.5843746268995439
+Level4,meansd_features_help_received,0,Naive Bayes,0.7102482138923805,{'naive_bayes_clf__alpha': 0.1},0.6667792207792207,0.6,0.6282467532467532
+Level4,meansd_features_help_received,0,Logistic regression,0.7743114110723883,"{'logistic_regression_clf__C': 10.0, 'logistic_regression_clf__max_iter': 200}",0.6893729128014842,0.6142857142857143,0.6431517410997576
+Level4,meansd_features_help_received,0,SVM,0.8041215653829644,"{'svm_gaussian_clf__C': 100.0, 'svm_gaussian_clf__gamma': 0.1, 'svm_gaussian_clf__kernel': 'rbf'}",0.6685051915503042,0.6285714285714286,0.643422989708704
+Level4,meansd_features_help_received,0,Random Forest,0.7855206545953871,"{'random_forest_clf__max_depth': 6, 'random_forest_clf__n_estimators': 200}",0.6817733990147783,0.6571428571428571,0.6586635944700461
+Level4,meansd_features_help_received,1,Dummy random,,,0.2340597255851493,0.1864406779661017,0.20511819803746653
+Level4,meansd_features_help_received,1,Ordered baseline,,,0.8595103578154425,0.3559322033898305,0.43301707562871444
+Level4,meansd_features_help_received,1,Naive Bayes,0.7076042973076391,{'naive_bayes_clf__alpha': 0.1},0.5988700564971751,0.5084745762711864,0.547861178369653
+Level4,meansd_features_help_received,1,Logistic regression,0.7816165966269166,"{'logistic_regression_clf__C': 10.0, 'logistic_regression_clf__max_iter': 200}",0.6184899845916794,0.5254237288135594,0.5557166804140169
+Level4,meansd_features_help_received,1,SVM,0.7898250358306231,"{'svm_gaussian_clf__C': 100.0, 'svm_gaussian_clf__gamma': 0.1, 'svm_gaussian_clf__kernel': 'rbf'}",0.6932203389830509,0.6101694915254238,0.6366920743146903
+Level4,meansd_features_help_received,1,Random Forest,0.8070547532606736,"{'random_forest_clf__max_depth': None, 'random_forest_clf__n_estimators': 100}",0.7619964780981731,0.7457627118644068,0.7508428103859202
+Level4,meansd_features_help_received,2,Dummy random,,,0.382569573283859,0.32857142857142857,0.3357914208755635
+Level4,meansd_features_help_received,2,Ordered baseline,,,0.803625450180072,0.5714285714285714,0.6126906194850447
+Level4,meansd_features_help_received,2,Naive Bayes,0.7300434852748982,{'naive_bayes_clf__alpha': 0.1},0.6023599162985352,0.5857142857142857,0.580253220970748
+Level4,meansd_features_help_received,2,Logistic regression,0.7648278465475229,"{'logistic_regression_clf__C': 100.0, 'logistic_regression_clf__max_iter': 200}",0.6229325643300799,0.6142857142857143,0.6110686415034241
+Level4,meansd_features_help_received,2,SVM,0.7662533891656162,"{'svm_gaussian_clf__C': 100.0, 'svm_gaussian_clf__gamma': 0.1, 'svm_gaussian_clf__kernel': 'rbf'}",0.6174110223799665,0.6,0.5973376623376623
+Level4,meansd_features_help_received,2,Random Forest,0.7974455088166055,"{'random_forest_clf__max_depth': None, 'random_forest_clf__n_estimators': 50}",0.6396842650103519,0.6571428571428571,0.6324475726497971
+Level4,meansd_features_help_received,3,Dummy random,,,0.2237333609628147,0.1791044776119403,0.19351421032489374
+Level4,meansd_features_help_received,3,Ordered baseline,,,0.9100549882168106,0.5522388059701493,0.6075198412150381
+Level4,meansd_features_help_received,3,Naive Bayes,0.6492140411116291,{'naive_bayes_clf__alpha': 0.01},0.7240464344941956,0.6716417910447762,0.6938271724804178
+Level4,meansd_features_help_received,3,Logistic regression,0.7571509818215288,"{'logistic_regression_clf__C': 100.0, 'logistic_regression_clf__max_iter': 200}",0.7147679372160681,0.6716417910447762,0.6852887180596461
+Level4,meansd_features_help_received,3,SVM,0.7863365181025628,"{'svm_gaussian_clf__C': 100.0, 'svm_gaussian_clf__gamma': 1.0, 'svm_gaussian_clf__kernel': 'rbf'}",0.6463741896577717,0.6567164179104478,0.6425373134328359
+Level4,meansd_features_help_received,3,Random Forest,0.8056561026403355,"{'random_forest_clf__max_depth': 12, 'random_forest_clf__n_estimators': 100}",0.7586910169648651,0.746268656716418,0.7502125099759049
+Level4,meansd_features_help_received,4,Dummy random,,,0.33151951903949983,0.2777777777777778,0.29237034983986204
+Level4,meansd_features_help_received,4,Ordered baseline,,,0.8160403050108932,0.5277777777777778,0.5751216813508248
+Level4,meansd_features_help_received,4,Naive Bayes,0.6720028281496614,{'naive_bayes_clf__alpha': 0.01},0.646963221963222,0.6111111111111112,0.625290245047084
+Level4,meansd_features_help_received,4,Logistic regression,0.742672849905621,"{'logistic_regression_clf__C': 100.0, 'logistic_regression_clf__max_iter': 200}",0.6850644122383253,0.6527777777777778,0.6654776936026936
+Level4,meansd_features_help_received,4,SVM,0.7654646077955717,"{'svm_gaussian_clf__C': 100.0, 'svm_gaussian_clf__gamma': 0.1, 'svm_gaussian_clf__kernel': 'rbf'}",0.6523042929292929,0.6527777777777778,0.6490955304680797
+Level4,meansd_features_help_received,4,Random Forest,0.8061145877120198,"{'random_forest_clf__max_depth': None, 'random_forest_clf__n_estimators': 100}",0.6355324074074074,0.6666666666666666,0.6503981585168596
+Level4,meansd_features_help_requested,0,Dummy random,,,0.40235237907872173,0.3,0.32926654954107304
+Level4,meansd_features_help_requested,0,Ordered baseline,,,0.0,0.0,0.0
+Level4,meansd_features_help_requested,0,Naive Bayes,0.575655942045197,{'naive_bayes_clf__alpha': 0.01},0.5627248677248677,0.5428571428571428,0.5517881072949085
+Level4,meansd_features_help_requested,0,Logistic regression,0.6707038870749582,"{'logistic_regression_clf__C': 10.0, 'logistic_regression_clf__max_iter': 200}",0.5622378526962568,0.5571428571428572,0.5526884437985721
+Level4,meansd_features_help_requested,0,SVM,0.6828824690362504,"{'svm_gaussian_clf__C': 100.0, 'svm_gaussian_clf__gamma': 0.1, 'svm_gaussian_clf__kernel': 'rbf'}",0.6162865146058424,0.5857142857142857,0.5937037037037036
+Level4,meansd_features_help_requested,0,Random Forest,0.7507873773965611,"{'random_forest_clf__max_depth': 6, 'random_forest_clf__n_estimators': 100}",0.6294871794871795,0.6142857142857143,0.6147817460317461
+Level4,meansd_features_help_requested,1,Dummy random,,,0.3026780464467403,0.2542372881355932,0.25744760148194584
+Level4,meansd_features_help_requested,1,Ordered baseline,,,0.0,0.0,0.0
+Level4,meansd_features_help_requested,1,Naive Bayes,0.5278543060937446,{'naive_bayes_clf__alpha': 0.1},0.5011299435028248,0.423728813559322,0.45843422114608556
+Level4,meansd_features_help_requested,1,Logistic regression,0.6442083306313713,"{'logistic_regression_clf__C': 10.0, 'logistic_regression_clf__max_iter': 200}",0.6191148775894538,0.576271186440678,0.5889555625738382
+Level4,meansd_features_help_requested,1,SVM,0.6812349450631744,"{'svm_gaussian_clf__C': 100.0, 'svm_gaussian_clf__gamma': 0.1, 'svm_gaussian_clf__kernel': 'rbf'}",0.63028397325506,0.559322033898305,0.5903887809562092
+Level4,meansd_features_help_requested,1,Random Forest,0.7122213232864263,"{'random_forest_clf__max_depth': 12, 'random_forest_clf__n_estimators': 200}",0.7674890675782735,0.7288135593220338,0.7358490575431573
+Level4,meansd_features_help_requested,2,Dummy random,,,0.2494951664876477,0.22857142857142856,0.22865996734501504
+Level4,meansd_features_help_requested,2,Ordered baseline,,,0.0,0.0,0.0
+Level4,meansd_features_help_requested,2,Naive Bayes,0.6182785751912314,{'naive_bayes_clf__alpha': 0.01},0.5543367346938776,0.5714285714285714,0.5558182005485321
+Level4,meansd_features_help_requested,2,Logistic regression,0.643713575422412,"{'logistic_regression_clf__C': 1.0, 'logistic_regression_clf__max_iter': 200}",0.6142585034013606,0.6,0.578447742733457
+Level4,meansd_features_help_requested,2,SVM,0.6689500045010909,"{'svm_gaussian_clf__C': 100.0, 'svm_gaussian_clf__gamma': 0.1, 'svm_gaussian_clf__kernel': 'rbf'}",0.5709045340624288,0.5428571428571428,0.5500918964076859
+Level4,meansd_features_help_requested,2,Random Forest,0.7492350008081246,"{'random_forest_clf__max_depth': 6, 'random_forest_clf__n_estimators': 50}",0.685899814471243,0.6428571428571429,0.6227960927960928
+Level4,meansd_features_help_requested,3,Dummy random,,,0.2712066235239841,0.208955223880597,0.21917737876870425
+Level4,meansd_features_help_requested,3,Ordered baseline,,,0.0,0.0,0.0
+Level4,meansd_features_help_requested,3,Naive Bayes,0.5268563684051301,{'naive_bayes_clf__alpha': 0.01},0.5521656073698493,0.5074626865671642,0.5230689746212818
+Level4,meansd_features_help_requested,3,Logistic regression,0.6497572344152284,"{'logistic_regression_clf__C': 100.0, 'logistic_regression_clf__max_iter': 200}",0.5866389975257403,0.5522388059701493,0.559563387077988
+Level4,meansd_features_help_requested,3,SVM,0.715356350036424,"{'svm_gaussian_clf__C': 100.0, 'svm_gaussian_clf__gamma': 1.0, 'svm_gaussian_clf__kernel': 'rbf'}",0.6190143300591062,0.6268656716417911,0.6175246217890141
+Level4,meansd_features_help_requested,3,Random Forest,0.7543487208302744,"{'random_forest_clf__max_depth': 12, 'random_forest_clf__n_estimators': 50}",0.7347074153044303,0.7313432835820896,0.7311174122547317
+Level4,meansd_features_help_requested,4,Dummy random,,,0.2775415831681816,0.20833333333333334,0.22706661707139947
+Level4,meansd_features_help_requested,4,Ordered baseline,,,0.0,0.0,0.0
+Level4,meansd_features_help_requested,4,Naive Bayes,0.6059807680390265,{'naive_bayes_clf__alpha': 1.0},0.5360351498458916,0.5416666666666666,0.5328912933737181
+Level4,meansd_features_help_requested,4,Logistic regression,0.6586233330694121,"{'logistic_regression_clf__C': 100.0, 'logistic_regression_clf__max_iter': 200}",0.5597678465325524,0.5277777777777778,0.5331048581048581
+Level4,meansd_features_help_requested,4,SVM,0.7071267529962416,"{'svm_gaussian_clf__C': 100.0, 'svm_gaussian_clf__gamma': 0.1, 'svm_gaussian_clf__kernel': 'rbf'}",0.5645320197044335,0.5416666666666666,0.5478066619370967
+Level4,meansd_features_help_requested,4,Random Forest,0.7482777666862285,"{'random_forest_clf__max_depth': 6, 'random_forest_clf__n_estimators': 200}",0.5899801587301587,0.6111111111111112,0.5984093259329397
+Level4,meansd_features_nohelp,0,Dummy random,,,0.3669167064819239,0.2857142857142857,0.30103557744937054
+Level4,meansd_features_nohelp,0,Ordered baseline,,,0.0,0.0,0.0
+Level4,meansd_features_nohelp,0,Naive Bayes,0.5755327783714395,{'naive_bayes_clf__alpha': 0.01},0.5778042328042328,0.5428571428571428,0.5584952225734524
+Level4,meansd_features_nohelp,0,Logistic regression,0.6667554043980901,"{'logistic_regression_clf__C': 100.0, 'logistic_regression_clf__max_iter': 200}",0.5926027882417335,0.5714285714285714,0.5757871396895788
+Level4,meansd_features_nohelp,0,SVM,0.6860584937181468,"{'svm_gaussian_clf__C': 100.0, 'svm_gaussian_clf__gamma': 1.0, 'svm_gaussian_clf__kernel': 'rbf'}",0.6848214285714286,0.6142857142857143,0.637835075493612
+Level4,meansd_features_nohelp,0,Random Forest,0.7398287391408254,"{'random_forest_clf__max_depth': 6, 'random_forest_clf__n_estimators': 50}",0.6729761904761905,0.6571428571428571,0.6612451041022469
+Level4,meansd_features_nohelp,1,Dummy random,,,0.2832879579534352,0.22033898305084745,0.23021626365144196
+Level4,meansd_features_nohelp,1,Ordered baseline,,,0.0,0.0,0.0
+Level4,meansd_features_nohelp,1,Naive Bayes,0.5290978549833583,{'naive_bayes_clf__alpha': 0.1},0.511402157164869,0.423728813559322,0.4620213433772755
+Level4,meansd_features_nohelp,1,Logistic regression,0.6465483768635287,"{'logistic_regression_clf__C': 100.0, 'logistic_regression_clf__max_iter': 200}",0.5794995964487489,0.4915254237288136,0.5313357546408394
+Level4,meansd_features_nohelp,1,SVM,0.6785016327018683,"{'svm_gaussian_clf__C': 100.0, 'svm_gaussian_clf__gamma': 0.1, 'svm_gaussian_clf__kernel': 'rbf'}",0.6070562206155428,0.5254237288135594,0.5621667023240704
+Level4,meansd_features_nohelp,1,Random Forest,0.6938188851379712,"{'random_forest_clf__max_depth': None, 'random_forest_clf__n_estimators': 100}",0.7388347602442161,0.711864406779661,0.7232457217718823
+Level4,meansd_features_nohelp,2,Dummy random,,,0.35938852813852806,0.2857142857142857,0.29009535509535506
+Level4,meansd_features_nohelp,2,Ordered baseline,,,0.0,0.0,0.0
+Level4,meansd_features_nohelp,2,Naive Bayes,0.6237366683204993,{'naive_bayes_clf__alpha': 0.01},0.5420578231292518,0.5571428571428572,0.541026771642492
+Level4,meansd_features_nohelp,2,Logistic regression,0.6511422011395104,"{'logistic_regression_clf__C': 100.0, 'logistic_regression_clf__max_iter': 200}",0.5360621521335808,0.5428571428571428,0.5353211517165005
+Level4,meansd_features_nohelp,2,SVM,0.6627993403264922,"{'svm_gaussian_clf__C': 10.0, 'svm_gaussian_clf__gamma': 0.1, 'svm_gaussian_clf__kernel': 'rbf'}",0.6475590236094437,0.6285714285714286,0.6202752728998576
+Level4,meansd_features_nohelp,2,Random Forest,0.7417525855228386,"{'random_forest_clf__max_depth': 6, 'random_forest_clf__n_estimators': 50}",0.6509372637944066,0.6571428571428571,0.6395010748933292
+Level4,meansd_features_nohelp,3,Dummy random,,,0.2865295653983792,0.2537313432835821,0.2580308965591854
+Level4,meansd_features_nohelp,3,Ordered baseline,,,0.0,0.0,0.0
+Level4,meansd_features_nohelp,3,Naive Bayes,0.5287036855297156,{'naive_bayes_clf__alpha': 0.01},0.5864013266998342,0.5373134328358209,0.557000710732054
+Level4,meansd_features_nohelp,3,Logistic regression,0.6474348304551453,"{'logistic_regression_clf__C': 100.0, 'logistic_regression_clf__max_iter': 200}",0.6045153022764963,0.5671641791044776,0.5742292135270037
+Level4,meansd_features_nohelp,3,SVM,0.7131807658951648,"{'svm_gaussian_clf__C': 100.0, 'svm_gaussian_clf__gamma': 1.0, 'svm_gaussian_clf__kernel': 'rbf'}",0.6314580941446614,0.6417910447761194,0.6316417910447761
+Level4,meansd_features_nohelp,3,Random Forest,0.7478477152963132,"{'random_forest_clf__max_depth': 12, 'random_forest_clf__n_estimators': 200}",0.7572139303482587,0.746268656716418,0.7506451585609368
+Level4,meansd_features_nohelp,4,Dummy random,,,0.23419768873733066,0.2222222222222222,0.21847141252890678
+Level4,meansd_features_nohelp,4,Ordered baseline,,,0.0,0.0,0.0
+Level4,meansd_features_nohelp,4,Naive Bayes,0.6076819120511178,{'naive_bayes_clf__alpha': 0.01},0.5257986815415822,0.5138888888888888,0.5152226631393299
+Level4,meansd_features_nohelp,4,Logistic regression,0.6522496461545902,"{'logistic_regression_clf__C': 100.0, 'logistic_regression_clf__max_iter': 200}",0.5510635878282937,0.5138888888888888,0.5220971767024398
+Level4,meansd_features_nohelp,4,SVM,0.6932140220335713,"{'svm_gaussian_clf__C': 100.0, 'svm_gaussian_clf__gamma': 0.1, 'svm_gaussian_clf__kernel': 'rbf'}",0.5426052856608412,0.5277777777777778,0.5327071767059253
+Level4,meansd_features_nohelp,4,Random Forest,0.7483787364355573,"{'random_forest_clf__max_depth': 6, 'random_forest_clf__n_estimators': 200}",0.5703601953601953,0.5833333333333334,0.5758592113081277
+Level5,all_features_help_received,0,Dummy random,,,0.40844253344253345,0.32432432432432434,0.34932855904722915
+Level5,all_features_help_received,0,Ordered baseline,,,0.8425381903642774,0.3783783783783784,0.4552380952380953
+Level5,all_features_help_received,0,Naive Bayes,0.6717722725617461,{'naive_bayes_clf__alpha': 1.0},0.6366943866943867,0.5675675675675675,0.5758558558558559
+Level5,all_features_help_received,0,Logistic regression,0.6963980626261328,"{'logistic_regression_clf__C': 10.0, 'logistic_regression_clf__max_iter': 200}",0.6611982611982612,0.6216216216216216,0.6293309119396076
+Level5,all_features_help_received,0,SVM,0.706596382824453,"{'svm_gaussian_clf__C': 10.0, 'svm_gaussian_clf__gamma': 0.1, 'svm_gaussian_clf__kernel': 'rbf'}",0.6678464178464179,0.6486486486486487,0.6419596854379463
+Level5,all_features_help_received,0,Random Forest,0.6931703773809037,"{'random_forest_clf__max_depth': 12, 'random_forest_clf__n_estimators': 100}",0.6091854091854092,0.5945945945945946,0.5945945945945946
+Level5,all_features_help_received,1,Dummy random,,,0.1476190476190476,0.14285714285714285,0.14212454212454212
+Level5,all_features_help_received,1,Ordered baseline,,,0.7238095238095238,0.37142857142857144,0.3942310257436308
+Level5,all_features_help_received,1,Naive Bayes,0.5942802078096195,{'naive_bayes_clf__alpha': 0.1},0.6377489177489177,0.5714285714285714,0.5911041339612767
+Level5,all_features_help_received,1,Logistic regression,0.6924133827320103,"{'logistic_regression_clf__C': 100.0, 'logistic_regression_clf__max_iter': 200}",0.7226190476190476,0.6571428571428571,0.654065934065934
+Level5,all_features_help_received,1,SVM,0.686882751417065,"{'svm_gaussian_clf__C': 10.0, 'svm_gaussian_clf__gamma': 0.1, 'svm_gaussian_clf__kernel': 'rbf'}",0.5676190476190476,0.5428571428571428,0.5477122877122876
+Level5,all_features_help_received,1,Random Forest,0.6207034414387356,"{'random_forest_clf__max_depth': 6, 'random_forest_clf__n_estimators': 200}",0.7238095238095239,0.6857142857142857,0.6946973026973028
+Level5,all_features_help_received,2,Dummy random,,,0.4120069745069745,0.3888888888888889,0.3942543969717883
+Level5,all_features_help_received,2,Ordered baseline,,,0.6888888888888889,0.4444444444444444,0.45879629629629626
+Level5,all_features_help_received,2,Naive Bayes,0.6456253949391204,{'naive_bayes_clf__alpha': 0.01},0.6018518518518517,0.5555555555555556,0.5695767195767196
+Level5,all_features_help_received,2,Logistic regression,0.7566953108619774,"{'logistic_regression_clf__C': 10.0, 'logistic_regression_clf__max_iter': 200}",0.559457671957672,0.5555555555555556,0.5502291589248112
+Level5,all_features_help_received,2,SVM,0.760841781675115,"{'svm_gaussian_clf__C': 10.0, 'svm_gaussian_clf__gamma': 0.1, 'svm_gaussian_clf__kernel': 'rbf'}",0.5965811965811966,0.5833333333333334,0.5655964405964405
+Level5,all_features_help_received,2,Random Forest,0.718004773004773,"{'random_forest_clf__max_depth': 12, 'random_forest_clf__n_estimators': 200}",0.5281084656084656,0.5277777777777778,0.5227679370191447
+Level5,all_features_help_received,3,Dummy random,,,0.2827444956477214,0.22580645161290322,0.2361218295004373
+Level5,all_features_help_received,3,Ordered baseline,,,0.8497695852534561,0.3548387096774194,0.4124410272417862
+Level5,all_features_help_received,3,Naive Bayes,0.6755737634685003,{'naive_bayes_clf__alpha': 0.01},0.6736559139784946,0.4838709677419355,0.5213616238284169
+Level5,all_features_help_received,3,Logistic regression,0.7259830171452978,"{'logistic_regression_clf__C': 10.0, 'logistic_regression_clf__max_iter': 200}",0.47849462365591394,0.41935483870967744,0.4429280397022332
+Level5,all_features_help_received,3,SVM,0.7047229305781937,"{'svm_gaussian_clf__C': 10.0, 'svm_gaussian_clf__gamma': 0.1, 'svm_gaussian_clf__kernel': 'rbf'}",0.6344086021505375,0.5483870967741935,0.5806451612903226
+Level5,all_features_help_received,3,Random Forest,0.6639058131601991,"{'random_forest_clf__max_depth': None, 'random_forest_clf__n_estimators': 200}",0.6085858585858586,0.5806451612903226,0.5896252142745831
+Level5,all_features_help_received,4,Dummy random,,,0.20266666666666666,0.24,0.21527272727272728
+Level5,all_features_help_received,4,Ordered baseline,,,0.8357894736842105,0.48,0.4664121212121211
+Level5,all_features_help_received,4,Naive Bayes,0.6415915658415658,{'naive_bayes_clf__alpha': 0.01},0.3440000000000001,0.4,0.3681045751633987
+Level5,all_features_help_received,4,Logistic regression,0.6648674621363697,"{'logistic_regression_clf__C': 10.0, 'logistic_regression_clf__max_iter': 200}",0.31022222222222223,0.36,0.3322222222222222
+Level5,all_features_help_received,4,SVM,0.6913797277263665,"{'svm_gaussian_clf__C': 100.0, 'svm_gaussian_clf__gamma': 0.1, 'svm_gaussian_clf__kernel': 'rbf'}",0.2972222222222222,0.32,0.307921568627451
+Level5,all_features_help_received,4,Random Forest,0.7332627253698683,"{'random_forest_clf__max_depth': 12, 'random_forest_clf__n_estimators': 100}",0.3296969696969697,0.4,0.35973684210526313
+Level5,all_features_help_requested,0,Dummy random,,,0.4256410256410257,0.2972972972972973,0.33229018492176393
+Level5,all_features_help_requested,0,Ordered baseline,,,0.2696827262044654,0.43243243243243246,0.3321370724425954
+Level5,all_features_help_requested,0,Naive Bayes,0.6161044300079388,{'naive_bayes_clf__alpha': 1.0},0.5936968436968436,0.5405405405405406,0.5514496314496314
+Level5,all_features_help_requested,0,Logistic regression,0.642471347690646,"{'logistic_regression_clf__C': 100.0, 'logistic_regression_clf__max_iter': 200}",0.5010395010395011,0.4864864864864865,0.47783783783783784
+Level5,all_features_help_requested,0,SVM,0.6758088305456726,"{'svm_gaussian_clf__C': 100.0, 'svm_gaussian_clf__gamma': 0.1, 'svm_gaussian_clf__kernel': 'rbf'}",0.5818181818181818,0.5405405405405406,0.5531531531531532
+Level5,all_features_help_requested,0,Random Forest,0.6983086893613211,"{'random_forest_clf__max_depth': 6, 'random_forest_clf__n_estimators': 100}",0.550935550935551,0.5405405405405406,0.5297297297297298
+Level5,all_features_help_requested,1,Dummy random,,,0.3261224489795918,0.2857142857142857,0.2884644766997709
+Level5,all_features_help_requested,1,Ordered baseline,,,0.10216450216450215,0.2,0.13389355742296916
+Level5,all_features_help_requested,1,Naive Bayes,0.5153010025559045,{'naive_bayes_clf__alpha': 0.01},0.5897959183673469,0.5428571428571428,0.5579205556348413
+Level5,all_features_help_requested,1,Logistic regression,0.6397222784477687,"{'logistic_regression_clf__C': 100.0, 'logistic_regression_clf__max_iter': 200}",0.6498319327731092,0.6,0.5948051948051948
+Level5,all_features_help_requested,1,SVM,0.6638527050291756,"{'svm_gaussian_clf__C': 100.0, 'svm_gaussian_clf__gamma': 0.1, 'svm_gaussian_clf__kernel': 'rbf'}",0.6094537815126051,0.45714285714285713,0.45983848510164305
+Level5,all_features_help_requested,1,Random Forest,0.6269967196927981,"{'random_forest_clf__max_depth': 12, 'random_forest_clf__n_estimators': 100}",0.6936996336996337,0.6857142857142857,0.6839345839345838
+Level5,all_features_help_requested,2,Dummy random,,,0.24506172839506174,0.2222222222222222,0.2302334943639291
+Level5,all_features_help_requested,2,Ordered baseline,,,0.15833333333333333,0.3055555555555556,0.20848267622461172
+Level5,all_features_help_requested,2,Naive Bayes,0.5971799805133139,{'naive_bayes_clf__alpha': 0.1},0.6158008658008658,0.5833333333333334,0.5941077441077441
+Level5,all_features_help_requested,2,Logistic regression,0.704338192671526,"{'logistic_regression_clf__C': 100.0, 'logistic_regression_clf__max_iter': 200}",0.5447250280583614,0.5277777777777778,0.5335875090777052
+Level5,all_features_help_requested,2,SVM,0.7376443001443003,"{'svm_gaussian_clf__C': 100.0, 'svm_gaussian_clf__gamma': 0.1, 'svm_gaussian_clf__kernel': 'rbf'}",0.6689814814814814,0.6666666666666666,0.6668627450980392
+Level5,all_features_help_requested,2,Random Forest,0.7150122716789383,"{'random_forest_clf__max_depth': 6, 'random_forest_clf__n_estimators': 200}",0.6287863756613757,0.6111111111111112,0.6055312290944475
+Level5,all_features_help_requested,3,Dummy random,,,0.11774193548387098,0.06451612903225806,0.0813830908707569
+Level5,all_features_help_requested,3,Ordered baseline,,,0.1627565982404692,0.2903225806451613,0.2078853046594982
+Level5,all_features_help_requested,3,Naive Bayes,0.6055195697739557,{'naive_bayes_clf__alpha': 0.01},0.4846390168970814,0.3870967741935484,0.4147601125529818
+Level5,all_features_help_requested,3,Logistic regression,0.6983754176298035,"{'logistic_regression_clf__C': 100.0, 'logistic_regression_clf__max_iter': 200}",0.5133640552995392,0.45161290322580644,0.46691480562448306
+Level5,all_features_help_requested,3,SVM,0.6563306470981909,"{'svm_gaussian_clf__C': 10.0, 'svm_gaussian_clf__gamma': 0.1, 'svm_gaussian_clf__kernel': 'rbf'}",0.5929339477726574,0.5161290322580645,0.5359801488833748
+Level5,all_features_help_requested,3,Random Forest,0.6394928966420194,"{'random_forest_clf__max_depth': 6, 'random_forest_clf__n_estimators': 100}",0.6592130987292277,0.6451612903225806,0.6493639428163677
+Level5,all_features_help_requested,4,Dummy random,,,0.36777777777777776,0.28,0.3019487179487179
+Level5,all_features_help_requested,4,Ordered baseline,,,0.1375438596491228,0.28,0.18251851851851852
+Level5,all_features_help_requested,4,Naive Bayes,0.6089572900644329,{'naive_bayes_clf__alpha': 0.01},0.24833333333333332,0.32,0.2782745098039216
+Level5,all_features_help_requested,4,Logistic regression,0.6967136173039534,"{'logistic_regression_clf__C': 10.0, 'logistic_regression_clf__max_iter': 200}",0.3466666666666666,0.36,0.3449187675070028
+Level5,all_features_help_requested,4,SVM,0.6611840608815399,"{'svm_gaussian_clf__C': 10.0, 'svm_gaussian_clf__gamma': 0.1, 'svm_gaussian_clf__kernel': 'sigmoid'}",0.2623376623376623,0.28,0.26755555555555555
+Level5,all_features_help_requested,4,Random Forest,0.7055162892662893,"{'random_forest_clf__max_depth': None, 'random_forest_clf__n_estimators': 200}",0.32848484848484844,0.4,0.3573856209150327
+Level5,all_features_nohelp,0,Dummy random,,,0.374938574938575,0.2972972972972973,0.3120910384068279
+Level5,all_features_nohelp,0,Ordered baseline,,,0.0,0.0,0.0
+Level5,all_features_nohelp,0,Naive Bayes,0.5947237103377454,{'naive_bayes_clf__alpha': 0.1},0.562124362124362,0.5405405405405406,0.5443243243243243
+Level5,all_features_nohelp,0,Logistic regression,0.6340193172649313,"{'logistic_regression_clf__C': 10.0, 'logistic_regression_clf__max_iter': 200}",0.5503295503295503,0.5135135135135135,0.5170387779083431
+Level5,all_features_nohelp,0,SVM,0.6589622122516858,"{'svm_gaussian_clf__C': 10.0, 'svm_gaussian_clf__gamma': 0.1, 'svm_gaussian_clf__kernel': 'rbf'}",0.5979965979965979,0.5945945945945946,0.5913513513513513
+Level5,all_features_nohelp,0,Random Forest,0.6904316151684573,"{'random_forest_clf__max_depth': 12, 'random_forest_clf__n_estimators': 100}",0.5982328482328483,0.5675675675675675,0.5641277641277642
+Level5,all_features_nohelp,1,Dummy random,,,0.23453927025355595,0.2,0.20653270003653634
+Level5,all_features_nohelp,1,Ordered baseline,,,0.0,0.0,0.0
+Level5,all_features_nohelp,1,Naive Bayes,0.47508908121653215,{'naive_bayes_clf__alpha': 0.01},0.5897959183673469,0.5428571428571428,0.5579205556348413
+Level5,all_features_nohelp,1,Logistic regression,0.603891184160792,"{'logistic_regression_clf__C': 10.0, 'logistic_regression_clf__max_iter': 200}",0.6293557422969188,0.6,0.5897959183673469
+Level5,all_features_nohelp,1,SVM,0.6352848322701263,"{'svm_gaussian_clf__C': 100.0, 'svm_gaussian_clf__gamma': 0.1, 'svm_gaussian_clf__kernel': 'rbf'}",0.6361853832442067,0.6,0.5946925032639319
+Level5,all_features_nohelp,1,Random Forest,0.6256908324065187,"{'random_forest_clf__max_depth': 12, 'random_forest_clf__n_estimators': 50}",0.7019047619047619,0.6857142857142857,0.6887778887778888
+Level5,all_features_nohelp,2,Dummy random,,,0.16792929292929293,0.16666666666666666,0.16435185185185183
+Level5,all_features_nohelp,2,Ordered baseline,,,0.0,0.0,0.0
+Level5,all_features_nohelp,2,Naive Bayes,0.5939855823189156,{'naive_bayes_clf__alpha': 0.1},0.6477072310405644,0.5833333333333334,0.6002374169040835
+Level5,all_features_nohelp,2,Logistic regression,0.6575608033941367,"{'logistic_regression_clf__C': 1.0, 'logistic_regression_clf__max_iter': 200}",0.587962962962963,0.5555555555555556,0.5569211490264122
+Level5,all_features_nohelp,2,SVM,0.6697973322973322,"{'svm_gaussian_clf__C': 100.0, 'svm_gaussian_clf__gamma': 0.1, 'svm_gaussian_clf__kernel': 'rbf'}",0.5712250712250713,0.5277777777777778,0.5328703703703703
+Level5,all_features_nohelp,2,Random Forest,0.7063874705541372,"{'random_forest_clf__max_depth': 6, 'random_forest_clf__n_estimators': 50}",0.5888888888888889,0.5833333333333334,0.5850970017636684
+Level5,all_features_nohelp,3,Dummy random,,,0.32168458781362,0.25806451612903225,0.2700876739027144
+Level5,all_features_nohelp,3,Ordered baseline,,,0.0,0.0,0.0
+Level5,all_features_nohelp,3,Naive Bayes,0.5735315529175179,{'naive_bayes_clf__alpha': 0.01},0.4426523297491039,0.3548387096774194,0.374013083690503
+Level5,all_features_nohelp,3,Logistic regression,0.6638756954546428,"{'logistic_regression_clf__C': 100.0, 'logistic_regression_clf__max_iter': 200}",0.5391705069124424,0.4838709677419355,0.489188231123715
+Level5,all_features_nohelp,3,SVM,0.6452619732444294,"{'svm_gaussian_clf__C': 100.0, 'svm_gaussian_clf__gamma': 1.0, 'svm_gaussian_clf__kernel': 'poly'}",0.5236175115207373,0.45161290322580644,0.44251447477253925
+Level5,all_features_nohelp,3,Random Forest,0.6470958638502499,"{'random_forest_clf__max_depth': 12, 'random_forest_clf__n_estimators': 100}",0.5986352357320099,0.5806451612903226,0.5869534050179211
+Level5,all_features_nohelp,4,Dummy random,,,0.4046060606060605,0.4,0.3766464646464647
+Level5,all_features_nohelp,4,Ordered baseline,,,0.0,0.0,0.0
+Level5,all_features_nohelp,4,Naive Bayes,0.6060572654858369,{'naive_bayes_clf__alpha': 0.01},0.2703376623376623,0.32,0.2897777777777778
+Level5,all_features_nohelp,4,Logistic regression,0.6660517220874365,"{'logistic_regression_clf__C': 10.0, 'logistic_regression_clf__max_iter': 200}",0.22233766233766233,0.24,0.22755555555555554
+Level5,all_features_nohelp,4,SVM,0.6553544114615544,"{'svm_gaussian_clf__C': 100.0, 'svm_gaussian_clf__gamma': 0.1, 'svm_gaussian_clf__kernel': 'rbf'}",0.3506666666666666,0.36,0.33349019607843133
+Level5,all_features_nohelp,4,Random Forest,0.7050350020350021,"{'random_forest_clf__max_depth': 12, 'random_forest_clf__n_estimators': 100}",0.3578181818181818,0.4,0.3682539682539682
+Level5,sum_features_help_received,0,Dummy random,,,0.1304941304941305,0.13513513513513514,0.13019976498237368
+Level5,sum_features_help_received,0,Ordered baseline,,,0.8425381903642774,0.3783783783783784,0.4552380952380953
+Level5,sum_features_help_received,0,Naive Bayes,0.5878513948689388,{'naive_bayes_clf__alpha': 1.0},0.7021021021021022,0.5945945945945946,0.6232596232596233
+Level5,sum_features_help_received,0,Logistic regression,0.6145889960286245,"{'logistic_regression_clf__C': 100.0, 'logistic_regression_clf__max_iter': 200}",0.5736281736281736,0.5135135135135135,0.5307125307125308
+Level5,sum_features_help_received,0,SVM,0.6389107773318299,"{'svm_gaussian_clf__C': 100.0, 'svm_gaussian_clf__gamma': 0.1, 'svm_gaussian_clf__kernel': 'rbf'}",0.6029484029484028,0.5135135135135135,0.5351351351351351
+Level5,sum_features_help_received,0,Random Forest,0.6634696168029501,"{'random_forest_clf__max_depth': 6, 'random_forest_clf__n_estimators': 100}",0.6186763686763687,0.5945945945945946,0.5930904817861339
+Level5,sum_features_help_received,1,Dummy random,,,0.2866666666666667,0.2571428571428571,0.24108485499462945
+Level5,sum_features_help_received,1,Ordered baseline,,,0.7238095238095238,0.37142857142857144,0.3942310257436308
+Level5,sum_features_help_received,1,Naive Bayes,0.5310663610173414,{'naive_bayes_clf__alpha': 0.01},0.7344877344877344,0.6285714285714286,0.659095571095571
+Level5,sum_features_help_received,1,Logistic regression,0.6190561471934022,"{'logistic_regression_clf__C': 10.0, 'logistic_regression_clf__max_iter': 200}",0.6434065934065935,0.6,0.6100625300625301
+Level5,sum_features_help_received,1,SVM,0.6247545446565054,"{'svm_gaussian_clf__C': 100.0, 'svm_gaussian_clf__gamma': 0.1, 'svm_gaussian_clf__kernel': 'rbf'}",0.6117460317460317,0.5428571428571428,0.5559653872697351
+Level5,sum_features_help_received,1,Random Forest,0.6329137547274801,"{'random_forest_clf__max_depth': 6, 'random_forest_clf__n_estimators': 100}",0.7676190476190475,0.7428571428571429,0.7455944055944055
+Level5,sum_features_help_received,2,Dummy random,,,0.25925925925925924,0.19444444444444445,0.1951388888888889
+Level5,sum_features_help_received,2,Ordered baseline,,,0.6888888888888889,0.4444444444444444,0.45879629629629626
+Level5,sum_features_help_received,2,Naive Bayes,0.5470605937272605,{'naive_bayes_clf__alpha': 0.01},0.5971380471380471,0.5277777777777778,0.5409900284900284
+Level5,sum_features_help_received,2,Logistic regression,0.6566843033509701,"{'logistic_regression_clf__C': 10.0, 'logistic_regression_clf__max_iter': 200}",0.5432900432900433,0.5277777777777778,0.5286616161616161
+Level5,sum_features_help_received,2,SVM,0.6597886989553656,"{'svm_gaussian_clf__C': 100.0, 'svm_gaussian_clf__gamma': 0.1, 'svm_gaussian_clf__kernel': 'rbf'}",0.5439814814814815,0.5,0.503741690408357
+Level5,sum_features_help_received,2,Random Forest,0.6922079926246593,"{'random_forest_clf__max_depth': 6, 'random_forest_clf__n_estimators': 50}",0.5560088060088061,0.5277777777777778,0.5348544973544974
+Level5,sum_features_help_received,3,Dummy random,,,0.1989247311827957,0.25806451612903225,0.2123514431239389
+Level5,sum_features_help_received,3,Ordered baseline,,,0.8497695852534561,0.3548387096774194,0.4124410272417862
+Level5,sum_features_help_received,3,Naive Bayes,0.6433279553454991,{'naive_bayes_clf__alpha': 1.0},0.7012288786482335,0.45161290322580644,0.5068585442099873
+Level5,sum_features_help_received,3,Logistic regression,0.6650652440667921,"{'logistic_regression_clf__C': 10.0, 'logistic_regression_clf__max_iter': 200}",0.6431131592421915,0.5161290322580645,0.5605551943312854
+Level5,sum_features_help_received,3,SVM,0.66667774476985,"{'svm_gaussian_clf__C': 100.0, 'svm_gaussian_clf__gamma': 0.1, 'svm_gaussian_clf__kernel': 'rbf'}",0.5928453267162944,0.45161290322580644,0.5012316715542522
+Level5,sum_features_help_received,3,Random Forest,0.6767864046476018,"{'random_forest_clf__max_depth': 6, 'random_forest_clf__n_estimators': 100}",0.7133431085043989,0.6774193548387096,0.6823069403714564
+Level5,sum_features_help_received,4,Dummy random,,,0.1702857142857143,0.16,0.16358974358974357
+Level5,sum_features_help_received,4,Ordered baseline,,,0.8357894736842105,0.48,0.4664121212121211
+Level5,sum_features_help_received,4,Naive Bayes,0.6013574071431214,{'naive_bayes_clf__alpha': 0.1},0.3371428571428571,0.4,0.36099999999999993
+Level5,sum_features_help_received,4,Logistic regression,0.6349174185602756,"{'logistic_regression_clf__C': 10.0, 'logistic_regression_clf__max_iter': 200}",0.3131428571428571,0.32,0.31388235294117645
+Level5,sum_features_help_received,4,SVM,0.6518610409198644,"{'svm_gaussian_clf__C': 100.0, 'svm_gaussian_clf__gamma': 0.1, 'svm_gaussian_clf__kernel': 'rbf'}",0.30766666666666664,0.36,0.3316078431372549
+Level5,sum_features_help_received,4,Random Forest,0.6958483236340378,"{'random_forest_clf__max_depth': 6, 'random_forest_clf__n_estimators': 100}",0.40888888888888886,0.52,0.45623529411764707
+Level5,sum_features_help_requested,0,Dummy random,,,0.39674969086733797,0.35135135135135137,0.33199186647462514
+Level5,sum_features_help_requested,0,Ordered baseline,,,0.2696827262044654,0.43243243243243246,0.3321370724425954
+Level5,sum_features_help_requested,0,Naive Bayes,0.5297635795004216,{'naive_bayes_clf__alpha': 0.01},0.5983268983268983,0.5135135135135135,0.5134304796950254
+Level5,sum_features_help_requested,0,Logistic regression,0.5837227100384995,"{'logistic_regression_clf__C': 100.0, 'logistic_regression_clf__max_iter': 200}",0.37548262548262545,0.35135135135135137,0.3481859534491113
+Level5,sum_features_help_requested,0,SVM,0.6220291112396376,"{'svm_gaussian_clf__C': 100.0, 'svm_gaussian_clf__gamma': 0.1, 'svm_gaussian_clf__kernel': 'rbf'}",0.695945945945946,0.5945945945945946,0.627623111833638
+Level5,sum_features_help_requested,0,Random Forest,0.6684471701138367,"{'random_forest_clf__max_depth': 6, 'random_forest_clf__n_estimators': 200}",0.5894348894348893,0.5675675675675675,0.5693693693693693
+Level5,sum_features_help_requested,1,Dummy random,,,0.16349206349206347,0.22857142857142856,0.18808691308691308
+Level5,sum_features_help_requested,1,Ordered baseline,,,0.10216450216450215,0.2,0.13389355742296916
+Level5,sum_features_help_requested,1,Naive Bayes,0.39545995489622937,{'naive_bayes_clf__alpha': 0.01},0.6325763125763125,0.5428571428571428,0.5557445453097626
+Level5,sum_features_help_requested,1,Logistic regression,0.5790790600104325,"{'logistic_regression_clf__C': 10.0, 'logistic_regression_clf__max_iter': 200}",0.6263203463203464,0.5714285714285714,0.5692210012210013
+Level5,sum_features_help_requested,1,SVM,0.5911835513796297,"{'svm_gaussian_clf__C': 10.0, 'svm_gaussian_clf__gamma': 1.0, 'svm_gaussian_clf__kernel': 'rbf'}",0.4943722943722944,0.42857142857142855,0.40598639455782315
+Level5,sum_features_help_requested,1,Random Forest,0.6305737481472775,"{'random_forest_clf__max_depth': None, 'random_forest_clf__n_estimators': 200}",0.7329670329670329,0.7142857142857143,0.7174390826564739
+Level5,sum_features_help_requested,2,Dummy random,,,0.3425925925925926,0.3333333333333333,0.3361111111111111
+Level5,sum_features_help_requested,2,Ordered baseline,,,0.15833333333333333,0.3055555555555556,0.20848267622461172
+Level5,sum_features_help_requested,2,Naive Bayes,0.4740981857648524,{'naive_bayes_clf__alpha': 0.01},0.552469135802469,0.5,0.5123817359111478
+Level5,sum_features_help_requested,2,Logistic regression,0.633262447429114,"{'logistic_regression_clf__C': 10.0, 'logistic_regression_clf__max_iter': 200}",0.5347222222222222,0.4722222222222222,0.48000308869874087
+Level5,sum_features_help_requested,2,SVM,0.6256602656602656,"{'svm_gaussian_clf__C': 100.0, 'svm_gaussian_clf__gamma': 1.0, 'svm_gaussian_clf__kernel': 'rbf'}",0.5182098765432098,0.5,0.4889182392930518
+Level5,sum_features_help_requested,2,Random Forest,0.7044421011087678,"{'random_forest_clf__max_depth': None, 'random_forest_clf__n_estimators': 100}",0.446031746031746,0.4444444444444444,0.4439741328630218
+Level5,sum_features_help_requested,3,Dummy random,,,0.25790159661127404,0.1935483870967742,0.18520690778755294
+Level5,sum_features_help_requested,3,Ordered baseline,,,0.1627565982404692,0.2903225806451613,0.2078853046594982
+Level5,sum_features_help_requested,3,Naive Bayes,0.581313148209433,{'naive_bayes_clf__alpha': 0.01},0.4105222734254992,0.3548387096774194,0.3659135431631187
+Level5,sum_features_help_requested,3,Logistic regression,0.6383363816361751,"{'logistic_regression_clf__C': 10.0, 'logistic_regression_clf__max_iter': 200}",0.6113112693757855,0.4838709677419355,0.5379644143772516
+Level5,sum_features_help_requested,3,SVM,0.6656765740756969,"{'svm_gaussian_clf__C': 100.0, 'svm_gaussian_clf__gamma': 0.01, 'svm_gaussian_clf__kernel': 'rbf'}",0.6194595726853791,0.45161290322580644,0.5057753979655507
+Level5,sum_features_help_requested,3,Random Forest,0.6334669057579274,"{'random_forest_clf__max_depth': None, 'random_forest_clf__n_estimators': 200}",0.5967741935483871,0.5806451612903226,0.5842293906810035
+Level5,sum_features_help_requested,4,Dummy random,,,0.2377142857142857,0.2,0.21558974358974356
+Level5,sum_features_help_requested,4,Ordered baseline,,,0.1375438596491228,0.28,0.18251851851851852
+Level5,sum_features_help_requested,4,Naive Bayes,0.5445698639984354,{'naive_bayes_clf__alpha': 0.01},0.3558095238095238,0.44,0.387764705882353
+Level5,sum_features_help_requested,4,Logistic regression,0.6185475305118162,"{'logistic_regression_clf__C': 1.0, 'logistic_regression_clf__max_iter': 200}",0.28165079365079365,0.32,0.28482517482517483
+Level5,sum_features_help_requested,4,SVM,0.6268458686504904,"{'svm_gaussian_clf__C': 10.0, 'svm_gaussian_clf__gamma': 0.1, 'svm_gaussian_clf__kernel': 'rbf'}",0.24888888888888885,0.28,0.25742857142857145
+Level5,sum_features_help_requested,4,Random Forest,0.7131582676582676,"{'random_forest_clf__max_depth': None, 'random_forest_clf__n_estimators': 200}",0.37222222222222223,0.4,0.3761521450685537
+Level5,sum_features_nohelp,0,Dummy random,,,0.31486486486486487,0.2702702702702703,0.2814905814905815
+Level5,sum_features_nohelp,0,Ordered baseline,,,0.0,0.0,0.0
+Level5,sum_features_nohelp,0,Naive Bayes,0.5018919352252686,{'naive_bayes_clf__alpha': 0.01},0.5791721791721791,0.5405405405405406,0.5433004433004432
+Level5,sum_features_nohelp,0,Logistic regression,0.5520556035906914,"{'logistic_regression_clf__C': 10.0, 'logistic_regression_clf__max_iter': 200}",0.6226512226512226,0.5405405405405406,0.5390350316153668
+Level5,sum_features_nohelp,0,SVM,0.5759532150760223,"{'svm_gaussian_clf__C': 100.0, 'svm_gaussian_clf__gamma': 0.1, 'svm_gaussian_clf__kernel': 'rbf'}",0.4746402246402246,0.40540540540540543,0.4203413940256046
+Level5,sum_features_nohelp,0,Random Forest,0.6410101659224465,"{'random_forest_clf__max_depth': 6, 'random_forest_clf__n_estimators': 200}",0.5552825552825553,0.5405405405405406,0.5437837837837837
+Level5,sum_features_nohelp,1,Dummy random,,,0.20515873015873015,0.22857142857142856,0.21244494635798983
+Level5,sum_features_nohelp,1,Ordered baseline,,,0.0,0.0,0.0
+Level5,sum_features_nohelp,1,Naive Bayes,0.36431869328928157,{'naive_bayes_clf__alpha': 0.01},0.5804395604395605,0.5142857142857142,0.526557500470544
+Level5,sum_features_nohelp,1,Logistic regression,0.5018758637876285,"{'logistic_regression_clf__C': 10.0, 'logistic_regression_clf__max_iter': 200}",0.6490476190476191,0.6,0.6088467088467088
+Level5,sum_features_nohelp,1,SVM,0.5652797819464486,"{'svm_gaussian_clf__C': 100.0, 'svm_gaussian_clf__gamma': 0.1, 'svm_gaussian_clf__kernel': 'rbf'}",0.6057142857142858,0.5714285714285714,0.5761904761904761
+Level5,sum_features_nohelp,1,Random Forest,0.6083369100035767,"{'random_forest_clf__max_depth': 6, 'random_forest_clf__n_estimators': 100}",0.6776556776556776,0.6571428571428571,0.6536732832385007
+Level5,sum_features_nohelp,2,Dummy random,,,0.24973544973544973,0.2222222222222222,0.21741814278046162
+Level5,sum_features_nohelp,2,Ordered baseline,,,0.0,0.0,0.0
+Level5,sum_features_nohelp,2,Naive Bayes,0.43441678691678687,{'naive_bayes_clf__alpha': 0.1},0.4363425925925926,0.3888888888888889,0.3974005060961583
+Level5,sum_features_nohelp,2,Logistic regression,0.6030577138910471,"{'logistic_regression_clf__C': 10.0, 'logistic_regression_clf__max_iter': 200}",0.4907407407407407,0.4166666666666667,0.4238215488215488
+Level5,sum_features_nohelp,2,SVM,0.5786363328029994,"{'svm_gaussian_clf__C': 100.0, 'svm_gaussian_clf__gamma': 1.0, 'svm_gaussian_clf__kernel': 'poly'}",0.4206800144300144,0.3888888888888889,0.38682939232138314
+Level5,sum_features_nohelp,2,Random Forest,0.6710657243990578,"{'random_forest_clf__max_depth': 12, 'random_forest_clf__n_estimators': 200}",0.5008547008547009,0.5,0.49173280423280424
+Level5,sum_features_nohelp,3,Dummy random,,,0.37813620071684584,0.3225806451612903,0.331002331002331
+Level5,sum_features_nohelp,3,Ordered baseline,,,0.0,0.0,0.0
+Level5,sum_features_nohelp,3,Naive Bayes,0.5715869971674925,{'naive_bayes_clf__alpha': 0.01},0.4246799795186892,0.3548387096774194,0.37053043165097493
+Level5,sum_features_nohelp,3,Logistic regression,0.6275862140000428,"{'logistic_regression_clf__C': 10.0, 'logistic_regression_clf__max_iter': 200}",0.6113112693757855,0.4838709677419355,0.5379644143772516
+Level5,sum_features_nohelp,3,SVM,0.6410114593009328,"{'svm_gaussian_clf__C': 100.0, 'svm_gaussian_clf__gamma': 0.01, 'svm_gaussian_clf__kernel': 'rbf'}",0.5832565284178188,0.45161290322580644,0.49506154819247794
+Level5,sum_features_nohelp,3,Random Forest,0.6457256217008539,"{'random_forest_clf__max_depth': 12, 'random_forest_clf__n_estimators': 100}",0.6397849462365592,0.6129032258064516,0.6253101736972704
+Level5,sum_features_nohelp,4,Dummy random,,,0.29,0.28,0.2768742368742369
+Level5,sum_features_nohelp,4,Ordered baseline,,,0.0,0.0,0.0
+Level5,sum_features_nohelp,4,Naive Bayes,0.5426545901188758,{'naive_bayes_clf__alpha': 0.01},0.3151515151515152,0.4,0.34387301587301594
+Level5,sum_features_nohelp,4,Logistic regression,0.6084083337297622,"{'logistic_regression_clf__C': 10.0, 'logistic_regression_clf__max_iter': 200}",0.264,0.28,0.2603438914027149
+Level5,sum_features_nohelp,4,SVM,0.595648161362447,"{'svm_gaussian_clf__C': 100.0, 'svm_gaussian_clf__gamma': 0.1, 'svm_gaussian_clf__kernel': 'rbf'}",0.2909090909090909,0.28,0.27936507936507937
+Level5,sum_features_nohelp,4,Random Forest,0.6597845765345765,"{'random_forest_clf__max_depth': 12, 'random_forest_clf__n_estimators': 50}",0.38981818181818184,0.44,0.4038095238095238
+Level5,meansd_features_help_received,0,Dummy random,,,0.4127764127764128,0.3783783783783784,0.39009009009009005
+Level5,meansd_features_help_received,0,Ordered baseline,,,0.8425381903642774,0.3783783783783784,0.4552380952380953
+Level5,meansd_features_help_received,0,Naive Bayes,0.708496127004899,{'naive_bayes_clf__alpha': 0.01},0.5480480480480481,0.5135135135135135,0.5197246936377371
+Level5,meansd_features_help_received,0,Logistic regression,0.68228752404191,"{'logistic_regression_clf__C': 1.0, 'logistic_regression_clf__max_iter': 200}",0.5743243243243243,0.5135135135135135,0.5272025272025271
+Level5,meansd_features_help_received,0,SVM,0.7189290452886944,"{'svm_gaussian_clf__C': 1.0, 'svm_gaussian_clf__gamma': 1.0, 'svm_gaussian_clf__kernel': 'poly'}",0.5405405405405406,0.5135135135135135,0.525987525987526
+Level5,meansd_features_help_received,0,Random Forest,0.6565448002290107,"{'random_forest_clf__max_depth': 6, 'random_forest_clf__n_estimators': 200}",0.6432432432432431,0.6216216216216216,0.6231231231231231
+Level5,meansd_features_help_received,1,Dummy random,,,0.3152380952380952,0.2857142857142857,0.2935915235659481
+Level5,meansd_features_help_received,1,Ordered baseline,,,0.7238095238095238,0.37142857142857144,0.3942310257436308
+Level5,meansd_features_help_received,1,Naive Bayes,0.6157834231853839,{'naive_bayes_clf__alpha': 0.01},0.6974882260596547,0.6571428571428571,0.6721520195204407
+Level5,meansd_features_help_received,1,Logistic regression,0.7316699921356784,"{'logistic_regression_clf__C': 10.0, 'logistic_regression_clf__max_iter': 200}",0.7238095238095239,0.6857142857142857,0.6898691784406069
+Level5,meansd_features_help_received,1,SVM,0.7199616305988854,"{'svm_gaussian_clf__C': 100.0, 'svm_gaussian_clf__gamma': 0.01, 'svm_gaussian_clf__kernel': 'rbf'}",0.7714285714285715,0.7142857142857143,0.7285714285714284
+Level5,meansd_features_help_received,1,Random Forest,0.6705923778472799,"{'random_forest_clf__max_depth': 6, 'random_forest_clf__n_estimators': 100}",0.6238095238095239,0.6,0.608991008991009
+Level5,meansd_features_help_received,2,Dummy random,,,0.1714285714285714,0.19444444444444445,0.18069584736251404
+Level5,meansd_features_help_received,2,Ordered baseline,,,0.6888888888888889,0.4444444444444444,0.45879629629629626
+Level5,meansd_features_help_received,2,Naive Bayes,0.6395665445665447,{'naive_bayes_clf__alpha': 0.01},0.6312500000000001,0.6111111111111112,0.6097801729985638
+Level5,meansd_features_help_received,2,Logistic regression,0.7352454027454026,"{'logistic_regression_clf__C': 10.0, 'logistic_regression_clf__max_iter': 200}",0.6071169208424111,0.6111111111111112,0.6001322751322752
+Level5,meansd_features_help_received,2,SVM,0.7586896201111888,"{'svm_gaussian_clf__C': 100.0, 'svm_gaussian_clf__gamma': 0.1, 'svm_gaussian_clf__kernel': 'rbf'}",0.633048433048433,0.6388888888888888,0.6259920634920635
+Level5,meansd_features_help_received,2,Random Forest,0.6943763027096359,"{'random_forest_clf__max_depth': None, 'random_forest_clf__n_estimators': 100}",0.6682870370370371,0.6388888888888888,0.624952509739528
+Level5,meansd_features_help_received,3,Dummy random,,,0.49731182795698925,0.3225806451612903,0.3465679399389489
+Level5,meansd_features_help_received,3,Ordered baseline,,,0.8497695852534561,0.3548387096774194,0.4124410272417862
+Level5,meansd_features_help_received,3,Naive Bayes,0.6500449404396773,{'naive_bayes_clf__alpha': 0.01},0.7045245077503143,0.5806451612903226,0.620174091141833
+Level5,meansd_features_help_received,3,Logistic regression,0.7375707268689725,"{'logistic_regression_clf__C': 10.0, 'logistic_regression_clf__max_iter': 200}",0.6545664013405949,0.5483870967741935,0.5845282292440118
+Level5,meansd_features_help_received,3,SVM,0.7302148387674704,"{'svm_gaussian_clf__C': 10.0, 'svm_gaussian_clf__gamma': 0.1, 'svm_gaussian_clf__kernel': 'rbf'}",0.7575757575757576,0.6774193548387096,0.7078253677131656
+Level5,meansd_features_help_received,3,Random Forest,0.6636260863892443,"{'random_forest_clf__max_depth': 6, 'random_forest_clf__n_estimators': 100}",0.695503421309873,0.6451612903225806,0.6687884345668357
+Level5,meansd_features_help_received,4,Dummy random,,,0.43667532467532466,0.4,0.3906666666666666
+Level5,meansd_features_help_received,4,Ordered baseline,,,0.8357894736842105,0.48,0.4664121212121211
+Level5,meansd_features_help_received,4,Naive Bayes,0.6803141527784385,{'naive_bayes_clf__alpha': 0.1},0.5672727272727273,0.56,0.5264126984126984
+Level5,meansd_features_help_received,4,Logistic regression,0.6777628112628112,"{'logistic_regression_clf__C': 10.0, 'logistic_regression_clf__max_iter': 200}",0.54,0.56,0.5273182957393483
+Level5,meansd_features_help_received,4,SVM,0.7057841232841231,"{'svm_gaussian_clf__C': 100.0, 'svm_gaussian_clf__gamma': 1.0, 'svm_gaussian_clf__kernel': 'rbf'}",0.5810101010101011,0.56,0.5405639097744361
+Level5,meansd_features_help_received,4,Random Forest,0.6859676804676804,"{'random_forest_clf__max_depth': None, 'random_forest_clf__n_estimators': 100}",0.38981818181818184,0.44,0.4038095238095238
+Level5,meansd_features_help_requested,0,Dummy random,,,0.3305613305613305,0.2702702702702703,0.29584878996643704
+Level5,meansd_features_help_requested,0,Ordered baseline,,,0.0,0.0,0.0
+Level5,meansd_features_help_requested,0,Naive Bayes,0.5917548241232453,{'naive_bayes_clf__alpha': 0.01},0.47831747831747834,0.4594594594594595,0.4607990599294947
+Level5,meansd_features_help_requested,0,Logistic regression,0.64341186104344,"{'logistic_regression_clf__C': 100.0, 'logistic_regression_clf__max_iter': 200}",0.4691037191037191,0.4594594594594595,0.4550075541379889
+Level5,meansd_features_help_requested,0,SVM,0.6832965296561788,"{'svm_gaussian_clf__C': 100.0, 'svm_gaussian_clf__gamma': 0.1, 'svm_gaussian_clf__kernel': 'rbf'}",0.6454194454194454,0.5945945945945946,0.6093525393525393
+Level5,meansd_features_help_requested,0,Random Forest,0.6566128381040662,"{'random_forest_clf__max_depth': None, 'random_forest_clf__n_estimators': 200}",0.559104559104559,0.5675675675675675,0.550698524611568
+Level5,meansd_features_help_requested,1,Dummy random,,,0.3072871572871573,0.2571428571428571,0.2647066942719117
+Level5,meansd_features_help_requested,1,Ordered baseline,,,0.0,0.0,0.0
+Level5,meansd_features_help_requested,1,Naive Bayes,0.4939800776565482,{'naive_bayes_clf__alpha': 0.01},0.6232967032967033,0.5714285714285714,0.5845261984392418
+Level5,meansd_features_help_requested,1,Logistic regression,0.6208373888275849,"{'logistic_regression_clf__C': 100.0, 'logistic_regression_clf__max_iter': 200}",0.5709430438842203,0.5428571428571428,0.529192546583851
+Level5,meansd_features_help_requested,1,SVM,0.6287326462571561,"{'svm_gaussian_clf__C': 10.0, 'svm_gaussian_clf__gamma': 1.0, 'svm_gaussian_clf__kernel': 'poly'}",0.5561904761904761,0.5142857142857142,0.49492063492063504
+Level5,meansd_features_help_requested,1,Random Forest,0.6230917267191777,"{'random_forest_clf__max_depth': None, 'random_forest_clf__n_estimators': 200}",0.6271062271062271,0.6,0.6077810388369395
+Level5,meansd_features_help_requested,2,Dummy random,,,0.2516203703703704,0.2222222222222222,0.22862452687014093
+Level5,meansd_features_help_requested,2,Ordered baseline,,,0.0,0.0,0.0
+Level5,meansd_features_help_requested,2,Naive Bayes,0.5363152279818947,{'naive_bayes_clf__alpha': 0.01},0.6328317901234569,0.6111111111111112,0.6079207191276157
+Level5,meansd_features_help_requested,2,Logistic regression,0.6348544665211332,"{'logistic_regression_clf__C': 100.0, 'logistic_regression_clf__max_iter': 200}",0.5787037037037037,0.5833333333333334,0.5800552104899931
+Level5,meansd_features_help_requested,2,SVM,0.6648777765444432,"{'svm_gaussian_clf__C': 100.0, 'svm_gaussian_clf__gamma': 0.1, 'svm_gaussian_clf__kernel': 'rbf'}",0.6068783068783069,0.6111111111111112,0.5996599285488174
+Level5,meansd_features_help_requested,2,Random Forest,0.6826050184383516,"{'random_forest_clf__max_depth': 12, 'random_forest_clf__n_estimators': 100}",0.5427689594356261,0.5,0.49543536147685063
+Level5,meansd_features_help_requested,3,Dummy random,,,0.3182382133995037,0.2903225806451613,0.2913978494623655
+Level5,meansd_features_help_requested,3,Ordered baseline,,,0.0,0.0,0.0
+Level5,meansd_features_help_requested,3,Naive Bayes,0.5762496746268676,{'naive_bayes_clf__alpha': 0.01},0.3579749103942652,0.2903225806451613,0.300169779286927
+Level5,meansd_features_help_requested,3,Logistic regression,0.6229439566281672,"{'logistic_regression_clf__C': 100.0, 'logistic_regression_clf__max_iter': 200}",0.36175115207373276,0.3870967741935484,0.37220843672456577
+Level5,meansd_features_help_requested,3,SVM,0.6585236238745009,"{'svm_gaussian_clf__C': 100.0, 'svm_gaussian_clf__gamma': 0.1, 'svm_gaussian_clf__kernel': 'rbf'}",0.5924731182795699,0.5483870967741935,0.5506912442396312
+Level5,meansd_features_help_requested,3,Random Forest,0.6386318424914916,"{'random_forest_clf__max_depth': 6, 'random_forest_clf__n_estimators': 200}",0.6226783968719453,0.5806451612903226,0.6006495903151989
+Level5,meansd_features_help_requested,4,Dummy random,,,0.2515555555555556,0.24,0.2317948717948718
+Level5,meansd_features_help_requested,4,Ordered baseline,,,0.0,0.0,0.0
+Level5,meansd_features_help_requested,4,Naive Bayes,0.5711539363220035,{'naive_bayes_clf__alpha': 0.01},0.3371428571428571,0.4,0.3467012987012987
+Level5,meansd_features_help_requested,4,Logistic regression,0.6466470872731377,"{'logistic_regression_clf__C': 10.0, 'logistic_regression_clf__max_iter': 200}",0.4133333333333333,0.36,0.34952380952380957
+Level5,meansd_features_help_requested,4,SVM,0.6120239020239021,"{'svm_gaussian_clf__C': 10.0, 'svm_gaussian_clf__gamma': 1.0, 'svm_gaussian_clf__kernel': 'rbf'}",0.3636923076923077,0.36,0.31066666666666665
+Level5,meansd_features_help_requested,4,Random Forest,0.6380149334792191,"{'random_forest_clf__max_depth': 6, 'random_forest_clf__n_estimators': 50}",0.47047619047619044,0.44,0.42589473684210527
+Level5,meansd_features_nohelp,0,Dummy random,,,0.2057057057057057,0.1891891891891892,0.19090146046667789
+Level5,meansd_features_nohelp,0,Ordered baseline,,,0.0,0.0,0.0
+Level5,meansd_features_nohelp,0,Naive Bayes,0.586273254036412,{'naive_bayes_clf__alpha': 0.01},0.47831747831747834,0.4594594594594595,0.4607990599294947
+Level5,meansd_features_nohelp,0,Logistic regression,0.6315257760433199,"{'logistic_regression_clf__C': 100.0, 'logistic_regression_clf__max_iter': 200}",0.46599346599346597,0.4594594594594595,0.4425851938895417
+Level5,meansd_features_nohelp,0,SVM,0.675129459559284,"{'svm_gaussian_clf__C': 100.0, 'svm_gaussian_clf__gamma': 0.1, 'svm_gaussian_clf__kernel': 'rbf'}",0.6578736578736578,0.5945945945945946,0.6154054054054054
+Level5,meansd_features_nohelp,0,Random Forest,0.6586183504604557,"{'random_forest_clf__max_depth': 12, 'random_forest_clf__n_estimators': 50}",0.5842373842373841,0.5675675675675675,0.5686486486486486
+Level5,meansd_features_nohelp,1,Dummy random,,,0.16428571428571428,0.14285714285714285,0.15064935064935067
+Level5,meansd_features_nohelp,1,Ordered baseline,,,0.0,0.0,0.0
+Level5,meansd_features_nohelp,1,Naive Bayes,0.48169728419728425,{'naive_bayes_clf__alpha': 0.01},0.6232967032967033,0.5714285714285714,0.5845261984392418
+Level5,meansd_features_nohelp,1,Logistic regression,0.6077916636740166,"{'logistic_regression_clf__C': 100.0, 'logistic_regression_clf__max_iter': 200}",0.5709430438842203,0.5428571428571428,0.529192546583851
+Level5,meansd_features_nohelp,1,SVM,0.611645346302209,"{'svm_gaussian_clf__C': 100.0, 'svm_gaussian_clf__gamma': 0.1, 'svm_gaussian_clf__kernel': 'rbf'}",0.591941391941392,0.5714285714285714,0.5692776788428963
+Level5,meansd_features_nohelp,1,Random Forest,0.6223056174036566,"{'random_forest_clf__max_depth': 6, 'random_forest_clf__n_estimators': 200}",0.689010989010989,0.6285714285714286,0.6462111801242236
+Level5,meansd_features_nohelp,2,Dummy random,,,0.35718694885361546,0.3333333333333333,0.3335843169176502
+Level5,meansd_features_nohelp,2,Ordered baseline,,,0.0,0.0,0.0
+Level5,meansd_features_nohelp,2,Naive Bayes,0.5363152279818947,{'naive_bayes_clf__alpha': 0.01},0.6328317901234569,0.6111111111111112,0.6079207191276157
+Level5,meansd_features_nohelp,2,Logistic regression,0.6293606393606394,"{'logistic_regression_clf__C': 100.0, 'logistic_regression_clf__max_iter': 200}",0.5787037037037037,0.5833333333333334,0.5800552104899931
+Level5,meansd_features_nohelp,2,SVM,0.6648777765444432,"{'svm_gaussian_clf__C': 100.0, 'svm_gaussian_clf__gamma': 0.1, 'svm_gaussian_clf__kernel': 'rbf'}",0.6068783068783069,0.6111111111111112,0.5996599285488174
+Level5,meansd_features_nohelp,2,Random Forest,0.6779471454471454,"{'random_forest_clf__max_depth': 6, 'random_forest_clf__n_estimators': 100}",0.6626497821350763,0.6388888888888888,0.6324962733631465
+Level5,meansd_features_nohelp,3,Dummy random,,,0.32066052227342545,0.2903225806451613,0.294674066570601
+Level5,meansd_features_nohelp,3,Ordered baseline,,,0.0,0.0,0.0
+Level5,meansd_features_nohelp,3,Naive Bayes,0.5621649614193474,{'naive_bayes_clf__alpha': 0.01},0.3579749103942652,0.2903225806451613,0.300169779286927
+Level5,meansd_features_nohelp,3,Logistic regression,0.6351068424752635,"{'logistic_regression_clf__C': 100.0, 'logistic_regression_clf__max_iter': 200}",0.5387096774193548,0.45161290322580644,0.4431643625192012
+Level5,meansd_features_nohelp,3,SVM,0.63515392015392,"{'svm_gaussian_clf__C': 100.0, 'svm_gaussian_clf__gamma': 0.1, 'svm_gaussian_clf__kernel': 'rbf'}",0.5145161290322581,0.4838709677419355,0.48271889400921664
+Level5,meansd_features_nohelp,3,Random Forest,0.6165522359382009,"{'random_forest_clf__max_depth': None, 'random_forest_clf__n_estimators': 50}",0.652073732718894,0.6451612903225806,0.6454224892255452
+Level5,meansd_features_nohelp,4,Dummy random,,,0.2636363636363636,0.28,0.24656410256410255
+Level5,meansd_features_nohelp,4,Ordered baseline,,,0.0,0.0,0.0
+Level5,meansd_features_nohelp,4,Naive Bayes,0.5612188713869386,{'naive_bayes_clf__alpha': 0.01},0.3371428571428571,0.4,0.3467012987012987
+Level5,meansd_features_nohelp,4,Logistic regression,0.6516346486535562,"{'logistic_regression_clf__C': 10.0, 'logistic_regression_clf__max_iter': 200}",0.4133333333333333,0.36,0.34952380952380957
+Level5,meansd_features_nohelp,4,SVM,0.6061524626167483,"{'svm_gaussian_clf__C': 100.0, 'svm_gaussian_clf__gamma': 0.1, 'svm_gaussian_clf__kernel': 'rbf'}",0.6116666666666667,0.44,0.4127536231884058
+Level5,meansd_features_nohelp,4,Random Forest,0.6751413507127793,"{'random_forest_clf__max_depth': 12, 'random_forest_clf__n_estimators': 200}",0.3814545454545455,0.48,0.4244210526315789
