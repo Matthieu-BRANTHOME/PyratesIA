@@ -2,21 +2,21 @@
 
 # PyratesAI
 
-This repository includes the supplementary material (data and code) of a research paper published at the ACM Conference on Learning at Scale 2025 on "Learning from Teachers: AI-Driven Feedback for a High School
-Python Serious Game" ([https://doi.org/10.1145/3698205.3729543](https://doi.org/10.1145/3698205.3729543).
+This repository includes the supplementary material (data and code) of a research paper published at the ACM Conference on Learning at Scale 2025: "Learning from Teachers: AI-Driven Feedback for a High School
+Python Serious Game" ([https://doi.org/10.1145/3698205.3729543](https://doi.org/10.1145/3698205.3729543). Please cite this paper (full citation provided at the end of the readme) if you reuse our data or code.
 
 - Authors: Matthieu Branthôme (Univ Rennes, IRISA, CNRS) and Sébastien Lallé (Sorbonne University, LIP6, CNRS).
-- Date: 2025-04-18
+- Date: 2025-04-24
 - Licence: BSD 3-Clause License
 
 Should you have any questions regarding the data, the code and the research, please email the authors (matthieu.branthome at univ-rennes.fr, sebastien.lalle at lip6.fr). 
 
 ## Dependencies
-The code was run with Python 3.9. The ML code is based on scikit-learn. See [requirements.txt](requirements.txt) for the dependencies. 
+The code was run with Python 3.9 and Jupyterlab (v. 3.6). The machine learning (ML) part of the code is based on scikit-learn (v. 1.1.3). See [requirements.txt](requirements.txt) for the dependencies. 
 
 ## Data
 
-The data are included in the [./data](data/) folder. 
+The raw and pre-processed data are included in the [./data](data/) folder. 
 
 ### Raw data
 
@@ -42,7 +42,7 @@ The raw experimental data are in [./data/raw_data.csv](./data/raw_data.csv). Thi
 - _student: the anonymized session identifier for a given learner.
 - _execution_speed_multiplier: the current speed of the pirate character (only for rows about executing the code).
 
-### Features
+### Pre-computed features
 
 The [./data](data/) folder also includes one Excel file per game level (e.g., [./data/df_Level1.xlsx](./data/df_Level1.xlsx) for level 1) that includes high-level features derived from the row data. The features are computed with the code provided in the features_engineering Notebook (see below). Specifically, each row in these files corresponds to the feature computed for one given feedback instance provided by a teacher (as described in the paper). The columns include:
 - help_type: the type of feedback: 1 (CTLR), 2 (CONC), 3 (IMPL) and 4 (SOLU) (see the paper).
@@ -78,7 +78,7 @@ Each Notebook includes a documentation with their inputs and outputs. The notebo
 - Cell 6 provides the distrubution of all features.
 - Cell 8 provides the correlation matrices for the features.
 
-## Pre-trained models and Pre-computed feature vectors
+## model_training.ipynb
 - The header provides a markdown documentation of the Notebook.
 - Cell 8 defines the constants and ML parameters (the default values are the one used in the paper).
 - Cell 10 selects the feature sets to be used in the Notebook to train the classifiers.
@@ -96,7 +96,7 @@ Each Notebook includes a documentation with their inputs and outputs. The notebo
 - Cells 82 to 87 export the trained classifiers as pickles, and the results in CSV format.
 
 ## Pretrained models
-The best trained classifiers (Random Forests) are exported with sklearn in the [./models](./models) folder, in the [.joblib](https://joblib.readthedocs.io/en/latest/index.html#module-joblib) format. 
+The best trained classifiers (Random Forests) are exported with sklearn in the [./models](./models) folder, in the [.joblib](https://joblib.readthedocs.io/en/latest/index.html#module-joblib) format. As said above (Feature section), the pre-computed features are available in the [./data](./data) folder.
 
 On a side note, these models have been integrated and tested in Pyrates (cf. publication in [https://hal.science/hal-05024217v1/document](https://hal.science/hal-05024217v1/document).)
 
@@ -105,5 +105,16 @@ On a side note, these models have been integrated and tested in Pyrates (cf. pub
 If you reuse parts of our data and code, please cite the following paper:
 - Matthieu Branthôme and Sébastien Lallé. 2025. Learning from Teachers: AI-Driven Feedback for a High School Python Serious Game. In Proceedings of the 12th ACM Conference on Learning @ Scale (L@S '25), July 21–23, 2025, Palermo, Italy. ACM, 12 pages. [https://doi.org/10.1145/3698205.3729543](https://doi.org/10.1145/3698205.3729543)
 
+Bibtex:
+
+> @inproceedings{branthome2025learning,<br>
+  title = {{Learning from Teachers: AI-Driven Feedback for a High School Python Serious Game}},<br>
+  author = {Branth{\^o}me, Matthieu and Lall{\'e}, S{\'e}bastien},<br>
+  booktitle = {{Proceedings of the 12th ACM Learning @ Scale Conference  (L{@}S '25)}},<br>
+  address={Palermo, Italy},<br>
+  year = {2025},<br>
+  doi = {10.1145/3698205.3729543},<br>
+  publisher = {ACM}<br>
+}<br>
 
  
