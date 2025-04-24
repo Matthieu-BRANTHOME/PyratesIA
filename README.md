@@ -3,7 +3,9 @@
 # PyratesAI
 
 This repository includes the supplementary material (data and code) of a research paper published at the ACM Conference on Learning at Scale 2025: "Learning from Teachers: AI-Driven Feedback for a High School
-Python Serious Game" ([https://doi.org/10.1145/3698205.3729543](https://doi.org/10.1145/3698205.3729543). Please cite this paper (full citation provided at the end of the readme) if you reuse our data or code.
+Python Serious Game" ([https://doi.org/10.1145/3698205.3729543](https://doi.org/10.1145/3698205.3729543)). Please cite this paper (full citation provided at the end of the readme) if you reuse our data or code.
+
+The research tackles the challenge of building AI-driven adaptive feedback in [Pyrates](https://py-rates.org/), a serious games to support the transition from block-based to text-based programming in high school classes. Specifically, the AI-driven feedback policy is meant to predict, during interaction with Pyrates, what type of formative feedback is suitable to address students’ difficulties. To build this policy, we conducted a user study in regular 10th grade Python classes to collect labels on how experienced teachers (N = 7) support their students (N = 215). We trained machine learning (ML) classifiers to predict these labels using students’ interaction behaviours and code. In this repository, we provide the raw data collected during the user study, our code to train the ML classifiers, as well as the results, pre-trained models and pre-computed features.
 
 - Authors: Matthieu Branthôme (Univ Rennes, IRISA, CNRS) and Sébastien Lallé (Sorbonne University, LIP6, CNRS).
 - Date: 2025-04-24
