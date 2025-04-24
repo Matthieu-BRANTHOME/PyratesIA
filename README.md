@@ -80,7 +80,7 @@ Each Notebook includes a documentation with their inputs and outputs. The notebo
 - Cell 6 provides the distrubution of all features.
 - Cell 8 provides the correlation matrices for the features.
 
-## model_training.ipynb
+### model_training.ipynb
 - The header provides a markdown documentation of the Notebook.
 - Cell 8 defines the constants and ML parameters (the default values are the one used in the paper).
 - Cell 10 selects the feature sets to be used in the Notebook to train the classifiers.
